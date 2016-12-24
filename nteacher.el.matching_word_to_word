@@ -1,0 +1,1221 @@
+(provide 'nteacher)
+(setq nmw-id nil)
+(setq nmw-lang "French")
+
+(setq nteacher-bad-token-chars "[^&;a-zA-Z/]")
+
+(setq nmw-english-list nil)
+(setq nmw-other-list nil)
+(setq nmw-empty	"____________________")
+
+;; word mappings
+;;
+;; expressed as a list of indices; implicitly it is a triple of
+;; lists:
+;;      1. english: tokenized statement
+;;      2. indices mapping from english to X
+;;      3. lang X: tokenized statement
+;;
+;; A word which isn't mapped, i.e., has no equivalent, is assigned an index of zero.
+;;
+;; An English word which maps to multiple X words is assigned a positive index followed
+;;      by neg. indices for the remaining words
+;;
+;; Indices must be one-based in order to allow the possibility of a negative.
+;;
+;; Thus:
+;;
+;; 	1-to-1, n-to-1:
+;;
+;;      english indices german
+;;      ----------------------
+;;      I       1       Ich
+;;      am      2       bin
+;;      a       3       ein
+;;      city    4       Stadtarbeiter
+;;      worker  4
+;;
+;;i___________________1_ich
+;;am__________________2_denke
+;;thinking____________2_denke
+;;of__________________2_denke
+;;going_______________5_zu
+;;____________________-6_gehen.
+;;in__________________3_im
+;;june._______________4_juni
+;;
+;;
+;;
+;;	1-to-n:
+;;      english indices french
+;;      ----------------------
+;;      I       1       Je
+;;      don't   2       ne
+;;              -4      sais
+;;      know    3       pas
+;;
+;;	
+;;	1-to-none:
+;;      english indices french
+;;      ----------------------
+;;      I       1       Je
+;;      do      0
+;;      know    2       sais
+;;              
+;;              
+;;	
+;;	n1-to-n2:	
+;;      english indices french
+;;      ----------------------
+;;      I       1       Je
+;;      go      2	vais
+;;      at      3       /a
+;;      the     3       
+;;      same    3       
+;;      time    3
+;;		-4	la
+;;		-5	fois
+;;			
+
+
+(defun nmw-get-word(x)
+  (let(
+       )
+    (if (eq x 0)
+	nil
+      (elt nmw-other-list (1- x))
+      )
+    )
+  )
+
+(defun nmw-init-pt()
+  (interactive)
+  (save-restriction
+    (n-narrow-to-line)
+    (forward-line 0)
+    (if (not (looking-at ".*_-?[0-9]+_"))
+	(end-of-line)
+      (n-s ".*_-?[0-9]+_" t)
+      (n-r "_" t)
+      (n-r "_" t)
+      (forward-char 1)
+      )
+    )
+  )
+
+(defun nmw-forward-line(&optional n absolute)
+  (interactive "P")
+  
+  (if (not n)
+      (setq n 1))
+  
+  (if absolute
+      (goto-char (point-min))) 
+  
+  (forward-line n)
+  
+  (nmw-init-pt)
+  )
+
+
+
+(defun nmw-backward-line(n)
+  (interactive "P")
+  (if (not n)
+      (setq n 1))
+  (nmw-forward-line (- n))
+  )
+
+(defun nmw-is-second-or-greater-associated-foreign-word-p()
+  (save-excursion
+    (forward-line 0)
+    (looking-at " ")
+    )
+  )
+(defun nmw-get-index(key)
+  (let(
+       index
+       )
+    (setq index (cdr (assoc key nmw-key-to-index)))
+    (if (nmw-is-second-or-greater-associated-foreign-word-p)
+	(- index)
+      index
+      )
+    )
+  )
+
+(defun nmw-is-second-or-later-joined-word(word)
+  (save-excursion
+    (forward-line 0)
+    (and (looking-at ".*\\+")  ;; is a join if '+' can be seen
+	 (not (looking-at (concat word "\\+"))) ;; word isn't first
+	 ) 
+    )
+  )
+
+(defun nmw-narrow-to-left()
+  (save-excursion
+    (narrow-to-region (progn
+			(forward-line 0)
+			(point)
+			)
+		      (progn
+			(end-of-line)
+			(n-r "_" t)
+			(forward-char -1)
+			(point)
+			)
+		      )
+    )
+  )
+
+(defun nmw-get-next-word-and-advance()
+  (let(
+       word
+       )
+    (if (eobp)
+	nil
+      (save-restriction
+	(nmw-narrow-to-left)
+	(cond
+	 ((looking-at "\\([^\\+]+\\)\\+")
+	  (setq word (nre-pat 1))
+	  (n-s "\\+" t)
+	  )
+	 ((looking-at "\\([^_]+\\)")
+	  (setq word (n--pat 1))
+	  (forward-line 1)
+	  )
+	 )
+	)
+      (if (and (not word)
+	       (n-s "^[^ ]")
+	       (progn
+		 (forward-char -1)
+		 (not (looking-at "$"))	;; meaning we're looking at a trailing empty left
+		 )
+	       )
+	  (progn
+	    (setq word (nmw-get-next-word-and-advance))
+	    )
+	)
+      )
+    word
+    )
+  )
+
+(defun nmw-get-oW()
+  (save-excursion
+    (save-restriction
+      (n-narrow-to-line)
+      (forward-line 0)
+      (if (not (n-s "_"))
+	  nil
+	(end-of-line)
+	(n-r "_" t)
+	(forward-char 1)
+	(if (looking-at "$")
+	    nil
+	  (buffer-substring-no-properties (point) (progn
+				      (end-of-line)
+				      (point)
+				      )
+			    )
+	  )
+	)
+      )
+    )
+  )
+
+(defun nmw-get-eW()
+  (save-excursion
+    (forward-line 0)
+    (if (looking-at "_")
+	nil
+      (buffer-substring-no-properties (point) (progn
+				  (n-s "_" t)
+				  (forward-char -1)
+				  (point)
+				  )
+			)
+      )
+    )
+  )
+
+(defun nmw-get-index()
+  (save-excursion
+    (save-restriction
+      (n-narrow-to-line)
+      (forward-line 0)
+      (if (not (n-s "_"))
+	  nil
+	(forward-line 0)
+	(or (looking-at ".*_\\(-?[0-9]+\\)_")
+	    (error "nmw-get-index: ")
+	    )
+	(string-to-int (n--pat 1))
+	)
+      )
+    )
+  )
+
+(defun nmw-get-ordering()
+  (save-excursion
+    (goto-char (point-min))
+    (let(
+	 ordering
+	 key
+	 index
+	 )
+      (while (not (eobp))
+	(setq index (nmw-get-index))
+	(setq ordering (cons index ordering))
+	(save-restriction
+	  (n-narrow-to-line)
+	  (while (n-s "\\+")
+	    (setq ordering (cons 0 ordering))  ;; add zero-indices for joined eW's
+	    )
+	  )
+	(forward-line 1)
+	)
+      (nreverse ordering)
+      )
+    )
+  )
+
+;;unused (defun nmw-init-ordering-below()
+;;  (let(
+;;       (words-ordering
+;;	(nmw-get-ordering)
+;;	)
+;;       previously-selected-ordering
+;;       (currentLine (n-what-line))
+;;       )
+;;    ;; construct list reflecting the ordering which has been actively selected by me
+;;    (save-excursion
+;;      (goto-char (point-min))
+;;      (while (and (<= (n-what-line) currentLine)
+;;		  (progn
+;;		    (setq previously-selected-ordering (cons (car words-ordering)
+;;							     previously-selected-ordering
+;;							     )
+;;			  words-ordering (cdr words-ordering) 
+;;			  )
+;;		    (eq 0 (forward-line 1))
+;;		    )
+;;		  )
+;;	)
+;;      )
+;;    (setq words-ordering (nteacher-init-ordering (nreverse previously-selected-ordering)
+;;						 nmw-english-list
+;;						 nmw-other-list
+;;						 nmw-lang)
+;;	  )
+;;    (nteacher-paint-word-mappings words-ordering)
+;;    (nmw-forward-line currentLine t)
+;;    )
+;;  )
+
+(defun nmw-get-old-x()
+  (save-restriction
+    (nmw-init-pt)
+    (if (looking-at "-?\\([0-9]+\\)")
+	(string-to-int (n--pat 1))
+      nil
+      )
+    )
+  )
+
+(defun nmw-pick-by-second-digit()
+  (interactive)
+  (nmw-pick (+ 10 
+	       (- last-command-event ?a)
+	       )
+	    )
+  )
+
+;; I think this is for linking words across languages, according to my original scheme?
+(defun nmw-pick-by-one-digit()
+  (interactive)
+  (nmw-pick (- last-command-event ?0))
+  )
+(defun nmw-pick(x)
+  (let(
+       (oldX	(nmw-get-old-x))
+       (oW  (nmw-get-word x))
+       )
+    (if (and (not (eq 0 x))
+	     (not oW)
+	     )
+	(error "nmw-pick-by-one-digit: no word indexed by '%d'" x)
+      )
+    
+    (nmw-init-pt)
+    (if (not (eq oldX x))
+	(progn
+	  (if (and (not (or (not oldX)
+			    (eq 0 oldX) 
+			    )
+			)
+		   (not (save-excursion
+			  (end-of-line)
+			  (search-forward (format "_%d_" oldX) nil t)
+			  )
+			)
+		   (not (save-excursion
+			  (forward-line 0)
+			  (search-backward (format "_%d_" oldX) nil t)
+			  )
+			)
+		   )
+	      (nmw-shove 'down 'right)
+	    )
+	  (delete-region (point) (progn
+				   (end-of-line)
+				   (point)
+				   )
+			 ) 	  
+	  
+	  (insert (int-to-string x) "_")
+	  (if (not (eq 0 x))
+	      (progn
+		(save-excursion
+		  (insert oW)
+		  (if (n-s (format "_-?%d_" x))
+		      (nmw-kill-right))
+		  )
+		)
+	    )
+	  )
+      )
+    )
+  (forward-line 0)
+  (if (looking-at nmw-empty)
+      (nmw-negate))
+  (nmw-forward-line)  
+  )
+
+(defun nmw-test()
+  (interactive)
+  ;;(nmw-shove 'up 'right)
+  (nmw-shove 'down 'right)
+  )
+
+(defun nmw-kill-right()
+  (interactive)
+  (nmw-shove 'up 'right)
+  )
+
+(defun nmw-kill-left()
+  (interactive)
+  (save-excursion
+    (forward-line 0)
+    (if (not (looking-at nmw-empty))
+	(error "nmw-kill-left: cannot kill a left-hand side which isn't empty"))
+    )
+  (nmw-shove 'up 'left)
+  )
+
+(defun nmw-show-ordering()
+  (interactive)
+  (message "%s"
+	   (prin1-to-string (nmw-get-ordering))
+	   )
+  )
+
+(defun nmw-negate()
+  (nmw-init-pt)
+  (if (not (looking-at "-"))
+      (insert "-")
+    )
+  )
+
+(defun nmw-add-answer-token()
+  (interactive)
+  (end-of-line)
+  (if (eobp)
+      (nmw-add-empty))
+  (forward-line 1)
+  (nmw-init-pt)
+  (nmw-shove 'down 'left)
+  (nmw-negate)
+  )
+
+
+(defun nteacher-get-id-regexp()
+  (concat "'id' => " (nmw-get-perl-data-offset nmw-id) ",")
+  ) 
+
+(defun nmw-edit-text()
+  (interactive)
+  (save-window-excursion
+    (n-file-find (nmw-get-perl-data-fn nmw-id))
+    (goto-char (point-min))
+    (n-s (nteacher-get-id-regexp) t)
+    (nperl-narrow-to-hash-entry)
+    (goto-char (point-min))
+    (n-s (concat "'" nmw-lang "' => '") t)
+    (widen)
+    (recursive-edit)
+    )
+  (nteacher-init-map-words-mode)
+  )
+
+
+
+(defun nmw-mode-meat()
+  (let(
+       (map             (make-sparse-keymap))
+       )
+    (define-key map "," 'nmw-backward-line)
+    (define-key map "." 'nmw-forward-line)
+    (define-key map " " 'nmw-init-pt)
+    (define-key map "\C-co" 'nmw-show-ordering)
+    (define-key map "\C-k" 'nmw-kill-right)
+    (define-key map "\C-m" 'nmw-add-answer-token)
+    (define-key map "\M-\C-f" 'nmw-edit-text)
+    (define-key map "\M-b" 'nmw-back)
+    (define-key map "\C-cs" 'nmw-save-mapping)
+    (define-key map "\M-f" 'nmw-next)
+    (define-key map "\M-k" 'nmw-kill-left)
+    (define-key map "\M-7" 'nmw-test)
+    (define-key map "\M-=" 'nmw-save)
+    
+    (define-key map "0"    'nmw-pick-by-one-digit)
+    (define-key map "1"    'nmw-pick-by-one-digit)
+    (define-key map "2"    'nmw-pick-by-one-digit)
+    (define-key map "3"    'nmw-pick-by-one-digit)
+    (define-key map "4"    'nmw-pick-by-one-digit)
+    (define-key map "5"    'nmw-pick-by-one-digit)
+    (define-key map "6"    'nmw-pick-by-one-digit)
+    (define-key map "7"    'nmw-pick-by-one-digit)
+    (define-key map "8"    'nmw-pick-by-one-digit)
+    (define-key map "9"    'nmw-pick-by-one-digit)
+    
+    (define-key map "a"    'nmw-pick-by-second-digit)
+    (define-key map "b"    'nmw-pick-by-second-digit)
+    (define-key map "c"    'nmw-pick-by-second-digit)
+    (define-key map "d"    'nmw-pick-by-second-digit)
+    (define-key map "e"    'nmw-pick-by-second-digit)
+    (define-key map "f"    'nmw-pick-by-second-digit)
+    (define-key map "g"    'nmw-pick-by-second-digit)
+    (define-key map "h"    'nmw-pick-by-second-digit)
+    (define-key map "i"    'nmw-pick-by-second-digit)
+    (define-key map "j"    'nmw-pick-by-second-digit)
+    (define-key map "k"    'nmw-pick-by-second-digit)
+    (define-key map "l"    'nmw-pick-by-second-digit)
+    (define-key map "m"    'nmw-pick-by-second-digit)
+    
+    (use-local-map map)
+    )
+  (setq major-mode 'nteacher-main.text.html-mode
+	mode-name (concat "Teacher:" nmw-id)
+	)
+  (nmw-init-pt)
+  )
+
+
+(defun nmw-parse-id(id)
+  (or (string-match "\\(.*\\)\\.\\([0-9]+\\)$" id)
+      (error "nmw-parse-id: ")
+      )
+  (cons (n--pat 1 id)
+	(n--pat 2 id)
+	)
+  )
+(defun nmw-get-perl-data-fn(id)
+  (concat "~/work/adyn.com/httpdocs/teacher/data/" 
+	  (nmw-get-perl-data-name id)
+	  )
+  )
+(defun nmw-get-perl-data-offset(id)
+  (string-to-int
+   (cdr (nmw-parse-id id))
+   )
+  )
+(defun nmw-get-perl-data-name(id)
+  (car (nmw-parse-id id))
+  )
+
+
+(defun nteacher-get-line(lang)
+  (or lang
+      (error "nteacher-get-line: null language") 
+      )
+  (require 'nperl)
+  (let(
+       (data (nperl-dumper-get-list (nmw-get-perl-data-fn nmw-id)
+				    (list (nteacher-get-id-regexp)
+					  lang
+					  )
+				    )
+	     )
+       )
+    data
+    )
+  )
+
+(defun nteacher-fill-in-indices-to-unrecognized-words(used-indices-into-other-set partial-ordering other-list)
+  ;; I have built up a list of indices, called partial-ordering, indicating the 
+  ;; known ordering, i.e., the set of English words which we have accounted 
+  ;; for.  For those English words which we have not accounted for, there 
+  ;; will be entries set to nil in the partial-ordering list.
+  ;; 
+  ;; Fill in the partial ordering by simply sequentially using up the 
+  ;; unaccounted-for foreign words.
+  (let(
+       (j 1)
+       full-ordering
+       (maxIndex (length other-list))
+       )
+    (while partial-ordering
+      (setq full-ordering (cons (if (car partial-ordering)
+				    (car partial-ordering)
+				  ;; Find the next index into the list of foreign 
+				  ;; words which has not been used.
+				  (while (and (<= j maxIndex)
+					      (nset-in used-indices-into-other-set j)
+					      )
+				    (setq j     (1+ j))
+				    )
+				  (if (> j maxIndex)
+				      nil
+				    (prog1
+					j
+				      (setq used-indices-into-other-set (nset-add used-indices-into-other-set
+										  j
+										  )
+					    )
+				      (setq j (1+ j))
+				      )
+				    )
+				  )
+				full-ordering
+				)
+	    partial-ordering (cdr partial-ordering)
+	    )
+      )
+    
+    ;; attach remaining unused foreign words to the last english word
+    (let(
+	 (j 1)
+	 )
+      (while other-list
+	(if (not (nset-in used-indices-into-other-set j))
+	    (progn
+	      (setq full-ordering (cons (- j) full-ordering))
+	      )
+	  )
+	(setq other-list (cdr other-list)
+	      j (1+ j)
+	      )
+	)
+      )
+    
+    (nreverse full-ordering)
+    )
+  )
+
+(defun nteacher-mappings-make-key(eW)
+  (concat (nteacher-mappings-normalize-token eW) "/" nmw-lang)
+  )
+
+(defun nteacher-mappings-normalize-token(token)
+  (setq token (nstr-downcase token))
+  (if (string-match "^[^A-Za-z]*\\([A-Za-z]+\\)[^A-Za-z]*$" token)
+      (setq token (n--pat 0 token)))
+  token
+  )
+
+(defun nteacher-find-equivalent(eW currentOW other-list)
+  (n-trace "nteacher-find-equivalent %s %s" eW currentOW)
+  (let(
+       (j 0)
+       hit
+       key
+       oW
+       oWHit
+       )
+    (setq key  (nteacher-mappings-make-key eW)
+	  oWHit (assoc key n-data-teacher-mappings)
+	  )
+    (if oWHit
+	(setq currentOW (nteacher-mappings-normalize-token currentOW)))
+    (if (and oWHit
+	     (not (string= (cdr oWHit) currentOW)) ;; if already mapped to right oW, don't bother
+	     )
+	(while (and (not hit) other-list)
+	  (setq oW (car other-list))
+	  
+	  (n-trace "---%s to %s (looking for %s)" 
+		   key
+		   (if oWHit
+		       (cdr oWHit)
+		     "-"
+		     )
+		   oW
+		   )
+	  
+	  (if (and
+	       (string= (cdr oWHit) oW)
+	       )
+	      (setq hit t)
+	    (setq other-list     (cdr other-list)
+		  j         (1+ j)
+		  )
+	    )
+	  )
+      (if hit
+	  (progn
+	    (n-trace "nteacher-find-equivalent found %s ============================" oWHit)
+	    (1+ j)
+	    )
+	(n-trace "nteacher-find-equivalent no match")
+	nil
+	)
+      )
+    )
+  )
+
+(defun nteacher-init-ordering(previously-selected-ordering english-list other-list)
+  (setq nmw-ordering nil)
+  (let(
+       used-indices-into-other-set
+       partial-ordering
+       )
+    ;; reflect references in the partial-ordering list in used-indices-into-other-set
+    (while previously-selected-ordering
+      (setq used-indices-into-other-set (nset-add used-indices-into-other-set
+						  (abs	;; for used-set, don't confuse w/ negs
+						   (car previously-selected-ordering)
+						   )
+						  )
+	    partial-ordering    (cons  (car previously-selected-ordering)
+				       partial-ordering
+				       )
+	    english-list (cdr english-list)
+	    previously-selected-ordering (cdr previously-selected-ordering)
+	    )
+      )
+    
+    (setq copy-of-other-list other-list)
+
+    ;; guess mappings from english words to foreign words    
+    (while english-list
+      (setq eW (car english-list)
+	    oW (car copy-of-other-list)
+	    copy-of-other-list	(cdr copy-of-other-list)
+	    english-list	(cdr english-list)
+	    hit (nteacher-find-equivalent eW oW other-list)
+	    partial-ordering    (cons hit partial-ordering)
+	    )
+      (if hit
+	  (setq used-indices-into-other-set (nset-add used-indices-into-other-set
+						      hit
+						      ) 
+		) 
+	)
+      )
+    
+    (setq partial-ordering (nreverse partial-ordering))
+    
+    (nteacher-fill-in-indices-to-unrecognized-words used-indices-into-other-set 
+						    partial-ordering
+						    other-list
+						    )
+    )
+  )
+
+(defun nmw-save-mapping()
+  (interactive)
+  (save-window-excursion
+    (let(
+	 (key		(nteacher-mappings-make-key        (nmw-get-eW)))
+	 (response	(nteacher-mappings-normalize-token (nmw-get-oW)))
+	 )
+      (find-file "~/z/Dropbox/emacs/lisp/data/n-data-teacher-mappings.el")
+      (goto-char (point-max))
+      (forward-line -1)
+      
+      (setq n-data-teacher-mappings (append n-data-teacher-mappings 
+					    (list (cons key response))
+					    )
+	    )
+      (insert " (cons \"" key "\" \"" response "\")\n"))
+    )
+  )
+(defun nteacher-paint-word-mappings(ordering)
+  ;;(nelisp-bp (format "nteacher-paint-word-mappings(ordering:%s)" (prin1-to-string ordering)));;;;;;;;;;;;;;;;;
+  (let(
+       (savedLineNo (n-what-line))
+       (english-list nmw-english-list)
+       (other-list nmw-other-list)
+       primaryIndexForLine	;; order index for the first english word on the line
+       )
+    (delete-region (point-min) (point-max))
+    (while (or english-list ordering)
+      (if (or (not (car english-list))
+	      (and ordering
+		   (car ordering)
+		   (< (car ordering) 0)
+		   )
+	      )
+	  (progn
+	    ;; either a.) there is no english word, or 
+	    ;; b.) this order index indicates the 2nd-or-greater foreign word associated
+	    ;; with the same english word:
+	    ;;
+	    ;; don't display the english word
+	    nil
+	    )
+	(insert (car english-list))
+	(setq english-list (cdr english-list))
+	)
+      
+      (if ordering
+	  (setq primaryIndexForLine (car ordering)
+		ordering (cdr ordering)
+		)
+	(setq primaryIndexForLine nil)
+	)
+      (indent-to-column 20)
+      (if (not primaryIndexForLine)
+	  (insert "0_")
+	(setq otherIndex primaryIndexForLine)
+	(insert (int-to-string otherIndex)
+		" "
+		(elt other-list (1- (if (< 0 otherIndex)
+					otherIndex
+				      (- otherIndex)
+				      )
+				    )
+		     )
+		)
+	)
+      (insert "\n")
+      )
+    (untabify (point-min) (point-max))
+    (goto-char (point-min))
+    (replace-regexp " " "_")
+    
+    (goto-char (point-max))
+    (if (not (bobp))
+	(delete-char -1)) ;; rm trailing \n
+    
+    (goto-line savedLineNo)
+    )
+  )
+
+(defun nteacher-fetch-ordering()
+  (nperl-dumper-get-int-list (nmw-get-perl-data-fn nmw-id)
+			     (list (nteacher-get-id-regexp)
+				   (concat "map/" nmw-lang)
+				   )
+			     )
+  )
+
+(defun nmw-save-place()
+  (n-database-set "nmw-id" nmw-id)
+  (n-database-set "nmw-lang" nmw-lang)
+  )      
+(defun nmw-recall-place(&optional id)
+  (setq nmw-lang (n-database-get "nmw-lang" nil nil "French"))
+  (setq nmw-id (if id
+		   id
+		 (n-database-get "nmw-id")
+		 )
+	)
+  (nmw-save-place)
+  )      
+
+(defun nteacher-init-map-words-mode-meat()
+  (interactive "p")
+  (setq n-data-teacher-mappings (n-database-load "n-data-teacher-mappings"))
+  (let(
+       ordering
+       )
+    (nmw-recall-place nmw-id)
+    (setq 
+     nmw-other-list    (nteacher-get-line nmw-lang)
+     nmw-english-list  (nteacher-get-line "English")
+     )
+    (setq ordering (nteacher-fetch-ordering))
+    (if (not ordering)
+	(setq ordering (nteacher-init-ordering nil
+					       nmw-english-list
+					       nmw-other-list)
+	      )
+      )
+    (switch-to-buffer (n-zap "map*"))
+    (nteacher-paint-word-mappings ordering)
+    
+    (nmw-save-place)
+    (nmw-mode)
+    )
+  )
+
+(defun nmw-save()
+  (interactive)
+  (progn
+    (save-window-excursion
+      (let(
+	   (ordering (nmw-get-ordering))
+	   )
+	(n-file-find "$nmw_to_teacher_tmp")
+	(goto-char (point-max))
+	
+	(insert (format "tdb::Set('%s', \"map/%s\", [ " nmw-id nmw-lang))
+	(while ordering
+	  (insert (int-to-string (car ordering)))
+	  (setq ordering (cdr ordering))
+	  (if ordering
+	      (insert ", "))
+	  )
+	)
+      (insert (format " ] )		;\n"))
+      (save-buffer)
+      )
+    )
+  (nmw-save-place)
+  (nmw-next)
+  )
+
+(defun nmw-id-1+()
+  (setq nmw-id (concat (nmw-get-perl-data-name nmw-id)
+		       "."
+		       (1+ (nmw-get-perl-data-offset nmw-id))
+		       )
+	)
+  )
+
+(defun nmw-next()
+  (interactive)
+  (nmw-id-1+)
+  (nmw-save-place)
+  (nteacher-init-map-words-mode)
+  )
+
+(defun nmw-back()
+  (interactive)
+  (setq nmw-id (concat (nmw-get-perl-data-name nmw-id)
+		       "."
+		       (1- (nmw-get-perl-data-offset nmw-id))
+		       )
+	)
+  (nteacher-init-map-words-mode)
+  )
+
+(defun nmw-set-side(side data)
+  (nmw-get-and-maybe-set-side side data)
+  )
+
+(defun nmw-get-side(side)
+  (nmw-get-and-maybe-set-side side)
+  )
+
+(defun nmw-fix-up-indentation()
+  (save-restriction
+    (n-narrow-to-line)
+    (delete-region (progn
+		     (goto-char (point-min))
+		     (if (not (n-s "_"))
+			 (progn
+			   (end-of-line)
+			   (insert "_")
+			   )
+		       )
+		     (forward-char -1)
+		     (point)
+		     )
+		   (progn
+		     (n-s "[^_]" t)
+		     (forward-char -1)
+		     (point)
+		     )
+		   )
+    (just-one-space)
+    (indent-to-column 20)
+    (untabify (point-min) (point-max))
+    (narrow-to-region (point)
+		      (progn
+			(n-r "[^\t ]" 'bof)
+			(point)
+			)
+		      )
+    (replace-regexp " " "_")
+    )
+  )
+
+(defun nmw-fix-up-sign()
+  (save-excursion
+    (forward-line 0)
+    (cond
+     ((looking-at (concat nmw-empty "[^-]"))
+      (nmw-init-pt)
+      (insert "-")
+      )
+     ((and (not (looking-at nmw-empty))
+	   (progn
+	     (nmw-init-pt)
+	     (looking-at "-")
+	     )
+	   )
+      (delete-char 1)
+      )
+     )
+    )
+  )
+(defun nmw-get-and-maybe-set-side(side &optional data)
+  (let(
+       begin end
+	     )
+    (save-restriction
+      (n-narrow-to-line)
+      (cond
+       ((eq side 'left)
+	(forward-line 0)
+	(setq begin (point))
+	(if (looking-at "^_")
+	    (progn
+	      (setq end (progn
+			  (n-s "[^_]" t)
+			  (forward-char -1)
+			  (point)
+			  )
+		    )
+	      )
+	  (setq end (progn
+		      (n-s "_" t)
+		      (forward-char -1)
+		      (point)
+		      )
+		)
+	  )
+	)
+       ((eq side 'right)
+	(end-of-line)
+	(setq end (point)
+	      begin (progn
+		      (nmw-init-pt)
+		      (point)
+		      )
+	      )
+	)
+       (t
+	(error "nmw-set-side: ")
+	)
+       )
+      (setq oldData (buffer-substring-no-properties begin end))
+      (if data
+	  (progn
+	    (delete-region begin end)
+	    (insert data)
+	    (cond
+	     ((eq side 'left)
+	      (progn
+		(insert "_")
+		(nmw-fix-up-indentation)
+		)
+	      )
+	     ((eq side 'right)
+	      (progn
+		(if (string= data "")
+		    (insert "0_")) 
+		)
+	      )
+	     (t		(error "nmw-get-and-maybe-set-side: "))
+	     )
+	    )
+	)
+      (nmw-fix-up-sign)
+      )
+    oldData
+    )
+  )
+
+(defun nmw-add-empty()
+  (end-of-line)
+  (insert "\n" nmw-empty "0_")
+  )
+
+(defun nmw-mapped()
+  (let(
+       (key		(nteacher-mappings-make-key (nmw-get-eW)))
+       (oW		(nteacher-mappings-normalize-token (nmw-get-oW)))
+       match
+       )
+    (setq match (assoc key n-data-teacher-mappings))
+    (if (and match
+	     (string= (cdr match) oW)
+	     )
+	t
+      nil
+      )
+    )
+  )
+
+(defun nmw-shove(direction side)
+  (let(
+       (data "")
+       )
+    (save-excursion
+      (cond
+       ((eq direction 'down)
+	(while (not (eobp))
+	  (if (not (and (eq side 'right) (nmw-mapped)))
+	    (setq data (nmw-set-side side data))
+	    )
+	  (end-of-line)
+	  (if (eobp)
+	      (nmw-add-empty)
+	    (forward-line 1)
+	    ) 
+	  )
+	(if data
+	    (progn
+	      (setq data (nmw-set-side side data))
+	      )
+	  )
+	)
+       ((eq direction 'up)
+	(save-restriction
+	  (narrow-to-region (progn
+			      (forward-line 0)
+			      (point)
+			      )
+			    (progn
+			      (goto-char (point-max))
+			      (point)
+			      )
+			    )
+	  (while (progn
+		   (if (not (and (eq side 'right) (nmw-mapped)))
+		     (setq data (nmw-set-side side data))
+		     )
+		   (forward-line 0)
+		   (prog1
+		       (not (bobp))
+		     (forward-line -1)
+		     )
+		   )
+	    )
+	  )
+	)
+       (t
+	(error "nmw-shove: bad direction")
+	)
+       )
+      ;; make sure we aren't ending up w/ an empty line at the end
+      (goto-char (point-max))
+      (forward-line 0)
+      (if (looking-at (concat nmw-empty "-?0_"))
+	  (save-restriction
+	    (widen)
+	    (delete-region (progn
+			     (goto-char (point-max))
+			     (point)
+			     )
+			   (progn
+			     (forward-line -1)
+			     (end-of-line)
+			     (point)
+			     )
+			   )
+	    )
+	)
+      
+      )
+    )
+  )
+
+(defun nmw-init-env( &optional arg)
+  (interactive "P")
+  (if (not arg)
+      (nmw-init-env-internal)
+    (let(
+	 (cmd (nmenu "language" (append
+				 n-data-nteacher-lang
+				 (list
+				  (cons ?L "LOOP")
+				  )
+				 )
+		     )
+	      )
+	 done
+	 )
+      (if (not nmw-id)
+	  (setq nmw-id "base.0"))
+      (setq nmw-id (read-string "id " nmw-id))
+      (cond
+       ((string= cmd "LOOP")
+	(let(
+	     (browserStart "-startBrowser")
+	     )
+	  (while (not done)
+	    (setq nmw-lang  (nmenu "language" n-data-nteacher-lang))
+	    (nmw-init-env-internal nmw-lang nmw-id)
+	    (let(
+		 (id nmw-id)
+		 )
+	      (recursive-edit)
+	      (setq nmw-id id)  ;; don't let recursive edit corrupt it
+	      )
+	    (n-host-shell-cmd-visible (format "cd ~/work/adyn.com/httpdocs/teacher/; perl -w tx.pl -genId %d -genPath %s"
+					      (nmw-get-perl-data-offset nmw-id)
+					      (nmw-get-perl-data-name nmw-id)
+					      )
+				      )
+	    (n-host-shell-cmd-visible (format "$NELSON_BIN/test_teacher.sh %s %s"
+					      (nmw-get-perl-data-fn nmw-id)
+					      browserStart
+					      )
+				      )
+	    (setq browserStart "")  ;; won't need to do that again
+	    
+	    ;; at this point, look at IE, verify the page, return.
+	    
+	    (setq cmd (progn
+			(message "e-dit, n-ext, q-uit")
+			(read-char) 
+			)
+		  )
+	    (cond
+	     ((eq cmd ?n)
+	      (setq nmw-id (1+ nmw-id))
+	      )
+	     ((eq cmd ?q)
+	      (setq done t)
+	      )
+	     )
+	    )
+	  )
+	)
+       (t
+	(setq nmw-lang cmd)
+	(nmw-save-place)
+	(nmw-init-env-internal nmw-lang nmw-id)
+	)
+       )
+      )
+    )
+  )
+
+(defun nmw-init-env-internal(&optional lang id)
+  (if id
+      (n-database-set "nmw-id" id))
+  (nmw-recall-place)
+  (nteacher-init-map-words-mode)
+  (delete-other-windows)
+  (nsimple-split-window-vertically)
+  (n-other-window)
+  )
+
+
+(defvar nteacher-loaded nil)
+(if nteacher-loaded
+    (progn
+      (nmw-init-env-internal "German" "base.23")
+      ;;(nmw-init-env t)
+      )
+  )
+(setq nteacher-loaded t)

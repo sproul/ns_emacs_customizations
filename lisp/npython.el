@@ -1,0 +1,57 @@
+(provide 'npython)
+
+(if (not (boundp 'npython-mode-map))
+    (setq npython-mode-map (make-sparse-keymap)))
+(define-key npython-mode-map "\M-\C-e" 'nelisp-scratch-init)
+(define-key npython-mode-map "\M-\C-g" 'npython-gud)
+
+(defun npython-mode-meat()
+  ;;(require 'python-mode)
+  (python-mode)
+  (setq n-comment-boln "# "
+        n-comment-eoln ""
+        n-completes
+	(list
+	 (list	"^[ \t]*c$"	'n-complete-replace	"c"	"print \"@@\\\\n\"\n")
+	 (list	"^[ \t]*ce$"	'n-complete-replace	"ce"	"print STDERR \"@@\\\\n\"\n")
+	 (list	".*[^a-zA-Z\._]d$"	'n-complete-replace	"d$"	"defined @@")
+	 (list	"^[ \t]*e$"	'n-complete-dft	"lse:\n@@\n")
+	 (list	"^[ \t]*i$"	'n-complete-dft	"f @@:\n@@\n")
+	 (list	"^[ \t]*E$"	'n-complete-replace	"E"	"elif @@:\n@@\n")
+	 (list	"^[ \t]*f$"	'n-complete-dft	"or @@ in @@:\n@@\n")
+	 (list	"^[ \t]*for $"	'n-complete-dft	"j in range(@@, @@):")
+	 ;;(list	"^[ \t]*F$"	'n-complete-replace	"F"	"foreach my $@@ (@@)\n{\n@@\n}\n")
+	 (list	"^[\t ]*L$"	'nperl-add-tracing)
+	 (list	"^i$"	'n-complete-dft "mport @@")
+	 (list	".*\";c$"	'n-complete-replace	";c" " if $__Trace_ConformingToCharacteristics")
+	 (list	".*\";p$"	'n-complete-replace	";p" " if $__Trace_ProposeNotes")
+	 (list	".*\";t$"	'n-complete-replace	";t" " if $__trace")
+	 (list	".*\";r$"	'n-complete-replace	";x" " if $__Trace_XGen")
+	 (list	".*\\bsu$"	'nperl-do-SUPER)
+	 (list	"^[ \t]*w$"	'n-complete-dft	"hile @@:\n@@")
+	 )
+	)
+  )
+(defun npython-gud()
+  (interactive)
+  (n-host-shell-cmd-visible "browser http://www.python.org/emacs/")
+  (n-host-shell-cmd-visible "browser http://list-archive.xemacs.org/xemacs-patches/199811/msg00017.html")
+  (error "npython-gud: I never installed pdb.el -- go and get it")
+  )
+(defun npython-find-last-frame-of-exception()
+  (let(
+       (loc (save-excursion
+              (goto-char (point-max))
+              (if (n-r "^  File \".*\", line [0-9]+")
+                  (progn
+                    (forward-word 2)
+                    (point)
+                    )
+                )
+              )
+            )
+       )
+    (if loc
+        (goto-char loc))
+    )
+  )

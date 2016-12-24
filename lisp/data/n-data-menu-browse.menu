@@ -1,0 +1,1797 @@
+/ slashdot				http://slashdot.org
+0 biz					https://www.monroesecurities.biz/apps3/all/default.htm
+1 local biz				http://localhost:7081/apps3/all/default.htm
+2 usi
+{
+        3 u4p					http://plum-u4pxx.collaudo.usinet.it/portal/server.pt
+        4 u4p					http://plum-u4px.collaudo.usinet.it/portal/server.pt
+        6 u6					http://plum-u6x.collaudo.usinet.it/portal/server.pt
+        7 u6					http://plum-u6xx.collaudo.usinet.it/portal/server.pt
+        w was admin				http://usdmwx0c1.usinet.it:9095/admin
+        W was admin				http://uswas5001.intranet.unicredit.it:59090/admin
+}
+3 monroe sql
+{
+	a local monroe.mdb sql			http://localhost:7081/apps3/src/sqla.asp
+	m local monroe.mdb sql			http://localhost:7081/apps3/src/sqlmy.asp
+	s local monroe.mdb sql			http://localhost:7081/apps3/src/sqls.asp
+	A local monroe.mdb sql			http://localhost:7081/apps3/src/sqla.asp?test=y
+	M local monroe.mdb sql			http://localhost:7081/apps3/src/sqlmy.asp?test=y
+	S local monroe.mdb sql			http://localhost:7081/apps3/src/sqls.asp?test=y
+        C chicago sql				https://www.monroesecurities.biz/apps3/src/sql.asp
+}
+5 local monroe ssl			https://localhost/apps
+7					http://localhost:7081/apps3/src/sql.asp
+8 misc web offerings
+{
+        d disk				http://www.box.net/browse#mybox
+        f fabulous design		http://www.kryptis.com/
+        h				http://www.mycgiserver.com/servlet/nsproul.helloworld
+        H hex encoded obscured URLs	http://www.pc-help.org/obscure.htm
+        M				http://www.mycgiserver.com/membersarea
+        m				http://www.mydomain.com/
+        n				http://www.adyn.netfirms.com/
+        t make tiny url			http://tinyurl.com/
+}
+9 my book
+{
+        b brain enhancers		http://www.webmd.com/brain/news/20080409/poll-scientists-use-brain-boosting-drugs
+}
+a alm
+{
+        H getting started		https://confluence.oraclecorp.com/confluence/display/ALM/Getting+Started
+        h home for syseng		https://alm.oraclecorp.com/syseng/
+}
+A adynware
+{
+        A				http://www.adyn.com
+        i sp godaddy		https://dcc.godaddy.com/domaindetails.aspx?domain=9159281&activeview=1&filtertype=1&sa=
+        l				http://www.adyn.com/teacher/html/login.htm
+        L adynware local
+        {
+                a				http://127.0.0.1:81/cgi-bin/choose.cgi?userID=nsproul
+                B				http://127.0.0.1:81/teacher/html/base/
+                b				http://127.0.0.1:81/bin/test.cgi
+                c				http://127.0.0.1:81/teacher/html/new_user.htm
+                l				http://127.0.0.1:81/teacher/html/login.htm
+                m				http://127.0.0.1:81/bin/mgr.cgi
+                r resume			http://127.0.0.1:81/resume/resume.html
+                p pix				http://127.0.0.1:81/pix/index.html
+        }
+        n				http://www.netsales.net/client.wcgi
+        p pix				http://www.adyn.com/pix/
+        r resume			http://www.adyn.com/resume/resume.html
+        t adyn.com teacher
+        {
+                a ava	http://162.222.176.130:81/cgi-bin/choose.cgi?session_id=ascOHIdBqjeRM&whichPanel=simple_choose.htm&promptLang=Spanish&exerciseSetTargetSize=30&lang_French=French&lang_German=German&lang_Italian=Italian&lang_Spanish=Spanish&exerciseType=verb_common&reviewPercentage=50&tense=present&tense=preterite&tense=past&tense=imperfect&userID=ava
+                b b	http://162.222.176.130:81/cgi-bin/choose.cgi?session_id=asqA4SPjQrWWY&whichPanel=simple_choose.htm&promptLang=Spanish&exerciseSetTargetSize=30&lang_French=French&lang_German=German&lang_Italian=Italian&lang_Spanish=Spanish&exerciseType=verb_common&reviewPercentage=50&tense=present&tense=imperfect&userID=b
+                p pay	http://162.222.176.130:81/cgi-bin/choose.cgi?session_id=asFDU4oB8z4eE&whichPanel=simple_choose.htm&promptLang=Spanish&exerciseSetTargetSize=30&lang_French=French&lang_German=German&lang_Italian=Italian&lang_Spanish=Spanish&exerciseType=verb_common&reviewPercentage=50&tense=present&userID=pay
+        }
+}
+b b-ball mad
+{
+        c cyo forms	http://www.oakdiocese.org/youth-and-young-adults/cyo/cyoforms.html
+        g east bay gym locations	http://www.ebplcyo.org/directions.html
+        r rules		http://www.juneau.org/parkrec/adult/documents/2011-12NFHSRulesBook.pdf
+}
+B books safari	http://techbus.safaribooksonline.com/home
+C chef
+{
+        a anatomy of a run	https://wiki.opscode.com/display/ChefCN/Anatomy+of+a+Chef+Run
+        c client setup	http://www.nineproductions.com/chef-workstation-quick-setup/
+        g genl bid info		http://bidwiki.us.oracle.com/display/cloudprovisioning/Chef+Workflow
+        m msi			https://www.opscode.com/chef/install.msi
+        o opscode contrib process
+        {
+                e env for dev				https://github.com/opscode/chef, https://wiki.opscode.com/display/chef/How+to+Contribute
+                g git					https://wiki.opscode.com/display/chef/Working+with+git
+                G git highlights			http://rogerdudler.github.io/git-guide/
+                r code review process + JIRA pointers	https://wiki.opscode.com/display/chef/Code+Review
+        }
+        p puppet
+        {
+                w win MSIs	https://downloads.puppetlabs.com/windows/
+        }
+}
+c computers
+{
+        0 dvi graphic			http://www.google.com/imgres?hl=en&biw=1268&bih=914&gbv=2&tbm=isch&tbnid=jIO7KcbXRoG2_M:&imgrefurl=http://www.overclock.net/t/1131491/tv-showing-black-screen/10&docid=Ka0tGmpo5oKJXM&imgurl=http://assets.overclock.net.s3.amazonaws.com/6/6e/6e3e3ebe_vbattach231827.jpeg&w=453&h=368&ei=quZbT4-gCKKpiQLAsomaCw&zoom=1&iact=hc&vpx=270&vpy=145&dur=1708&hovh=202&hovw=249&tx=94&ty=123&sig=111568241194938630091&page=1&tbnh=134&tbnw=165&start=0&ndsp=31&ved=1t:429,r:1,s:0
+        2 nd hand stuff selling	http://www.nextworth.com/?jbcid=9857&gclid=CKXshZm5uqMCFQgEbAodBjAMhQ#/tab_page_column_features=0/
+        6 690
+        {
+                b beep diagnostics	http://support.dell.com/support/edocs/systems/ws690/en/ug/tools.htm#wp1055443
+                m risers, mem		http://support.dell.com/support/edocs/systems/ws690/en/ug/memory.htm#wp1056315
+        }
+        b				https://www.bizrate.com/
+        B browser
+        {
+                a about:config		http://preferential.mozdev.org/preferences.html
+                A about:config		http://kb.mozillazine.org/About:config_entries
+                c cache clear firefox	https://addons.mozilla.org/en-US/firefox/addon/1801
+                C chrome debug		http://code.google.com/p/chromedevtools/
+                o cookies from chrome	chrome://settings/cookies
+                j customizing js	http://www.mozilla.org/unix/customizing.html#prefs
+                l local script enabling in firefox	http://kb.mozillazine.org/Links_to_local_pages_don%27t_work
+        }
+        c				http://www.compuplus.com
+        C				http://www.Computers4SURE.com
+        d drivers
+        {
+                l lenovo_lt3		http://support.lenovo.com/us/en/products/laptops-and-netbooks/lenovo-b-series-laptops/lenovo-b50-45-notebook
+        }
+        f file servers: cross platform	http://www.netapp.com/tech_library/
+        h hard drives
+        {
+                s seagate		http://www.seagate.com/support/disc/specs/ata/st340810a.html
+        }
+        H hive group			http://www.hivegroup.com/amazon_dyn.html#
+        # home portal s firewall settings	http://homeportal/security/edit_firewall_settings.html, or just rightclick on the tray and open up the home portal monitor
+        i network info
+        {
+                1 network info			http://www.homepcnetwork.com/
+                2 network info2			http://www.wown.com
+                3 network info2			http://www.helmig.com
+        }
+        l an router			http://192.168.1.1
+        m memory
+        {
+                4				http://www.4allmemory.com/index.cfm
+        }
+        M motherboards
+        {
+                b be6
+                {
+                        6 ata66+w2k recipe	http://www.littlewhitedog.com/reviews_other_00007.asp
+                        a abit stuff	http://www.abit.nl/eng/download/driver/main.htm
+                }
+                c cmos reset password	http://www.infopackets.com/gazette/20021231.htm
+                5 o5 mb	http://www.pcchips.com.tw/PCCWeb/Products/Productsdetail.aspx?detailid=271&MenuID=16&LanID=2
+        }
+        o cookies
+        {
+                g		chrome://settings/content
+        } 
+        p plugin or flash disable		chrome://plugins
+        r routers
+        {
+                a att gateway config 2wire	http://192.168.1.254
+                b belkin gateway config	http://192.168.2.1
+                d dynamic dns		https://www.dnsdynamic.org/manage.php?page=domains
+                D dns homegrown		http://en.wikipedia.org/wiki/Dnsmasq
+                g gateway router	http://www.netgear-support.com/ts/downloads/rt311inst.pdf
+                h hub			http://www.netgear-support.com/ts/downloads/ds100instguide7.2000.pdf
+                l linksys default	http://192.168.1.1
+                L linksys custom	http://193.168.168.168
+                n netgear gateway config	http://192.168.0.1
+                p pepwave		http://192.168.50.1
+                s speed test		http://www.dslreports.com/stest?loc=2
+                t tplink outlet wifi extender	http://tplinkplclogin.net
+        }
+        s screensavers
+        {
+                3 win32			http://www.sagamedev.co.za/forums/ofe/userfiles/40/files/screensavers.html
+        }
+        S seagate diag			http://download.seagate.com/seatools/registration.nsf/d_file_return?openform
+        u used PCs			http://www.microexchange.com
+        v viosoftware xp		http://www.viosoftware.com/winxpprof.html
+        w wifi oracle pw subscription	https://apex.oraclecorp.com/pls/apex/f?p=clearguest
+}
+d db
+{
+        m mongo
+        {
+                i internals preso	https://www.mongodb.com/presentations/storage-engine-internals
+                s sql-to-mongo		http://docs.mongodb.org/manual/reference/sql-comparison/
+        }
+}
+D disco
+{
+        c client-jar JIRA entry		https://jira.oraclecorp.com/jira/browse/OSN-3681
+        j jira				https://jira.oraclecorp.com/jira/secure/Dashboard.jspa
+        J jenkins			https://osnci.us.oracle.com/view/Components/view/Discovery/
+        t test output			http://slce09vm175.us.oracle.com/~nsproul/t/
+        T official test output		https://osnci.us.oracle.com/view/Master/view/Discovery/job/discovery.1.test.master/lastCompletedBuild/testReport/
+}
+e electronics
+{
+        5 dc50x replaytv	        http://blog.katharsys.com/?p=733
+        c car stereo			http://www.ultimate-sounds.com/
+        v dvd complete copy trial	 http://www.cdfreaks.com/software/71
+        v dvd free copy trial	 http://www.cdfreaks.com/software/68
+        d drive expansion		http://rtvpatch.sourceforge.net/utility.html
+        D replaytv pc control	http://www.dvarchive.org/
+        h home theatre group		http://www.avsforum.com/
+        # 243 zones for manual stuff
+        p replaytv replacement data hosted wirns	http://www.percdata.com/faq/replaytv
+        r replay			http://myreplaytv.com/
+        s sony camcorder		http://www.docs.sony.com/release/DCRHC32-42.pdf
+        t thread_for_frame_by_frame	http://www.avsforum.com/avs-vb/showthread.php?s=&threadid=100716
+        T				http://www.replaytv.com/
+        w wirns				http://sourceforge.net/project/showfiles.php?group_id=89992
+}
+E eh
+{
+        r ref			file:///c:/spring-framework-1.1.1/docs/reference/html_single/index.html#orm-hibernate
+        R ref by http		http://www.springframework.org/docs/reference/html_single/index.html
+        s spring framework	http://www.springframework.org/
+        S spring doc		http://static.springsource.org/spring/docs/
+        t tags			http://www.springframework.org/docs/taglib/index.html
+}
+f faiza
+{
+        1 p1			http://slcipau.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+        2 p1_backup		http://slcipcm.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+        a apidocs
+        {
+                1 p1			http://slcipau.us.oracle.com/configuration/apidocs/
+                2 p1_backup		http://slcipcm.us.oracle.com/configuration/apidocs/
+                7 gzq			http://slco7gzq.us.oracle.com:8080/configuration/apidocs/
+                c cluster_apidocs
+                {
+                        a all			http://slcipca.us.oracle.com:8080/configuration/apidocs/|http://slcipaq.us.oracle.com:8080/configuration/apidocs/|http://slcipce:8080/configuration/apidocs/
+                        1 p1b			http://slcipca.us.oracle.com:8080/configuration/apidocs/
+                        2 p2b			http://slcipaq.us.oracle.com:8080/configuration/apidocs/
+                        3 p3b			http://slcipce:8080/configuration/apidocs/
+                }
+        }
+        c new cluster 123
+        {
+                a all			http://slcipca.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count|http://slcipaq.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count|http://slcipce.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+                A all data		http://slcipca.us.oracle.com:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0|http://slcipaq.us.oracle.com:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0|http://slcipce.us.oracle.com:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
+                0 haproxy		http://slcipca.us.oracle.com/configuration/api/v1/monitoring/integrations/count
+                1 p1b			http://slcipca.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+                2 p2b			http://slcipaq.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+                3 p3b			http://slcipce.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+                ! p1_data		http://slcipca.us.oracle.com/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
+                @ p2_data		http://slcipaq.us.oracle.com/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
+                $ p3_data		http://slcipce.us.oracle.com/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
+        }
+        d data		http://slcipca.us.oracle.com:8080/configuration/api/v1/integrations/L2/idm:generic:12.2.1.1.0
+        g git
+        {
+                b Bug_24816336		https://orahub.oraclecorp.com/faiza.bounetta/promotion-config/tree/Bug_24816336
+                o orahub	https://orahub.oraclecorp.com/faiza.bounetta/promotion-config
+        }
+        h haproxy		http://slcipau.us.oracle.com:4331/configuration/api/v1/monitoring/integrations/count
+        n pcn		http://slcipcn.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+        N pcn cluster	http://slcipcn.us.oracle.com/configuration/api/v1/monitoring/integrations/count
+        p production		http://slcipau.us.oracle.com/configuration/api/v1/monitoring/integrations/count
+        s stage gzq		http://slc07gzq.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+        S stage haproxy		http://slc07gzq.us.oracle.com:5000/configuration/api/v1/monitoring/integrations/count
+        v visualization
+        {
+                p prod		http://syseng.oraclecorp.com/visualization/pipeline.html
+                s stage		http://slcipca.us.oracle.com:8080/visualization/pipeline.html
+                S stage old	http://slc07gzq.us.oracle.com:8080/visualization/pipeline.html
+        }
+        V venu
+        {
+                c config_service_APIs	https://confluence.oraclecorp.com/confluence/display/~faiza.bounetta@oracle.com/Pipeline+management+using+Config+Service+APIs
+                o config_objects	https://confluence.oraclecorp.com/confluence/display/~faiza.bounetta@oracle.com/Consolidate+promotion+pipelines+across+integration+components+and+releases
+                t triggers		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Trigger+Level+1+Promotion+for+a+Product
+                s swagger		http://slcipau.us.oracle.com/configuration/apidocs/index.html
+                v visual		http://syseng.oraclecorp.com:8282/dashboard/index.html#/pipeline/main
+        }
+        w wiki for mongo cluster	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/HA+cluster+for+mongodb%2C+config+webapp
+}
+H house
+{
+        c contracting
+        {
+                m map			http://www.cslb.ca.gov/applicants/blueprint.asp
+                r ref			http://bookstore.lexis.com/bookstore/catalog?action=product&prod_id=47851&cat_id=SR&returnURL=http%3A%2F%2Fbookstore.lexis.com%2Fbookstore%2Fsearch%3Faction%3DkeywordSearch%26keyword%3DCalifornia%2Bcontractor
+        }
+        d deck
+        {
+                d docs
+                {
+                        0 new PDF		http://www.pdfescape.com
+                        b building_permit_app	http://www.pdfescape.com/open/?7795701508BC57ADF9B3AB01FF21D64CD022287B0BD06EA8
+                        c compress pdf		https://smallpdf.com/compress-pdf
+                        m merge/append PDFs	https://smallpdf.com/merge-pdf
+                        z zoning_cert_app	http://www.pdfescape.com/open/?8CEB0F11AF8E253AD5F6B8B29914FB39951A77C72F3A632B
+                }
+                s steel
+                {
+                        f framing		http://www.deckmagazine.com/framing/framing-decks-with-steel.aspx
+                        l ledger tracks		http://www.clarkdietrich.com/
+                        p screw-and-plug system	http://www.fastenmaster.com/
+                        s screws		http://www.deckmagazine.com/framing/.starbornindustries.com
+                        S screws order		http://www.decksdirect.com/
+                        t trex			http://www.trex.com/products/deck-framing-drainage/elevations/
+                }
+        }
+        f forms	http://www.ci.berkeley.ca.us/onlineservice/forms.htm
+        g glossary			http://www.theresponsibleorder.com/150glossary.htm
+        h				http://www.homedepot.com
+        p permit center
+        {
+                f fees			http://www.ci.berkeley.ca.us/psc/valuation.html
+                h home			http://www.ci.berkeley.ca.us/psc/default.htm
+                p permit reqs		http://www.ci.berkeley.ca.us/ContentDisplay.aspx?id=688
+                s seismic transfer tax rebate	http://www.ci.berkeley.ca.us/onlineservice/planning/Transfer_Tax.pdf
+                # enter permit 08-3535
+                S plan check status	http://www.ci.berkeley.ca.us/PermitApplicationSearch.aspx
+        }
+        w water heaters
+        {
+                b bosch 995 gas+electric	http://www.tanklesswater.com/product_250SX-NG.htm
+                t takagi			http://www.takagi-usa.com/web2003/c05.htm
+                u unitrol			http://www.americanwaterheater.com/support/manuals/flameguard.pdf
+        }
+}
+h hadoop
+{
+        3 thirdeye
+        {
+                D sample1	http://thirdeye.us.oracle.com/#q=%20*%20&f=%20collectionid=%22dte.21300611%22%20&s=%20s.s.f%20:%20%22time%22%20%20s.s.o%20:%20%22desc%22%20s.u.l.c.v:%22test%22&t=1409788151294
+                d sample	http://thirdeye.us.oracle.com/#q=%20*%20&f=%20user.farm.job.id%20=%2012672155%20&s=%20s.s.f:%22time%22%20%20s.s.o:%22desc%22%20%20s.u.l.c.v:%22test%22&t=1409787756381
+                f faq		http://aseng-wiki.us.oracle.com/asengwiki/display/Java/TIE+FAQ#TIEFAQ-Services/REST
+                a access methods/reports
+                {
+                        a aha report	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/aha/summary.json?tql=user.dte.job.id=18326206
+                        A aha detailed	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/aha/detail.xml?tql=user.dte.job.id=18326206
+                        j json rtv	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/runs.json?user.dte.job.id=18326206
+                        l links for all actions	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/actions/summary.json?tql=user.dte.job.id=18326206
+                        s summary	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/runs/summary.json?tql=user.dte.job.id=18326206
+                        x xml rtv	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/runs.xml?user.dte.job.id=18326206
+                }
+        }
+        # note that you should select generic.DEVELOPER_USER in OIM
+        a alm odcs info	https://confluence.oraclecorp.com/confluence/display/ALM/Getting+Started
+        b bash artifactory stuff on apache PROD 	http://slcipaq.us.oracle.com:82/x.html
+        B bash artifactory stuff on apache STAGE 	http://slcipcm.us.oracle.com:82/x.html
+        c carson stuff
+        {
+                b blog			http://carson.oraclecorp.com:3000/blog/index.html
+                d doc from gitbook	http://carson.oraclecorp.com:3000/orchbook/deploy/index.html
+                g git stuff		https://orahub.oraclecorp.com/james.x.clark/hudson_config_repository/tree/master
+                i carson		http://carson.oraclecorp.com:3000
+                o org to POC for hudson servers	https://confluence.oraclecorp.com/confluence/display/ALM/ODCS+On+boarding+status
+        }
+        C clojure
+        {
+                c carson code	https://orahub.oraclecorp.com/james.x.clark/carson
+                n node control	https://github.com/tsmith/node-control
+                0 Getting started	https://github.com/killme2008/clojure-control/wiki/Getting-started
+                d Define clusters	https://github.com/killme2008/clojure-control/wiki/Define-clusters
+                t Define tasks	https://github.com/killme2008/clojure-control/wiki/Define-tasks
+                D DSL commands	https://github.com/killme2008/clojure-control/wiki/commands
+                s Clojure-Control shell commands	https://github.com/killme2008/clojure-control/wiki/Control-shell-commands
+                a API document	http://fnil.net/clojure-control/
+        }
+        d docker
+        {
+                O optimizing size	http://blog.xebia.com/2014/07/04/create-the-smallest-possible-docker-container/
+                u users guide		https://docs.docker.com/userguide/
+        }
+        D data samples
+        {
+                c carson
+                {
+                        c carson		http://carson.oraclecorp.com:3000/api/v2/orchs/31/instances
+                        H hadoop web UI	http://slc08gbi.us.oracle.com:50070/explorer.html#/data/carson/2014/08/28/00
+                        C carson finished	http://carson.oraclecorp.com:3000/api/v2/orchs/31/instances?inState=FINISHED
+                }
+                l lostache/elasticloud+nginx data from rwsrtf04, rwsrtf03	http://slciecp.us.oracle.com/index.html#/dashboard/file/logstash.json
+        }
+        e em EM		https://emcc.us.oracle.com/em/faces/core-uifwk-console-home?_afrLoop=9538995823101135&_afrWindowMode=0&_afrWindowId=xqs4dv2nx_1#!%40%40%3F_afrLoop%3D9538995823101135%26_afrWindowId%3Dxqs4dv2nx_1%26_afrWindowMode%3D0%26_adf.ctrl-state%3Dxqs4dv2nx_16
+        f hdfs
+        {
+                n nfs export of hdfs	http://wiki.apache.org/hadoop/MountableHDFS
+                p permissions	http://hadoop.apache.org/docs/r2.2.0/hadoop-project-dist/hadoop-hdfs/HdfsPermissionsGuide.html
+        }
+        g graphite
+        {
+                d dashboards
+                {
+                        a artifactory	http://slcipca.us.oracle.com:5100/#/dashboard/db/artifactory-dashboard
+                        A arques	http://slcipca.us.oracle.com:5100/#/dashboard/db/arques-dashboard
+                        c carson	http://slcipca.us.oracle.com:5100/#/dashboard/db/fmwcarson-dashboard
+                        d dte		http://slcipca.us.oracle.com:5100/#/dashboard/db/dte-dashboard
+                        m hudson.masters	http://slcipca.us.oracle.com:5100/#/dashboard/db/hudsonmasters-dashboard
+                        s hudson.slaves	http://slcipca.us.oracle.com:5100/#/dashboard/db/hudsonslaves-dashboard
+                }
+                D dashboard manipulation	http://anatolijd.blogspot.com/2014/07/scripting-grafana-dashboards.html
+                o old timey	http://slcipca.us.oracle.com:8080
+                w grafana doc	https://github.com/grafana/grafana/wiki
+        }
+        h udson
+        {
+                c central	http://hudsonci.oraclecorp.com/hudson/central/
+                j hudson-to-jenkins migration tool	http://sysengtools.us.oracle.com:8080/JobMigrationTool/
+                l liberte faq	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Liberte+FAQ#LiberteFAQ-Hudson/JenkinsCI/CD
+                s sla		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Continuous+Integration+PaaS+SLA+and+Roles+-+Responsibilities
+                S sla2		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Continuous+Integration+PaaS+FAQ
+        }
+        H hadoop ecosystem stuff
+        {
+                i hive
+                {
+                        g general info	http://hortonworks.com/hadoop/hive/
+                        q hive QL hql	https://cwiki.apache.org/confluence/display/Hive/LanguageManual
+                        u udf
+                        {
+                                x	example http://lets-do-something-big.blogspot.in/2014/02/hive-udf-example.html
+                        }
+                        w wiki		https://cwiki.apache.org/confluence/display/Hive/Home
+                }
+                t http access to htfs
+                {
+                        f HttpFS
+                        {
+                                g general	http://hadoop.apache.org/docs/r2.3.0/hadoop-hdfs-httpfs/index.html
+                                i install	http://hadoop.apache.org/docs/r2.3.0/hadoop-hdfs-httpfs/ServerSetup.html
+                        }
+                        w WebHDFS
+                        {
+                                c configure	http://dev.hortonworks.com.s3.amazonaws.com/HDPDocuments/HDP2/HDP-2.0.0.2/bk_installing_manually_book/content/rpm-chap-hue-2-1.html
+                                g guide		http://docs.hortonworks.com/HDPDocuments/HDP1/HDP-1.2.2/bk_webhdfs/content/ch_webhdfs-intro.html
+                                r ref		http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/WebHDFS.html
+                                x xamples	http://bighadoop.wordpress.com/2013/06/02/hadoop-rest-api-webhdfs/
+                        }
+                }
+        }
+        i install
+        {
+                h hdp/hue/webHDFS	http://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.1.3/bk_installing_manually_book/content/rpm-chap-hue-2.html
+        }
+        J json formatter	http://jsonformatter.curiousconcept.com/
+        j jira
+        {
+                b bea/legacy		https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=32541&view=planning
+                c checklist sprint	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/FMW+System+Engineering+-+Sprint+Checklist
+                d doc of labels, etc	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/MW+System+Engineering+Jira+Scrum+Boards
+                g rest guide		https://developer.atlassian.com/display/JIRADEV/JIRA+REST+APIs
+                i interesting issues
+                {
+                        s sso/carson	https://jira.oraclecorp.com/jira/browse/FMWBREL-6110
+                }
+                l liberte		https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=375&view=planning&quickFilter=43201
+                m monitoring		https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=32540&view=planning
+                r rest ref		https://docs.atlassian.com/jira/REST/latest/
+                s syseng monitoring	https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=32540&view=planning&selectedIssue=FMWBREL-4684
+                S screenshot recent	file:///D:/downloads/jira.jpg
+        }
+        l logstash
+        {
+                d dashboard			http://slciecp.us.oracle.com/#/dashboard/file/default.json
+                q query elasticsearch REST
+                {
+                        d dsl query	http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-match-query.html
+                        t tutorial	http://okfnlabs.org/blog/2013/07/01/elasticsearch-query-tutorial.html
+                        r ref		http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/docs-index_.html
+                        #x ample		http://slciecp.us.oracle.com:9200/_search?pretty=true' -d '{    "query": {        "match_all": {}    }}'
+                }
+                i integration to hdfs overview	http://www.devopsa.net/2014/04/three-way-to-use-logstash-with-hadoop.html
+                I install guide			http://aseng-wiki.us.oracle.com/asengwiki/display/~satyabhanu_dash/LogStash+Installation+Guide
+                w wiki bhanu			http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Log+Scanner+Using+Logstash
+        }
+        m maven
+        {
+                c collection	https://pdit-document-repository.oraclecorp.com/display/AESG/WCC+Extracting+Folder+Contents+And+SubFolders
+                C collection2	https://docs.oracle.com/cd/E23943_01/doc.1111/e11011/c10_pcm.htm#CSSRG3623
+                d dig maven.oracle.com	http://digwebinterface.com/?hostnames=maven.oracle.com%0D%0Awww.oracle.com&type=&ns=resolver&useresolver=8.8.4.4&nameservers
+                f fld_ops	https://docs.oracle.com/cd/E23943_01/doc.1111/e11011/c08_frameworkfolders.htm#CSSRG3515
+                g git src	https://orahub.oraclecorp.com/fmw-platform-lifecycle/public-maven-repo/tree/master
+                H http folder direct stage	http://acmsmtv2074.us.oracle.com:16200/content/idcplg?IdcService=FLD_BROWSE&fFolderGUID=B7623F7404653C7F1B8561E8274B39DE
+                h http folder direct prod	http://acmsmtv1045.us.oracle.com:16200/content/
+                m maven direct http		https://maven.oracle.com/com/oracle/fmwshare/adf-workbook-composer/12.2.1-0-0/adf-workbook-composer-12.2.1-0-0.pom
+                o old release info		http://aseng-wiki.us.oracle.com/asengwiki/display/RM/FMW+12c+12.2.1+Shiphome+Announcements+to+QA
+                O orahub
+                {
+                        u users guide		https://confluence.oraclecorp.com/confluence/display/ESEDoc/OraHub+User's+Guide
+                }
+                r release info		http://aseng-wiki.us.oracle.com/asengwiki/display/RM/FMW+12.2.1.1.0+Shiphome+Announcements+to+QA
+                R other release info	https://sac.us.oracle.com/download/index.html
+                s support for oracle maven	https://pdit-document-repository.oraclecorp.com/display/AESG/maven.oracle.com+Support
+                S sudhir project w/ aparna	https://apex.oraclecorp.com/pls/htmldb/f?p=1270:10:14566052464069::NO:::
+        }
+        o outage tracker
+        {
+                d dte Leo	http://dte-dashboard.oraclecorp.com/mats-dashboard/
+                m mockup	https://confluence.oraclecorp.com/confluence/display/~joseph.chandy@oracle.com/FMW+DEVELOPMENT+INFRASTRUCTURE
+                r report	http://adc00jcu.us.oracle.com:5678/outage/
+                u upload	http://adc00jcu.us.oracle.com:5678/outage/upload
+        }
+        p pig
+        {
+                1 ref 1		https://pig.apache.org/docs/r0.7.0/piglatin_ref1.html
+                2 ref 2		https://pig.apache.org/docs/r0.7.0/piglatin_ref2.html
+                c cookbook	https://pig.apache.org/docs/r0.7.0/cookbook.html
+        }
+        P pipeline oracle farm etc
+        {
+                g promotion graphic list of pipelines	http://slc07gzq.us.oracle.com:8080/visualization/pipeline.html
+                v promotion visualizer	http://slc07gzq.us.oracle.com:8080/visualization/graphs.html?name=soa-12-1-4-preflight&id=34&orchid=11021&product=AIAFP&count=3
+        }
+        Q qm stuff	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/QM+activities
+        r rest interfaces
+        {
+                h hivewebinterface
+                {
+                        i install	http://cloudfront.blogspot.com/2013/09/how-to-run-hive-queries-through-hive.html#.VD2K_PldXwo
+                        g guide		https://cwiki.apache.org/confluence/display/Hive/HiveWebInterface
+                }
+                w webhcat
+                {
+                        i install	https://cwiki.apache.org/confluence/display/Hive/WebHCat+InstallWebHCat
+                }
+        }
+        R rabbit
+        {
+                1 server-1	http://slcipbf.us.oracle.com:15672/#/
+                2 server-2	http://slcipbg.us.oracle.com:15672/#/
+                a all		http://slcipbf.us.oracle.com:15672/#/|http://slcipbg.us.oracle.com:15672/#/
+        }
+        s sensu
+        {
+                a api access	http://slc02qcv.us.oracle.com:4567/info
+                A add ck	http://sensuapp.org/docs/latest/addding_a_check
+                d guide doc			http://sensuapp.org/docs/0.12/guide
+                g grafana	http://slcipca.us.oracle.com:5100/#/dashboard/db/demo-dashboard
+                G java.dzone guide	http://java.dzone.com/articles/getting-started-sensu
+                n nagios plugin reuse	http://www.joemiller.me/2012/01/24/re-use-nagios-plugins-in-sensu-for-quick-profit/
+                p plugins		https://github.com/sensu/sensu-community-plugins
+                r rabbitmq admin	http://slc02qcv.us.oracle.com:15672
+                u uchiwa unfiltered	http://sysmon.us.oracle.com:3000/#/clients
+                U sysmon aggregated dashboard	http://sysmon.us.oracle.com
+        }
+        w wiki
+        {
+                A artifactory		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Liberte+-+Artifactory+Licenses
+                a agenda		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/System+Infrastructure+Meeting+-+Agenda
+                c config service	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/HA+cluster+for+mongodb%2C+config+webapp
+                C config flexibility	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/config+service+custom+logic
+                h hadoop POC		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Hadoop+POC+-+Analytic+System
+                j jagan fave	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Home
+                m maven repo		https://confluence.oraclecorp.com/confluence/display/OPE/Oracle+Maven+Repository
+                p POCs	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Points+of+contact+for+monitored+hosts
+                P POCs steve collins	https://confluence.oraclecorp.com/confluence/display/ALM/ODCS+On+boarding+status
+                s sysmon stuff		http://aseng-wiki.us.oracle.com/asengwiki/pages/viewpage.action?pageId=5191416655
+                v viraj reading		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Docker+Home
+        }
+}
+i installshield
+{
+        f faq				http://support.installshield.com/topten/default.asp
+        h home				http://www.installshield.com/
+        m open source msi install gen	http://sourceforge.net/projects/wix/
+}
+I instant messenger
+{
+        g google talk config		http://www.google.com/support/talk/bin/answer.py?answer=24073
+}
+j java
+{
+        o old			https://www.google.com/#q=%22The+Oracle+Java+Archive+offers+self-service+download+access+to+some+of+our+%22&safe=off
+        6 j6 downloads		http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase6-419409.html
+        r regexp		http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
+}
+l load balancing
+{
+        m mongodb risks		http://craiggwilson.com/2013/10/21/load-balanced-mongos/
+        n nginx			http://nginx.org/en/docs/http/load_balancing.html
+}
+L language
+{
+        a accents on win32 keyboard	http://symbolcodes.tlt.psu.edu/accents/codealt.html
+        A anki
+        {
+                d decks			https://ankiweb.net/shared/decks/
+                s software		http://ankisrs.net/docs/manual.html
+        }
+        c				http://www.adyn.com/teacher/html/choose.html
+        l				http://www.adyn.com/teacher/html/login.htm
+        n				http://www.adyn.com/teacher/html/new_user.htm
+        r rosetta stone			http://www.rosettastone.com/
+        R rosetta stone trial		http://www.rosettastone.com/online/index2.html
+}
+m	markets
+{
+        b				http://www.bloomberg.com/
+        B investor's business daily	http://www.investors.com/
+        c calendar			http://online.barrons.com/public/page/barrons_econoday.html
+        D market data
+        {
+                c cboe			http://www.cboe.com/MktData/HistoricalVolatility.asp
+                d dow jones ctor	http://www.cbot.com/cbot/www/cont_detail/0,1493,14+478+3213,00.html
+                i index symbols		http://finance.lycos.com/home/qcharts/help.asp?option=index
+                m index components	http://www.mobydata.com/comp.htm
+                M index components	http://www.cboe.com/OptProd/index_comp.asp
+        }
+        e e
+        {
+                a earnings dates		http://earnings.com/company.asp?client=cb&ticker=stp
+                t etf info		http://www.etfconnect.com/
+        }
+        f				http://www.fidelity.com/
+        g grimes			http://adamhgrimes.com/TAAS/the-course/
+        h holiday			http://www.chronos-st.org/NYSE_Observed_Holidays-1885-Present.html
+        I
+        {
+                c customer service	http://www.interactivebrokers.com/en/p.php?f=customerService&ib_entity=llc
+                f forum			http://www.interactivebrokers.com/cgi-bin/discus/discus.pl
+                k security phone key	http://ibkb.interactivebrokers.com/article/2260
+                s support		http://www.interactivebrokers.com/en/general/contact/bestService.php
+                S symbol lookup		http://www.interactivebrokers.co.uk/contract_info/index.php
+                w wiki			http://chuckcaplan.com/twsapi
+        }
+        0 insiders			http://biz.yahoo.com/t/c/cci.html
+        l lincoln			https://lincolnlifeRFS.iscaccount.com/iss
+        m marketmap			http://www.smartmoney.com/marketmap/
+        M
+        {
+                o			http://www.morningstar.com/
+                a margin reqs		http://www.cboe.com/LearnCenter/pdf/margin2-00.pdf
+        }
+        n news and data sources		http://technical.traders.com/Products/catsearch.asp?cat=60
+        q realtime data yahoo		http://billing.finance.yahoo.com/realtime_quotes/signup
+        R mo trading resources		http://www.io.com/gibbonsb/wahoo/other.html
+        o oil
+        {
+                h holiday exceptions                 http://tonto.eia.doe.gov/oog/info/twip/schedule.html
+        }
+        O options
+        {
+                c option symbol construction	http://finance.lycos.com/home/options/education.asp?options=dcI
+                e Espen Gaarder Haug	http://home.online.no/~espehaug/
+                o	http://www.optionomics.com/index.html
+                O	http://platinum.optionetics.com/
+                p	http://optionstrategist.com/products/analysis/software/poweranalyzer/poweranalyzer.htm
+                q quotes
+                {
+                        d djx	http://quote.cboe.com/QuoteTable.asp?TICKER=djx&ALL=1
+                        o other	http://quote.cboe.com/QuoteTable.asp?TICKER=&ALL=1
+                }
+                s	http://optionstrategist.com/core.htm
+                v	http://www.optionvue.com/
+                w	http://www.wilmott.com/
+        }
+        u mule
+        {
+                a	http://ec2-54-214-82-4.us-west-2.compute.amazonaws.com:9999
+                A	https://console.aws.amazon.com/ec2/v2/home?region=us-west-2
+                c clear	http://localhost:9999/cLeAr?new_ftp-id=host/user/pw
+                l	http://localhost:9999
+                p prod		http://54.244.153.159
+                s sessions	http://localhost:9999/pick_test_case_to_gen_from_log
+                t test gen	http://localhost:9999/test_case_gen
+        }
+        v vix stuff
+        {
+                i vix data		http://cfe.cboe.com/Products/historicalVIX.aspx
+                b vbi futures data	http://www.cboe.com/micro/vix/historical.aspx
+
+        }
+        x market stuff		mc-cmx
+        z other s w
+        {
+                a	http://www.aiq.com/
+                m	http://www.metastock.com/
+                w	http://www.wealth-lab.com/cgi-bin/WealthLab.DLL/home
+        }
+	W wsj				http://online.wsj.com/home/us
+        w wsj print			http://online.wsj.com/page/2_0134.html
+        y yahoo				http://my.yahoo.com/
+        Y yahoo screener		http://screen.yahoo.com/stocks.html
+        z encyclopedia			http://www.ITSdoc.org
+}
+M mail
+{
+        a add oracle mailing list	https://oim.oraclecorp.com/identity/faces/home?_afrLoop=380921228582478&_afrWindowMode=0&_adf.ctrl-state=oy57gbsno_4
+        b beehive oracle init	ftp://obiftp/modules/unlicensed/global/obeo/obeo.w32.exe
+        h hold mail			https://holdmail.usps.com/holdmail/
+        c comcast			http://mailcenter.comcast.net/
+        C configure beehive	https://stbeehive.oracle.com/bcentral/action?page=emailsettings
+        g gmail				http://mail.google.com/
+        G gmail keyboard shortcuts	http://www.comp.nus.edu.sg/~kanmy/gmail/gmailKeys.html
+        l listserv commands			http://www.nlm.nih.gov/listserv/commands.html
+        o oracle mail			https://stbeehive.oracle.com/zimbra/?app=mail
+        O oracle mail rules		https://pdit-document-repository.oraclecorp.com/display/BCS/Email+Policy+and+Procedures
+        r oracle rules			https://stbeehive.oracle.com/bcentral/action?page=emailsettings
+        S spam detection		http://www.paulgraham.com/spam.html
+        s IMP				http://mail.savoirfaire.com/mail
+        v vm				http://www.wonderworks.com/vm/
+        y				http://mail.yahoo.com
+}
+n nimbula
+{
+        a api ref			https://stbeehive.oracle.com/content/dav/st/Nimbula%20Public/Documents/Director%202.5%20documentation/Nimbula2.5_CLIReference_20131004.pdf
+        b BID
+        {
+        	e env stuff		http://bidwiki.devnet.plumtree.com/display/cloudprovisioning/Nimbula+CLI+Quick+Reference
+        }
+        s server bid			https://10.244.92.68/
+}
+p programming
+{
+        A admin sans mouse		http://isg.ee.ethz.ch/tools/realmen/det/index.en.html
+        a a
+        {
+                n ant
+                {
+                        t manual		http://ant.apache.org/manual
+                }
+                P appservers
+                {
+                        w websphere		http://www-106.ibm.com/developerworks/websphere/zones/was/
+                }
+                p apache
+                {
+                        p perl tuning		http://perl.apache.org/tuning/
+                        P perl tuning II	http://perl.apache.org/guide/performance.html
+                }
+                g agile methodologies
+                {
+                        m manifesto		http://www.sdmagazine.com/documents/s=844/sdm0108a/0108a.htm
+                }
+                s aspect oriented programming
+                {
+                        p			http://aosd.net/
+                        j			http://aspectj.org/
+                }
+                S applescript ui scripting	http://www.apple.com/applescript/uiscripting/01.html
+                w awk		http://simu.mse.uiuc.edu/Info/Gawk/
+        }
+        b build and test
+        {
+                a anthill
+                {
+                        d doc		http://www.urbancode.com/projects/anthill/manual/anthillusermanual.pdf
+                        D download	http://www.urbancode.com/projects/anthill/download.jsp
+                        h home		http://www.urbancode.com/projects/anthill/default.jsp
+                }
+                c cruisecontrol
+                {
+                        D download	http://cruisecontrol.sourceforge.net/download.html
+                }
+        }
+        C C++
+        {
+                c cmakefile doc		http://www.cmake.org/HTML/Documentation.html
+                C cmake integration with purify	http://www.cmake.org/pipermail/cmake/2003-June/001838.html
+                f faq			http://users.utu.fi/sisasa/oasis/cppfaq/virtual-functions.html
+                j Csharp vs Java		http://www.25hoursaday.com/CsharpVsJava.html
+                r rational
+                {
+                        c purecov starter	//socrates/ellington/unixsoftware/Rational/releases/PurifyPlusFamily.2003.06.00/docs/pdf/install_and_getting_started.pdf
+                        C purecov doc	http://www.cs.hmc.edu/tech_docs/qref/rational/DevelopmentStudioUNIX.2000.02.10/docs/pdf/purecov/purecov.pdf
+                        j java and C purify	http://tinyurl.com/2gzvp
+                }
+                R STL ref		http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vclang98/HTML/LIB_CPP.asp
+                s STL samples		http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vcstdlib/html/vcoriStandardTemplateLibrarySamples.asp
+        }
+        c code search
+        {
+                c		http://www.codase.com/
+                g google	http://www.google.com/codesearch/advanced_code_search
+                j java		http://del.icio.us/nicolaslecoz/codedatabase
+                K		http://www.krugle.com/
+                k		http://www.koders.com/
+        }
+        d DBs
+        {
+                h hsql			http://hsqldb.sourceforge.net/
+                m mySql
+                {
+                        c		file:///c:/downloads/mysql/mysql-connector-java-3.0.16-ga/docs/index.html
+                        p reset pw	http://dev.mysql.com/doc/mysql/en/Resetting_permissions.html
+                        r		http://www.mysql.com/doc/index.html
+                }
+                M ms
+                {
+                        a access_vs_mssql	http://msdn.microsoft.com/library/default.asp?url=/library/en-us/off2000/html/acconComparingAccessSQLSSQLSyntax.asp
+                        c case conditional in ms sql	http://msdn.microsoft.com/library/default.asp?url=/library/en-us/acdata/ac_8_qd_11_6l0z.asp
+                        d doc		http://www.microsoft.com/sql/techinfo/default.asp
+                        s sql syntax	http://msdn.microsoft.com/library/default.asp?url=/library/en-us/acdata/ac_8_con_03_9rar.asp
+                        S sqlexpress admin	http://codebetter.com/blogs/jeffrey.palermo/archive/2005/11/04/134284.aspx
+                        t trial		http://www.microsoft.com/downloads/details.aspx?familyid=6931fa7f-c094-49a2-a050-2d07993566ec&displaylang=en
+                }
+                o rcl
+                {
+                        c concat_all to merge rows in sql		http://forums.oracle.com/forums/thread.jspa?messageID=1186901&#1186901
+                        d date syntax		http://gwynne.cs.ualberta.ca/~oracle/817doc/server.817/a85397/sql_elem.htm
+                        j jdbc oracle		http://otn.oracle.com/tech/java/sqlj_jdbc/htdocs/jdbc_faq.htm
+                        o oracle error codes	http://www.ora-code.com/
+                        m			http://metalink.oracle.com
+                }
+                s sybase joins			http://manuals.sybase.com/onlinebooks/group-as/asg1250e/sqlug/@ebt-link;pt=11971?target=%25N%15_13070_START_RESTART_N%25
+        }
+        f file suffixes and formats
+        {
+                f formats			http://www.wotsit.org/search.asp
+                s resolve all file suffixes	http://www.whatis.com/ff.htm
+                S more file suffixes		http://www.techdictionary.com/filename_cont1.html
+        }
+        G greasemonkey		http://commons.oreilly.com/wiki/index.php/Greasemonkey_Hacks
+        h html
+        {
+                5 html5	http://apirocks.com/html5/html5.html#slide1
+                A ajax			http://www-128.ibm.com/developerworks/library/j-ajax1/?ca=dgr-lnxw01Ajax
+                b bootstrap
+                {
+                        f forms		http://www.w3schools.com/bootstrap/bootstrap_forms.asp
+                }
+                c http response codes	http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+                C colors		http://www.showchina.net.cn/BBS/attachmentsBBS/month_0904/0904300404f9105ae2abe9cdcd.jpg
+                f form builder	http://www.phpform.org/formbuilder/view.php?id=bb2fc9ebce0e57e66b4300405a77bc1f
+                h http header fields	http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html
+                e examples
+                {
+                        H horizontal examples
+                        {
+                                p project categorized	http://www.peter-pearson.com/
+                                r resume neat		http://vanityclaire.com/
+                                s slidey corporate	http://www.secondstory.com/studio/expertise
+                        }
+                        l fluid layout css3	http://www.script-tutorials.com/fluid-layouts-for-your-website/
+                        p price tables		http://designresourcebox.com/best-practices-of-pricing-tables-in-web-design-41-examples/
+                        P photo collage		http://www.samuelesteves.com/
+                        s stack of images
+                        {
+                                f wow slider, fabulous miniature previews	http://wowslider.com/wordpress-gallery-css-shady-stack-v-demo.html
+                        }
+                        S css examples	http://www.w3schools.com/css/css_examples.asp
+                }
+                i internationalization	http://www.webreference.com/dlab/books/html/39-0.html
+                j free javascript	http://www.dynamicdrive.com/
+                r reference		http://www.htmlhelp.com/reference/html40/
+                s js shell		http://www.squarefree.com/shell/shell.html
+                t table column boundary synchronization	http://www.quirksmode.org/js/fixedhead.html
+        }
+        j java
+        {
+                1 1.5 features
+                {
+                        0 1.5 features		http://java.sun.com/features/2003/05/bloch_qa.html
+                        g generics		http://java.sun.com/j2se/1.5/pdf/generics-tutorial.pdf
+                        s samples		http://www.java2s.com/ExampleCode/Development-Class/Java1550ChangestotheAPIProcessBuilder.htm
+                }
+                4 log4j			http://www.vipan.com/htdocs/log4jhelp.html
+                i Java/COM/C++		http://users.neca.com/vmis/jcom.htm
+                c certification
+                {
+                        f faq		http://www.jchq.net/faq/jcertfaq.htm
+                        i info		http://www.jchq.net/
+                        I ibm j2ee	http://www-1.ibm.com/certify/tests/obj483.shtml
+                }
+                C jdk compatibility	http://java.sun.com/j2se/1.4/compatibility.html
+                d debug
+                {
+                        a apache servlet trace	http://www.google.com/search?hl=en&ie=UTF-8&oe=UTF-8&q=ApJServManual+%22fire+up+a+VM+to+run+the+back+end%22&btnG=Google+Search
+                        i ibm aix	http://www-106.ibm.com/developerworks/eserver/articles/java_debug_nam.html
+                        t servlet trace	http://www.enhydra.org/cuts/EnhydraServletDebugger_b1.zip
+                }
+                D downloads
+                {
+                        d API doc		http://java.sun.com/j2se/1.4/docs/api/
+                        i ibm aix		http://www-106.ibm.com/developerworks/java/jdk/aix/service.html
+                }
+                e emacs
+                {
+                        i emacs java ide	http://www-106.ibm.com/developerworks/java/library/j-emacs/?dwzone=java
+                        r emacs refactoring	http://www.xref-tech.com/xrefactory/
+                }
+                f speedy java
+                {
+                        a fast aggregates	http://fastutil.dsi.unimi.it/
+                        i indexing huge data	http://mg4j.dsi.unimi.it/
+                        p klaus prevayler	http://sourceforge.net/projects/prevayler
+                        s fast strings		http://vigna.dsi.unimi.it/ftp/papers/RethinkingJavaStrings.pdf
+                }
+                i IDEs
+                {
+                        e eclipse
+                        {
+                                c multi-clipboard	http://www.bastian-bergerhoff.com/eclipse/features/web/MultiClipboard/using.html
+                                e eclipse		http://www.eclipse.org
+                                p perspective customization	http://www.javalobby.org/java/forums/m91830347.html#91830347
+                        }
+                        i intelliJ		http://www.jetbrains.com/idea/download/index.html
+                        r resharper ref card	http://www.jetbrains.com/resharper/documentation/1.5_ReferenceCard.pdf
+                }
+                j jar search			http://www.jarhoo.com/
+                J javadoc			http://java.sun.com/j2se/javadoc/writingdoccomments/
+                I class file struct
+                {
+                        s Sun's doc for class file fmt
+                        http://java.sun.com/docs/books/vmspec/html/ClassFile.doc.html
+                        e euro course on java, includes struct, but spread out over lots o' pages
+                        http://www.xs4all.nl/~mpdeboer/scriptie/
+                        j book which describes jvm, including java class file struct reference (Inside the Java 2 VM, by Venners)
+                        http://www.artima.com/insidejvm/blurb.html
+                        i Indian discussion of format of simple class file -- tighter than euro
+                        http://users.neca.com/vmis/jclass.htm
+                }
+                l latency latencies of various things		https://gist.github.com/2841832
+                n JNI
+                {
+                        p purify w/ JNI		http://ptolemy.eecs.berkeley.edu/~cxh/java/purify/
+                        t JNI tutorial		http://java.sun.com/docs/books/tutorial/native1.1/index.html
+                }
+                p parse				http://java.sun.com/j2se/1.5.0/docs/api/java/util/Scanner.html
+                P
+                {
+                        j java profiler		//socrates/Performance Engineering/Tools/Profilers/CompuWare/DevPartner for Java 4.0
+                        n .Net profiler		//socrates/Performance Engineering/Tools/Profilers/CompuWare/DevPartner Studio Prof Edition 7.2
+                        r java properties		http://www.mindspring.com/~mgrand/java-system-properties.htm
+                }
+                r reverse compilation
+                {
+                        r review of decomps, errors seen: (upshot: mocha > dejavu, wingdis, but crashes)
+                        http://www.andromeda.com/people/ddyer/java/decompiler-table.html
+                        m mocha + patch		http://www.brouhaha.com/~eric/computers/mocha.html
+                        s			http://www.srctec.com/decompiler.htm
+                        g			http://www.megatrend.hu/sw/jdwgb.htm
+                        p			http://www.pdr.cx/hbd/
+                        i Indians' project code	http://users.neca.com/vmis/proj.zip
+                }
+                s servlets
+                {
+                        d debug w/ tomcat	http://www.comp.dit.ie/bduggan/Courses/projects/Setting%20Up%20Eclipse%20and%20Tomcat.doc
+                        e			http://www.theserverside.com
+                        s struts
+                        {
+                                h struts		http://jakarta.apache.org/struts/
+                                u struts user guide	http://jakarta.apache.org/struts/userGuide/index.html
+                        }
+                }
+                S samples		http://www.java2s.com/
+                t tutorials
+                {
+                        1 java		http://java.sun.com/docs/books/tutorial/
+                        c corba		http://java.sun.com/docs/books/tutorial/idl/intro/model.html
+                        d jndi		http://java.sun.com/products/jndi/tutorial/
+                        j j2ee		http://java.sun.com/j2ee/tutorial/
+                        m jms		http://java.sun.com/products/jms/tutorial/
+                        p jaxp		http://java.sun.com/xml/jaxp/dist/1.1/docs/tutorial/index.html
+                }
+                T tomcat
+                {
+                        a admin			http://localhost:8080/admin
+                        e eclipse plugin	http://www.sysdeo.com/eclipse/tomcatPlugin.html
+                        h howto, including JDBC	c:/jwsdp-1_0_01/docs/tomcat/jndi-resources-howto.html
+                        S placemarker servlets ug	http://java.sun.com/webservices/docs/1.0/tutorial/doc/Servlets3.html
+                        ! online tutorial	http://java.sun.com/webservices/docs/1.0/tutorial/doc/JavaWSTutorial.pdf
+                        p pointbase		http://www.pointbase.com
+                        t local tutorial	c:/downloads/java/JavaWSTutorial.pdf
+                        T html tutorial		http://java.sun.com/webservices/docs/1.0/tutorial/doc/Servlets.html
+                }
+                u junit			http://www-128.ibm.com/developerworks/java/library/j-junit4.html?ca=dgr-lnxw01JUnit4
+  y syngress		http://www.syngress.com/
+                z ISPs supporting servlets, etc
+                {
+                        k		http://www.kattare.com
+                        f austrian free cocoon	http://www.mycgiserver.com
+                        r resin		http://www.servlets.net
+                        C coccoon+99.8	http://www.mmaweb.net
+                        c canada	http://kgbinternet.com
+                        b		http://www.browsepage.com
+                        i		http://www.imagineis.com/
+                        r servlet ISP reviews	http://servlets.com/isps/servlet/ISPViewAll
+                        R ISP reviews		http://www.webhostingratings.com/stats.html
+                }
+        }
+        J javascript
+        {
+                a ASP Built-In Objects Reference	http://msdn.microsoft.com/library/default.asp?url=/library/en-us/iisref/htm/ref_vbom_.asp
+                A ADO ref		http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ado270/htm/pg_ado_records_streams.asp
+                d dom storage	http://msdn.microsoft.com/en-us/library/cc197062%28VS.85%29.aspx
+                f feature v browsers doc	http://caniuse.com
+                F feature detection		http://www.modernizr.com
+                q jquery
+                {
+                        1 google 	http://code.google.com/p/jquery/
+                        a jquery-aop		http://code.google.com/p/jquery-aop/
+                        b books
+                        {
+                                1 book1	 http://www.amazon.com/jQuery-Novice-Ninja-Earle-Castledine/dp/0980576857/ref=sr_1_1?ie=UTF8&qid=1319950707&sr=8-1
+                                2 book2	 http://www.amazon.com/jQuery-Action-Bear-Bibeault/dp/1933988355/ref=sr_1_15?ie=UTF8&qid=1319950707&sr=8-15
+                                3 book3	 http://www.amazon.com/Learning-jQuery-Interaction-Development-JavaScript/dp/1847192505/ref=sr_1_25?ie=UTF8&qid=1319950823&sr=8-25
+                                x xmpp	http://www.amazon.com/Professional-Programming-JavaScript-jQuery-Programmer/dp/0470540710/ref=sr_1_33?ie=UTF8&qid=1319950872&sr=8-33
+                        }
+                        t tree view	http://www.dynamicdrive.com/dynamicindex1/treeview/index.htm
+                        x xls spreadsheet	http://functionn.blogspot.com/2012/05/jquery-handsontable-is-minimalistic.html#.T8kqh7BYuQB
+                }                       
+                p prototype		http://www.sergiopereira.com/articles/prototype.js.html
+                r ref			http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/js56jslrfjscriptlanguagereference.asp
+                R regexp example	http://msdn.microsoft.com/library/default.asp?url=/library/en-us/script56/html/js56jsprolastmatch.asp
+                s javascript shell js shell	https://www.squarefree.com/bookmarklets/webdevel.html
+                x xul extension for mozilla	http://www.xulplanet.com/tutorials/xultu/packaging.html
+                X xpath in browser	https://developer.mozilla.org/en/Introduction_to_using_XPath_in_JavaScript
+        }
+        l LDAP 
+        {
+                d doc			//socrates/build/components/RECENT/ldapaws.product-2.0.x_rp/LATEST/InstallGuide/InstallationGuide_LDAPAWSPWS_v2.0.pdf
+                s LDAP				http://sourceforge.net/projects/javaldap/
+        }
+        m mouse key combos		http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnwue/html/appxa.asp
+        o 8i				http://oradoc.photo.net/ora816/java.816/a81354/toc.htm
+        p perl
+        {
+                c cmd line switches	http://www.cs.cf.ac.uk/Dave/PERL/node161.html#SECTION001820000000000000000
+                e			http://www.perl.org
+                f perl func		http://aspn.activestate.com//ASPN/Perl/Products/ActivePerl/lib/Pod/perlfunc.html
+                F faq			http://theoryx5.uwinnipeg.ca/CPAN/perl/pod/perlfaq.html
+                3 win32
+                {
+                        3 win32 root	http://aspn.activestate.com/ASPN/Perl/Products/ActivePerl/lib/Win32.html
+                        a api interception	http://www.codeproject.com/system/hooksys.asp?df=100&forumid=3602&exp=0&select=1416037
+                        o ole		http://aspn.activestate.com/ASPN/Perl/Products/ActivePerl/site/lib/Win32/OLE.html
+                        O odbc		http://aspn.activestate.com/ASPN/Perl/Products/ActivePerl/site/lib/Win32/ODBC.html
+                }
+                m misc howtos, mods
+                {
+                        m mail		http://www.perl.com/doc/FAQs/nt/perlwin32faq4.html#How_do_I_send_email_from_Perl_fo
+                        p postscript	http://search.cpan.org/search?dist=PostScript-Simple
+                }
+                n net			http://www.activeware.com/Initiatives/NET/
+                p profiler		http://www.engelschall.com/ar/perldoc/pages/util/dprofpp.html
+                P ppm3
+                {
+                        d doc		http://aspn.activestate.com/ASPN/Products/ActivePerl/faq/ActivePerl-faq2.html
+                        r repository ftp	http://www.activestate.com/PPMPackages/zips/6xx-builds-only/?_x=1
+                }
+                r perl ref		http://burks.bton.ac.uk/burks/language/perl/perlref.htm
+                s search		http://search.cpan.org/
+        }
+        P patterns
+        {
+                h hillside		http://www.hillside.net/
+        }
+        q qa
+        {
+                j jmeter
+                {
+                        a jmeter under ant		http://www.programmerplanet.org/ant-jmeter/
+                        j jmeter			http://nagoya.apache.org/wiki/apachewiki.cgi?JMeterProjectPages
+                        k kbd recorder for jmeter gen	http://www.badboy.com.au/
+                }
+        }
+        R regexp			http://www.savarese.org/oro/
+        r ruby
+        {
+                t tutorial	http://www.troubleshooters.com/codecorn/ruby/basictutorial.htm
+        }                
+        s src control
+        {
+                4 p4			http://www.perforce.com/perforce/technical.html
+                p p4 plugin		http://p4eclipse.sourceforge.net/tiki/tiki-index.php?page=HowToInstall
+                c cvs			http://www.loria.fr/~molli/cvs/doc/cvs_toc.html
+                s subversion		http://svnbook.red-bean.com/
+                S symbol breakdown	http://www.perforce.com/perforce/doc.022/manuals/p4win/01_using.html
+        }
+        S interesting tools
+        {
+                d			http://www.dependencywalker.com/
+                s			http://www.sysinternals.com
+        }
+        t tcl
+        {
+                h tcl home		http://www.tcl.tk/
+                t tutorial list		http://resource.tcl.tk/resource/doc/start/
+        }
+        T tech oddities
+        {
+                b beowulf systems	http://mitpress.mit.edu/book-home.tcl?isbn=026269218X
+                w wap sdks		http://www.google.com/search?q=wap+sdk
+        }
+        u unix general info
+        {
+                b bash
+                {
+                        c if conditions	http://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html
+                        m setting mem max	http://cygwin.com/cygwin-ug-net/setup-maxmem.html
+                        p prompt		http://ldp.kernelnotes.de/HOWTO/Bash-Prompt-HOWTO/bash-prompt-escape-sequences.html
+                }
+                c cygwin search		http://cygwin.com/packages/
+                C all commands		http://www.totse.com/en/hack/hack_attack/unixtabl.html
+                u unix general info	http://www.uwsg.iu.edu/UAU/uau.html
+        }
+        v visual basic			http://msdn.microsoft.com/vbasic/learning/introtovb2005/
+        w work				http://www.elance.com/
+        x xunit				http://www.xprogramming.com/software.htm
+        X modify X keybindings		http://www.jwz.org/xkeycaps/
+        z gzip html compressions	http://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/
+}
+P phone
+{
+        a airvoice			https://www.airvoicewireless.com/PlansB.aspx
+        A apn lookup			http://www.unlockit.co.nz/unlockit/
+        c cricket			http://newcricket.com/activate
+        d dns lookup			http://www.bankes.com/nslookup.htm
+        g goog phone			https://mail.google.com/mail/?voice#inbox
+        h htc vivid manual		http://dl3.htc.com/htc_na/user_guides/htc_vivid_att_userguide_0409.pdf
+        p phone directory		http://www.switchboard.com/
+        P PC connectivity device	http://phonebridge.com/order/order.cfm?aff=1000
+        r reverse phone directory	http://www.reversephonedirectory.com/
+        s sprint usage			http://www.sprintpcs.com/
+        S sprint			http://www.sprint.com/manage/personal.html?refurl=uhp_manage_personal
+        v voip
+        {
+                g goog voice asterisk voip	http://nerdvittles.com/?p=635
+                o voip orgasmatron		http://nerdvittles.com/index.php?p=675
+        }
+}
+R radio
+{
+        a				http://www.thisamericanlife.org/
+        f france culture		http://www.radio-france.fr/chaines/france-culture2/en_direct/
+        F french radio linx		http://www.francelink.com/
+        i milano			http://www.radiopopolare.it/html/onair/notiziario.ram
+        I current_place_at_MIT		http://www.radio-locator.com/cgi-bin/nation?prev=40&ccode=it&count=20
+        m MIT radio list		http://www.radio-locator.com/
+}
+s search
+{
+        m microsoft google		http://www.google.com/microsoft.html
+        r rpm			http://www.rpmfind.net/
+}
+S selenium
+{
+        a api list	http://www.jarvana.com/jarvana/view/org/seleniumhq/selenium/selenium-rc-documentation/1.0-beta-2/selenium-rc-documentation-1.0-beta-2-doc.zip!/java/index-all.html
+        b bug	http://jira.openqa.org/browse/SRC-433
+        B build server	http://xserve.openqa.org:8080/
+        f forums	http://clearspace.openqa.org/index.jspa
+        c fisheye sel-rc	http://svn.openqa.org/fisheye/viewrep/selenium-rc
+        C fisheye sel	http://svn.openqa.org/fisheye/viewrep/selenium
+        n nightly			http://archiva.openqa.org/repository/snapshots/org/openqa/selenium/selenium-remote-control/1.0-SNAPSHOT/
+        o openqa			http://www.openqa.org/
+        p parallel
+        {
+                a parallel ant	http://ant.apache.org/manual/CoreTasks/parallel.html
+                g testng running junit in parallel	http://testng.org/doc/documentation-main.html#parallel-running
+                j parallel junit	https://parallel-junit.dev.java.net
+        }
+        q selenium-rc faq	http://wiki.openqa.org/display/SRC/Selenium+RC+FAQ
+        r sel ref		http://release.openqa.org/selenium-core/nightly/reference.html
+        R Ravi selenium paper	http://portal.plumtree.com/portal/server.pt/gateway/PTARGS_32_0_9405_0_-1_47/http;/prodgadget12.plumtree.com/collab/do/document/overview?projID=199438&folderID=209198
+        t test		file://///socrates/unixhome/nelsons/work/selenium-core/trunk/src/main/resources/core/TestRunner.html?test=../tests/TestSuite.html
+        w wiki		http://selenium.googlecode.com/svn/wiki
+}
+t tradestation
+{
+        3 rd party
+        {
+                g newsgroups		http://www.purebytes.com/archives/omega/2002/thrd2.html
+                2 lebeau traderclub	http://www.traderclub.com/
+                r			http://www.rinafinancial.com/
+                v Mr. ezlang workshop	http://www.vista-research.com/EZLWS.html
+        }
+        e z-language
+        {
+                $ ELC, old user provided ez ELCollections	https://community.tradestation.com/Discussions/Topic.aspx?Result=1&Topic_ID=33397
+                @ ADE, old user provided AllDataEverywhere, based on ELC	https://community.tradestation.com/Discussions/Topic.aspx?Topic_ID=33398
+                d debugger		https://community.tradestation.com/Discussions/Topic_Archive.aspx?Topic_ID=32127
+                D dll dev resources	https://community.tradestation.com/discussions/topic.aspx?topic_id=78430
+                # g essential guide	https://www.tradestation.com/~/media/Files/TradeStation/Education/University/School%20of%20EasyLanguage/Books/EL_Essentials.ashx
+                g essential guide	https://www.google.com/search?q=easy+language+essentials+tradestation&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a
+                G essential guide local	chrome:file:///C:/downloads/EL_Essentials.pdf
+                q faq		https://community.tradestation.com/Discussions/Topic.aspx?Topic_ID=24092
+                o oo EL concepts	https://community.tradestation.com/wiki/download/attachments/39814/OOEL%20Concepts_AndroidMarvin.pdf
+                r ref		https://www.tradestation.com/~/media/Files/TradeStation/Education/University/School%20of%20EasyLanguage/Books/EL_FunctionsAndReservedWords_Ref.ashx
+                v instructional vids	https://www.tradestation.com/education/events/on-demand-webcasts/easylanguage
+        }
+        d developers
+        {
+                c compatibility	http://www.tradestationopenplatform.com/compatibility.shtm
+                o open platform	http://www.tradestationopenplatform.com/
+                p packaging	http://www.tradestationopenplatform.com/faq.shtm
+                s signup	https://www.tradestation.com/subscription/p01.asp
+        }
+        D download		https://www.tradestation.com/tscom/firstlogon_secure.asp
+        f forum tips		https://community.tradestation.com/discussions/Topic.aspx?Topic_ID=13899
+        F				http://www.tradestationfundamental.com/
+        2			http://www.t2000.com
+        h help
+        {
+                h		http://www.tradestation.com/education/06_03/help/
+                c chart indicators	http://www.tradestation.com/education/06_04/help/tshelp/charting_indicator_library.htm
+                p paintbar		http://www.tradestation.com/education/06_04/help/tshelp/paintbar_study_library.htm
+                s showme		http://www.tradestation.com/education/06_04/help/tshelp/showme_study_library.htm
+                m macro lang
+                {
+                        c from charts	http://www.tradestation.com/education/06_04/help/tshelp/macro_command_library.htm
+                }
+                s strategies	http://www.tradestation.com/education/06_04/help/tshelp/signals_library.htm
+        }
+        l letter		http://www.tradestation.com/aboutus/letter.shtm
+        S			http://www.tssupport.com/
+        t tips			http://emini-watch.com/tradestation-10-time-saving-tips-tricks/550/
+        T			http://www.tssupport.com/systemapproach/tutorials.html
+        w			http://www.tradestationworld.com/
+}
+T travel
+{
+        6 1209 buses
+        {
+		5             http://transit.511.org/accessible/schedules/routeinfo.aspx?cid=AC&rte=43762
+		7		http://transit.511.org/accessible/schedules/routeinfo.aspx?cid=AC&rte=43763                
+	}                            
+        b bing			http://www.bing.com/travel
+        B bus schedule			http://www.transitinfo.org/cgi-bin/muni/timetable
+        c 
+        {
+                a caltrain
+                {
+                        n north			http://transit.511.org/schedules/index.aspx?m0=1#m1=S&m2=rail&routeid=49379&dir=N &type=4969&cid=CT
+                        s south			http://transit.511.org/schedules/index.aspx?m0=1#m1=S&m2=rail&routeid=49379&dir=S &type=4969&cid=CT
+                }
+                l clipper		http://www.clippercard.com
+        } 
+        C carpool			http://www.ridenow.org/carpool/
+        e evoya				https://eservices.sabre.com/naca_engl/support/sig/Software/evoya44/evoya_webtop.asp
+        f frequent flyer miles market	http://www.awardflyer.com/buy.asp
+        F flight tracker		http://www.flightview.com/TravelTools/default.asp
+        j				http://www.jetblue.com/
+        l				http://www.lowestfare.com/
+        p				http://www.priceline.com/
+        r rental w/ orcl discount	http://my.oracle.com/site/ref/discounts/employee-discounts/usb2b/autos/index.html
+        t				https://travel.thankyou.com/flight/results?qid=NDlfMThfMjk4XzEwMzM%3d
+        u ual				http://www.ual.com
+        x BART				http://www.bart.gov/
+        X BART II			http://www.transitinfo.org/cgi-bin/auto_sched?C=BA
+        y yosemite res			https://world.dncinc.com/smsworld/yosemite/world_page.htm
+        Y yosemite info			http://www.yosemitepark.com/
+}
+v vm
+{
+        A	http://adc-lm.us.oracle.com/LabManager/
+        a amazon
+        {
+                c console	https://console.aws.amazon.com/console/home?#
+                d docs ec2	http://aws.amazon.com/documentation/ec2/
+                D docs ec2 specialized
+                {
+                        a api		http://docs.aws.amazon.com/AWSEC2/latest/APIReference/
+                        c cli pointers	http://docs.aws.amazon.com/AWSEC2/latest/CommandLineReference/
+                        C cli ref	http://docs.aws.amazon.com/AWSEC2/latest/CommandLineReference/command-reference.html
+                        u user guide	http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/
+                        w windows	http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/
+                }
+                s scaling
+                {
+                        a auto scaling goog	https://www.google.com/#q=how+to+set+up+auto+scaling+in+aws&safe=off
+                        A auto scaling aws	http://aws.amazon.com/documentation/autoscaling/
+                        b elastic load Balancing	http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/GettingStarted.html
+                        c concepts		http://docs.aws.amazon.com/AutoScaling/latest/DeveloperGuide/AS_Concepts.html
+                        e ec2 linux instances	http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html
+                        w welcome		http://docs.aws.amazon.com/AutoScaling/latest/GettingStartedGuide/Welcome.html
+                }
+                S security	https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#SecurityGroups:search=sg-776c1647
+                w windows ec2	http://docs.amazonwebservices.com/AWSEC2/latest/WindowsGuide/
+        }
+        0	http://labmanager.us.oracle.com/LabManager/
+        2 p2v 
+        {
+                V other p2v notes	http://conshell.net/wiki/index.php/Linux_P2V
+                v p2v	http://www.mondorescue.org/docs/p2v.pdf
+        }
+        c cloudstack
+        {
+                a api			http://download.cloud.com/releases/3.0.3/api_3.0.3/TOC_Root_Admin.html
+                b beginners guide	http://buildacloud.org/blog/59-beginners-guide-to-interacting-with-the-cloudstack-api.html
+                d dev guide		http://docs.cloudstack.org/@api/deki/files/194/CloudPlatform3.0DeveloperGuide.pdf
+                o oracle bpo cloud	http://bpocloud.oracle.com:8080/client/
+        }
+        C chocolatey inventory		http://chocolatey.org/packages
+        d devops		http://devops.oraclecorp.com/user/nelson.sproul/detail/reserve/
+        D du info			http://n.us.oracle.com/~nsproul/lm/vm_info/
+        e esx server ops WONKAHA	http://wonkaha/~release/lmbin2/index.html
+        E esx server ops	http://snickers.plumtree.com/~release/lmbin/index.html
+        f lm faq	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/LabManager+FAQ
+        F forum	http://communities.vmware.com/community/vmtn
+        g goog
+        {
+                c console		https://console.developers.google.com/project/appadyn00/compute/instances
+                C console doc		https://developers.google.com/compute/docs/console
+                t tutorial gce		https://developers.google.com/compute/docs/quickstart
+        }
+        j	http://jkdev.devnet.plumtree.com:8082/portal/server.pt/mypage/dashboard/204
+        i irc cloudstack #cloudstack	http://webchat.freenode.net/
+        l	http://labmanager.devnet.plumtree.com/LabManager/
+        n nimbula
+        {
+                w viraj wiki of step1	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Getting+Started+with+Nimbula
+        }
+        o ovm
+        {
+                m ovmm
+                {
+                        m matthew bradburn prompt file INITIAL_CONFIG	/etc/sysconfig/ovmd
+                        g ovmmg_admin_Welcome1	https://10.148.118.176:7002/ovm/console
+                        j ovmmj_admin_Plumtree1	https://sfo-ovmm.us.oracle.com:7002/ovm/console
+                        J jenkins tse		http://wcws.us.oracle.com:8080/view/Cloud%20UCM/
+                        w wiki			http://bidwiki.us.oracle.com/display/cloudprovisioning/OVM+Manager+%28OVMM%29+Server
+                }
+                o ovab
+                {
+                        G greg image file	http://slcnas458.us.oracle.com/shares/export/ovabqa/ovab_infra/templates_64/templates/baseImage/OVM/OEL/
+                        g greg general wiki	http://bidwiki.us.oracle.com/display/cloudprovisioning/OVAB+-+Virtual+Assembly+Builder+Prime
+                        d greg doc service	http://bidwiki.us.oracle.com/display/cloudprovisioning/OVA+Assembly+Creation+for+Doc+Service
+                        v virtualbox setup	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/OVAB-OVM+Demo+Environment+Using+VirtualBox
+                }
+        }
+        O openshift
+        {
+                c teacher console		https://openshift.redhat.com/app/console/application/535177b55004465dda000229-teacher
+        }
+        p pxe server esxi init doc	http://appsdoc.us.oracle.com:8080/docs/docview/Users/agonikma/esxi_stateless.html
+        r	http://rno-lm.us.oracle.com/LabManager/
+        s	soap	http://rno-lm.us.oracle.com/LabManager/SOAP/LabManager.asmx
+        v vagrant image list	http://www.vagrantbox.es/
+        w wiki status	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/Configuration+Status+by+Team
+}
+V voice stuff
+{
+        a android tasks		https://support.google.com/websearch/answer/2842392?hl=en
+}
+w willard
+{
+        m monika	https://sites.google.com/a/berkeley.net/mrmonikasclass/
+}
+W Windows
+{
+        2 w2k
+        {
+                2 prices			http://www.epinions.com/cmsw-Operating_Systems-All-Microsoft_Windows_2000_Server
+                c Windows 2000 compatibility	http://msdn.microsoft.com/library/techart/win2000appcomp.htm
+                f feature grid for family	http://www.microsoft.com/windows2000/serverfamily/default.asp
+        }
+        a asp
+        {
+                c common tasks			http://localhost:7081/quickstart/howto/
+                C chilisoft asp doc		http://developer.chilisoft.com/caspdoc/360docs/
+                t asp tutorial			http://www.aspalliance.com/aspxtreme/aspnet/language/aspnetlanguages.aspx
+        }
+        A MS Access
+        {
+                a ado microsoft db obj		http://www.xtramania.com/Documentation/ADOxtra/Usage/About/
+                c corruption of jet dbs		http://support.microsoft.com/default.aspx?scid=kb;EN-US;300216#11
+                r ado Recordset			http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ado270/htm/mdaobj01_20.asp
+                s sample connection strings	http://www.able-consulting.com/ADO_Conn.htm
+        }
+        b broken trust relationship
+        {
+                m manual fix			http://virtualcurtis.wordpress.com/2011/03/02/fix-the-security-database-on-the-server-does-not-have-a-computer-account-for-this-workstation-trust-relationship/
+                t tool joe			http://blog.joeware.net/2012/06/05/2508/
+        }
+        c comparison check list different versions	http://www.sevenforums.com/tutorials/14422-compare-windows-7-editions.html
+        d diskpart				https://technet.microsoft.com/en-us/library/Cc766465%28v=WS.10%29.aspx
+        k MS knowledge base				http://support.microsoft.com/default.aspx?scid=fh;EN-US;KBHOWTO
+        K MS knowledge base articles
+        {
+                d db
+                {
+                        m modify db			http://support.microsoft.com/default.aspx?scid=kb;EN-US;307587
+                }
+        }
+        m microsoft
+        {
+                d downloads			https://msdn.microsoft.com/en-us/subscriptions/securedownloads/default.aspx
+                s msdn subscriptions		https://msdn.microsoft.com/en-us/subscriptions/manage/default.aspx
+        }
+        n nt
+        {
+                7 7.8gb system disk limitation hack	http://www.nu2.nu/fixnt4/
+        }
+        o office
+        {
+                0 office xp product breakdown, prices		http://www.microsoft.com/office/evaluation/fastfacts.asp
+                f find fast disable
+                {
+                        7 office97	http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q158/7/05.asp&NoWebContent=1
+                        2 office2000	http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q199/7/87.ASP&NoWebContent=1
+                }
+        }
+        r remote web terminal services			http://www.microsoft.com/windowsxp/pro/downloads/rdwebconn.asp
+        R reg.exe how-to	http://www.petri.co.il/reg_command_in_windows_xp.htm
+        S scripting kixstart				http://www.robvanderwoude.com/robnavkix.html
+        s security
+        {
+                2 w2k licensing				http://www.tek-tips.com/gfaqs.cfm/lev2/3/lev3/19/pid/48/fid/1925
+                a accept fake SSL certificates in Java	http://blogs.sun.com/andreas/entry/no_more_unable_to_find
+                c cheap ssl certificate			http://www.freessl.com/comparison.html
+                C certificate import/export
+                {
+                       i import			http://support.microsoft.com/default.aspx?scid=kb;EN-US;232137
+                        e export			http://support.microsoft.com/default.aspx?scid=kb;en-us;232136
+                }
+                h shutdown tracker disable		http://www.windowsnetworking.com/articles_tutorials/disable-shutdown-event-tracker-windows-2003.html
+                f firewall w/ windows			http://www.informit.com/content/printerFriendly.asp?product_id=%7BB180E911-AA4F-4B18-B9DA-5B996BE38B28%7D&st=%7B1128D896-3A1E-422E-B810-A134C0723E3F%7D
+                F firewall and safetp			http://safetp.cs.berkeley.edu/firewall.html
+                i iis ssl				http://www.somacon.com/iis_ssl/
+                I iis ssl install			http://www.instantssl.com/support/cert_installation/iis5x.html
+                l netmeeting and firewalls		http://www.microsoft.com/windows/NetMeeting/Corp/reskit/Chapter4/default.asp
+                n BAD netmeeting and firewalls		http://support.microsoft.com/default.aspx?scid=kb;en-us;q158623
+                N netmeeting and firewalls		http://www.ddug.org/netmeeting_firewall.html
+                o IIS security overview			http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnsecure/html/WebsecIISsec.asp
+                s spoof MAC address
+                {
+                        h hardware MAC address spoofing	http://www.atstake.com/research/reports/acrobat/mac_address_cloning.pdf
+                        u gnu unix MAC address spoofing	http://www.alobbs.com/modules.php?op=modload&name=macc&file=index
+                        w w2k MAC address spoofing	http://www.klcconsulting.net/Change_MAC_w2k.htm
+                }
+        }
+        t time service config	http://tf.nist.gov/service/pdf/win2000xp.pdf
+        v vhd boot
+        {
+                d disk2vhd	https://technet.microsoft.com/en-us/sysinternals/ee656415.aspx
+                g guide	http://blogs.msdn.com/b/mikeormond/archive/2009/10/09/boot-windows-7-from-vhd-without-installing-a-native-os.aspx
+                i imagex
+                {
+                        a apply	https://technet.microsoft.com/en-us/library/dd744531(v=ws.10).aspx
+                }
+                s setup	http://blogs.msdn.com/b/knom/archive/2009/04/07/windows-7-vhd-boot-setup-guideline.aspx
+        }
+        u update	http://windowsupdate.com
+}
+x aix
+{
+        i image verify
+        {
+                1 aix1			http://aix1/ptimages/legacy/community.gif
+                2 aix2			http://aix2/ptimages/legacy/community.gif
+                3 aix3			http://aix3/ptimages/legacy/community.gif
+                4 aix4			http://aix4/ptimages/legacy/community.gif
+        }
+        p pfr tools			http://www-106.ibm.com/developerworks/eserver/articles/AIX5.2PerfTools.html
+        P aix3 pt			http://aix3.plumtree.com:8080/portal/server.pt
+        t aix3 tomcat			http://aix3.plumtree.com:8080
+}
+X tax
+{
+        a alameda prop			http://www.acgov.org/MS/prop/index.aspx?PRINT_PARCEL=60-2465-43
+        A alameda prop payment history	https://www.acgov.org/ptax_pub_app/RealSearch.do
+        c franchise tax board		http://www.ftb.ca.gov/
+        C franchise tax board mailing addresses	https://www.ftb.ca.gov/aboutFTB/add.shtml
+        e edd				http://www.edd.ca.gov/diind.htm
+        i irs				http://www.irs.gov/app/picklist/list/formsInstructions.html
+        s secretary of state		https://businessfilings.sos.ca.gov/
+}
+Z	misc
+{
+        0 my twitter feed		https://api.twitter.com/1/statuses/user_timeline.rss?screen_name=nasproul
+        1 1209 logmein			https://secure.logmein.com/central/Central.aspx
+        2 1209 house instructions	https://docs.google.com/document/d/1zrHMArvDICstK0iYZUZa6cIwAOKtSNH6iqo2KdTNrZo/edit
+        6 bernal 			http://trickshots63.weebly.com
+        7 CYO cyo forms			http://www.oakdiocese.org/CYO-and-scouts/cyo/cyoforms.html
+        a software utensils		http://nelson-sw.blogspot.com/
+        # same as http://nelson-sproul.blogspot.com/
+        A	personal
+        {
+                b blog	http://www.blogger.com/posts.g?blogID=1082239188644858370
+                p pix	http://picasaweb.google.com/nelson.sproul/
+        }
+        b bandwidth latency speed test	http://www.speedtest.net/
+        B baby names			http://www.ssa.gov/OACT/babynames/
+        c comcast listings		https://www.comcast.com/Customers/clu/ChannelLineup.ashx?clu=830#
+        C credit freeze			http://www.privacy.ca.gov/sheets/cis10securityfreeze.htm
+        d deals
+        {
+                1			http://www.BizRate.com
+                2			http://www.MySimon.com
+                3			http://www.Amazing-Bargains.com
+                4			http://www.FatWallet.com
+                5			http://www.eDealFinder.com
+                6			http://www.DealNews.com
+                c			http://www.cardmemberservices.com
+        }
+        e				http://www.espn.go.com
+        E dropbox
+        {
+                t truecrypt		http://techland.time.com/2010/10/14/encryption-part-3-how-to-keep-secret-files-in-the-cloud/
+                s secretsync bundled encryption	http://getsecretsync.com/ss/
+        }
+        f flight faa delay map		http://www.fly.faa.gov/flyfaa/usmap.jsp
+        g guide1209			https://sproul.github.io/guide1209/
+        G geography games		http://www.sheppardsoftware.com
+        h heloc cheap		http://www.thirdfederal.com/homeequity/lowest_rate/programrules.aspx
+        H				http://www.hollywood.com
+        O				http://www.hbo.com
+        i insurance strength		http://www.insure.com/ratings/sandp.cfm
+        I citrix ICA client 7		http://www.citrix.com/site/SS/downloads/details.asp?dID=2755&downloadID=8747
+        j jobs
+        {
+                m monster subscriptions	http://my.monster.com/newsletters.asp
+                M			http://www.Monster.com/
+                6			http://www.Dice.com/
+                F			http://www.flipdog.com/
+                d			http://www.Hotjobs.com/
+                g			http://www.Kenda.com/
+                0			http://www.Careermag.com/
+                1			http://www.Careerpath.com/
+                2			http://www.Computerjobs.com/
+                3			http://www.Corp2corp.com/
+                4			http://www.CPUniverse.com/
+                5			http://www.Craigslist.com/
+                7			http://www.Elance.com/
+                8			http://www.Ework.com/
+                9			http://www.Freeagent.com/
+                a			http://www.Freelance.com/
+                b			http://www.Guru.com/
+                c			http://www.Headhunter.net/
+                e			http://www.Imandi.com/
+                f			http://www.Joboptions.com/
+                i			http://www.Net-Temps.com/
+                j			http://www.Recruitdynamics.com/
+                k			http://www.Skillsvillage.com/
+                l			http://www.Spectrumsolutionsinc.com/
+                m			http://www.Techcellence.com/
+                n			http://www.Visajobs.com/
+                o			http://jobs.hallkinion.com/employee/psearchMgr?
+                t toronto		http://thestar.workopolis.com/content/fasttrack/technology.html
+        }
+        k kbd	http://omega.osu.cz/root/root/library/SGI_bookshelves/SGI_EndUser/books/SWin_UG/figures/22.PCkboard.gif
+        l logic
+        {
+                1			http://einstein.et.tudelft.nl/~arlet/puzzles/logic.html
+                2			http://www.google.com/search?hl=en&ie=UTF-8&oe=UTF-8&q=logic+puzzles
+        }
+        L lunar phases			http://www.googol.com/moon/
+        m maps
+        {
+                1 1209 map		http://maps.google.com/maps?q=1209+Glen+Ave.,Berkeley+CA&spn=0.022685,0.040525&hl=en
+                4 475 map		http://goo.gl/maps/LuAPV
+        }
+        M movie list			http://www.flatlandvideo.itgo.com/catalog.html
+        o				http://www.theonion.com/
+        O opera				http://www.operaindex.com
+        p phone spec		http://www2.panasonic.com/consumer-electronics/support/Phones-Fax/Telephones/Expandable-Systems/model.KX-TG9341T
+        P tech penetration survey	http://www.securityspace.com/s_survey/data/index.html
+        r router			http://192.168.1.1
+        S smog				http://www.smog4less.com/
+        s slate				http://www.slate.com
+        t traffic			http://www.traffic.com/San-Francisco-Traffic/San-Francisco-Traffic-Reports.html
+        T tv				http://atdhe.net/
+        v voice s/w nuance natspeak 10.1 64 bit			http://www.nuance.com/vista/naturallyspeaking/Dragon10.1/form.asp?L=English
+        x				http://shop.store.yahoo.com/safetycentral/isgasmas.html
+        w weather
+        {
+                b weather berkeley		http://www.weather.com/weather/tenday/l/94708:4:US
+                B weather boulder		http://www.weather.com/weather/tenday/l/USCO0038:1:US
+                e weather evanston		http://www.weather.com/weather/tenday/l/60201:4:US
+                l weather lenk			http://www.weather.com/weather/today/Lenk+SZXX0424:1:SZ
+                m weather maine mal		http://www.weather.com/weather/tenday/l/USME0408:1:US
+                n weather new canaan		http://www.weather.com/weather/tenday/l/06840:4:US
+                p weather paris			http://www.weather.com/weather/tenday/l/FRXX0076:1:FR
+                s weather SF			http://www.weather.com/weather/tenday/l/94708:4:US
+                w weather Wilmington		http://www.weather.com/weather/tenday/l/19805:4:US
+                t weather turkey		http://www.weather.com/weather/tenday/Istanbul+TUXX0014:1:TU
+        }
+        y youtube upload techniques		http://support.google.com/youtube/bin/answer.py?hl=en&answer=1722171
+}
+o racle
+{
+        a stuff
+        {
+                b ADE branching	http://aimeweb-old.us.oracle.com/intg-doc/reference/tasks/createsparsebranch.html
+                d ADE ade	http://ade.oraclecorp.com/twiki/pub/ADE32/WebHome/ADE_UG_321.pdf
+                D ADE ade ref	http://ade.oraclecorp.com/twiki/bin/view/ADEFAQ/AdeCommandReference
+                p aps	https://aps.oraclecorp.com/aps/login.jsp
+                i aime	http://aimeweb.us.oracle.com/
+                p desktop application installer	//rnasgard/iso/applicationinstaller.exe
+        }
+        A Applications Network	http://appsnet.oracle.com
+        b bug
+        {
+                d bugdb	https://bug.oraclecorp.com
+                p uat2 preview	http://redsap58.bea.com:7501/smeighan/boa/clfy/boa_bugdb.html?PROJECT=BEA_BID&DEFECTID=1028
+                t bugdb transition doc	http://one.bea.com/portal/server.pt/gateway/PTARGS_0_217379_4353_3170_9247_43/http;/prodgadget12.plumtree.com;80/collab/do/document/overview?projID=2662
+        }
+        B oraclebi BI
+        {
+                a admin guide	http://download.oracle.com/docs/cd/B40078_02/doc/bi.1013/b31770.pdf
+                c Infrastructure Installation and Configuration Guide	http://download.oracle.com/docs/cd/E10415_01/doc/bi.1013/b31765.pdf
+                E forum external	http://forums.oracle.com/forums/forum.jspa?forumID=105
+                f forum internal	http://myforums.oracle.com/jive3/forum.jspa?forumID=1390
+                F
+                {
+                        e xec	http://forums.oracle.com/forums/thread.jspa?threadID=883074&stqc=true
+                        f ilter trouble	http://forums.oracle.com/forums/messageview.jspa?messageID=3386665&stqc=true
+                }
+                j jeremy_linux	http://winbi:9704/analytics/saw.dll?Dashboard&_scid=0ds6iCK-XmM
+                s soap	http://winbi:9704/analytics/saw.dll?WSDL
+                w wiki from craciun qa	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/Merging+aseng-analytics
+        }
+        c chandy
+        {
+                j jc	http://aseng-wiki.us.oracle.com/asengwiki/display/ASBldAndIntg/INTG+projects
+        }
+        C c
+        {
+                e cell phone	https://global-ebusiness.oraclecorp.com/OA_HTML/OA.jsp?browseCategoryId=313196&page=/oracle/apps/icx/icatalog/shopping/webui/SearchStorePG&_ti=305591501&retainAM=Y&addBreadCrumb=S&oapc=9&oas=C2cxh5h3j4m88GGcDNauWQ..
+                o collab - email/calendar/todo	http://CollabSuite.oracle.com
+        }
+        d docker_in_oracle
+        {
+                r registries	http://aseng-wiki.us.oracle.com/asengwiki/display/~robert_patrick/Working+with+a+Docker+Registry
+        }
+        D DNS dns requests	http://iprequest.oraclecorp.com/
+        e r - expense reports ERs	https://global-ebusiness.oraclecorp.com/OA_HTML/RF.jsp?function_id=1175184&resp_id=22918&resp_appl_id=200&security_group_id=0&lang_code=US&params=jkXswcRQaeNlMV4gkvG6JdYr1kywGPUedkh-iIaZKIw&oas=xR7blKwgLN43lga-X0CWjw..
+        f farm host request	https://stitweb.us.oracle.com/stit-hrs/authHRS.do
+        F my public URL	http://files.oraclecorp.com/app/FileBrowsePage?event=ChangeDir&FBP=AllPublic/Users/Users-N/nelson.sproul-Public/
+        g global service desk	http://my.oracle.com/portal/page/myo/Global_IT/Global%20IT%20Home/Global_Desktop_Support_Home_Page
+        h holiday oracle	http://hrweb.us.oracle.com/benefits/holiday.htm
+        H hr fsa msa benefits	http://www.oraclebenefits.com
+        i internal apps	http://Global-eBusiness.oraclecorp.com
+        I IT_help	http://Global-Service.oraclecorp.com
+        #l Learning Network	http://www.oracle.com/education/oln
+        l liberte group
+        {
+                p product backlog		https://jira.oraclecorp.com/jira/browse/FMWBREL-77?filter=10806
+                s sprints and scrum board	https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=375&view=planning&selectedIssue=FMWBREL-1738
+        }
+        L label group webapps
+        {
+                A all	z:/data/labels_all.htm
+                a rajeev frequently used platform integration page	http://intg.us.oracle.com
+                b fmw porting application	http://intg.us.oracle.com:7001/stpasint/main.jsp
+                c rajeev frequently used platform integration page	hthttp://aseng-wiki.us.oracle.com/asengwiki/display/ASPorting/Porting+Builds
+                d rajeev frequently used platform integration page	hthttp://dsunran05.us.oracle.com/twiki/bin/view/StpasintWW/WebHome
+                B BI	http://rnolm4dev005.us.oracle.com:7777/analytics/saw.dll?Dashboard&_scid=Iv-bvCtT0tw&PortalPath=/shared/Users/_portal/Nelson%20Sproul&Page=page%201&PageIdentifier=08lpoj8bh57vfaok&BookmarkState=fqkjk7bq1ks86grbh01s8mbtp6
+                d Tag Subu	http://dadvip0124.us.oracle.com/tagdb/main.jspx
+                i ifarm team	http://stacy07.us.oracle.com/apps/m/farm.html
+                l labels Bhanu           http://labels.us.oracle.com/asint/index.uix
+                p Porting Rajeev        http://intg.us.oracle.com:7001/stpasint/main.jsp
+                # equiv to http://dadvip0124.us.oracle.com/fmw/faces/Mats.jsp?_afrLoop=109414240480515&_afrWindowMode=0&_adf.ctrl-state=1ciytb2ooc_19:
+                P preflight                 http://stahr05.us.oracle.com:8080/fmw/
+        }
+        m monitor ui	http://adc00jcu.us.oracle.com:5678/monitor_ui
+        M medical
+        {
+                f flex			https://www.oraclebenefits.com/ess/home/login.aspx
+                h home flex		https://www.oraclebenefits.com/ess/custom/oraclewelcome.wya
+                l lab corp		https://patsched.labcorp.com/appointment-scheduling/redirect.do?locationid=18840
+        }
+        n n-home		http://snickers.plumtree.com/~nelsons/
+        o software	http://stcontent.oracle.com/content/dav/oracle/Libraries/SystemsEngineering/SystemsEngineering-Public/WebContent/HTML/PublicSoftware.htm
+        p plumtree
+        {
+                b builds		http://wonkaha.us.oracle.com/bmc/gp/
+                B benefits
+                {
+                        c benefits	https://www.benefitsconnect.net/bea
+                        h benefits	http://myhr.beasys.com:7501/hr/benefits/2005_benefits/index.jsp
+                }
+                c avocent kvm console	https://rnadmin-dsv.bea.com/dsview/protected/login.do
+                # should it be https://employee.wageworks.com/BuyAPass/Confirm.aspx	?
+                C commuter checks	http://getwageworks.com/oracle/
+                d			http://devcenter.plumtree.com
+                D dotnet pt debug	//socrates/build/components/RELEASE/portal/5.0.2-rc2/windows/Documentation/PlumtreeUICustomizationGuide_v5-0-2.pdf
+                #
+                # not https://espp.melloninvestor.com/
+                e espp			http://www.etrade.com/stockplans
+                h
+                {
+                        . home			http://www.plumtree.com
+                        e evidence-based medecine metrics site	http://www.thennt.com
+                        m medical fsa	http://www.myuhc.com
+                        r hr		http://myhr.bea.com
+                }
+                H p HP hp printer webapp	http://172.17.6.9
+                k skynet test result	//socrates/build/components/ATTEMPT/skynet-dev/buildengine-localrepo/components/RECENT/skynet-main/privatebuild/test-ras/results.html
+                I images
+                {
+                        3 w2k3 image 	//Plato/englabs/SNGLBOOT/1850/W2K3STD/SP1/PER_USER
+                }
+                l labs
+                {
+                        Q qa resources		http://qweb2/configlabs
+                }
+                L locations
+                {
+                        l ldap install		//socrates/build/components/RECENT/ldapaws.product-2.0.x_rp/LATEST/InstallGuide/InstallationGuide_LDAPAWSPWS_v2.0.pdf
+                        r redhat		//plato/Engineering/cloning/ISO/RHEL4
+                        s suse			//plato/softdepot/linux/SLES_9_ISO_images
+                        k w2k resource kit	//plato/MSDN/Operating Systems/DVD 1177 (Win2k)/ENGLISH/WIN2000/RESKIT/SETUP.EXE
+                        3 w2k3			//plato/MSDN/Operating Systems/DVD 2428.2 (Win2003)/ENGLISH/WIN2003/STANDARD/I386
+                        p r BEA printer map	http://inweb.beasys.com/dept/it/help/printers/sanfrancisco.htm
+                        v vnc			//plato/Engineering/Software/VNC
+                }
+                m maps
+                {
+                        c context quiz	http://www.ilike2learn.com/ilike2learn/unitedstates.html
+                        s shape us	http://www.yourchildlearns.com/mappuzzle/us-puzzle.html
+                }
+                o overlord			http://overlord.bea.com/lm/ffquery.php
+                O OpenFoundation.net	file://///socrates/build/components/INTERNAL/xdk/LATEST/dotnet-openfoundation-docs/Documentation.chm
+                p procurement
+                {
+                        b buy		http://myfs.beasys.com/servlets/iclientservlet/fsprod/?cmd=login
+                        B Buy		http://eprocurement.beasys.com:7501/portal/ess/main?_nfpb=true&_pageLabel=eproc_portal_page
+                        d doc		http://inweb.beasys.com/admin/finance/procurement/
+                        e expense reports	http://expenses.beasys.com:7501/portal/ess/main?_nfpb=true&_pageLabel=expenses_portal_page&_nfls=false
+                }
+                Q qtp
+                {
+                        l license server CD	//plato/engineering/Software/Mercury/QuickTestPro8.2/LicenseServer/vautorun.exe
+                        t tests		//socrates/sierrashare/automation/QTP/SnapShotQueryEnhancements
+                }
+                r roster	file:///c:/Users/nelsons/Dropbox/data/roster.png
+                t thanx food freq flyer	https://app.thanx.com/rewards/35961/details?back=Reward&ref_path=/rewards/35961/details
+        }
+        # q quicklinks	http://Quicklinks.us.oracle.com 
+        q QA stage bi	http://stbed37.us.oracle.com:9704/analytics/saw.dll?Dashboard
+        Q QA oracle bi	https://aseng-analytics.us.oracle.com/analytics/saw.dll?Dashboard
+        r repos
+        {
+                1 oracle linux	http://kernel.us.oracle.com/uln/
+                2 repo oracle		http://public-yum.oracle.com/
+                3 repo oracle		http://linux.us.oracle.com/uln/
+        }
+        # repo ol6 latest		http://kernel.us.oracle.com/uln/uln-internal-setup-2.0.2-0.el6.noarch.rpm
+        # repo ol6_latest         http://uln-internal.oracle.com/uln/OracleLinux/OL6/latest/$basearch/
+        # repo ol6_addons         http://uln-internal.oracle.com/uln/OracleLinux/OL6/addons/$basearch/
+        # repo ol6_oracle         http://uln-internal.oracle.com/uln/OracleLinux/OL6/oracle/$basearch/
+        # repo ol6_ksplice                http://uln-internal.oracle.com/uln/OracleLinux/OL6/ksplice/$basearch/
+        # repo ol6_Dtrace_latest          http://uln-internal.oracle.com/uln/OracleLinux/OL6/Dtrace/latest/$basearch/
+        # repo ol6_Dtrace_BETA            http://uln-internal.oracle.com/uln/BETA/OracleLinux/OL6/Dtrace/$basearch/
+        # repo ol6_mysql-ha-utils         http://uln-internal.oracle.com/uln/OracleLinux/OL6/mysql-ha-utils/$basearch/
+        # repo ol6_MySQL          http://uln-internal.oracle.com/uln/OracleLinux/OL6/MySQL/$basearch/
+        # repo ol6_UEK_latest             http://uln-internal.oracle.com/uln/OracleLinux/OL6/UEK/latest/$basearch/
+        # repo ol6_UEK_base               http://uln-internal.oracle.com/uln/OracleLinux/OL6/UEK/base/$basearch/
+        # repo ol6_ga_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/0/base/$basearch/
+        # repo ol6_ga_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/0/patch/$basearch/
+        # repo ol6_u1_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/1/base/$basearch/
+        # repo ol6_u1_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/1/patch/$basearch/
+        # repo ol6_u2_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/2/base/$basearch/
+        # repo ol6_u2_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/2/patch/$basearch/
+        # repo ol6_u3_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/3/base/$basearch/
+        # repo ol6_u3_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/3/patch/$basearch/
+        # repo ol6_u4_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/4/base/$basearch/
+        # repo ol6_u4_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/4/patch/$basearch/
+        s s
+        {
+                a admin	http://iasdocs.us.oracle.com/iasdl/90200doc_otn/manage.902/a96115/toc.htm
+                b bg	http://iasdocs.us.oracle.com/iasdl/90400doc/manage.904/b10660/toc.htm
+                c configuring oracle apache	http://iasdocs.us.oracle.com/iasdl/90200doc_otn/manage.902/a96115/toc.htm
+                f faq	http://itsource.oraclecorp.com/owc_wiki/page/show.jz?page=SSOPartnerApplicationRequest
+                #r sr for server	http://my.oracle.com/myhelp/secure/index.html?srtype=createsr&cat=Server&area=Access+Request&prevUrl=&a_id=249&session=e3PnCBkm
+                R sr_for_server		https://myhelp.oracle.com/app/search/kw/devops/okcsSearchSession/ZlVZdzlDeGdCd2xfeFZPal8xWlR1dUx6ZnhnUm55UHNzMzA2bHRsZH5icUE1bnRFbDJtOGIxbzJScjJYOEtKb3k0Um1xaE9veVpfakd_TTlxTXdlMklqeEcwR0FqYlkzN1ZPeFBDZmRYSzJmdllpcmZPcVhpVG9qWVphRGpaYUN2c1BGbkNEdXhrSH40IQ!!/page/1/priorTransactionID/587546724/transactionID/587546724
+                r sr		https://myhelp.oracle.com/app/home
+                S signup	http://itweb.oraclecorp.com/itweb/aboutit/web/ihosting/custinfo/pat/pareq.jsp
+                s 
+                {
+                        t test ssl certificate request		http://ptntas12.us.oracle.com/certsrv/certcarc.asp
+                        w weblogic setup		http://aseng-wiki.us.oracle.com/asengwiki/pages/viewpage.action?pageId=14751
+                }
+        }
+        S search labels	http://stasb18.us.oracle.com/rbishnoi/labels.cgi?series=AIMEWEB_MAIN
+        t Technology Network	http://otn.oracle.com 
+        T raining	http://ouweb.oraclecorp.com/bea
+        u niversal installer	http://st-doc.us.oracle.com/11/111/em.111/b31207/toc.htm
+        U users generic	https://pdit-document-repository.oraclecorp.com/display/DISG/PDIT+Linux,Unix+Generic+Accounts+FAQ
+        x BART AC	http://www.gsbstrategies.com/transit/oracle/index.php
+        v vmw wiki	https://stbeehive.oracle.com/teamcollab/wiki/PDIT+VMWare+Deployment+Information:adc-vc
+        # vpn		https://myaccess.oraclevpn.com/
+        V vpn pw change	https://oim.oraclecorp.com/identity/faces/home?_afrLoop=1181899819402022&_afrWindowMode=0&_adf.ctrl-state=cb8i6hkox_4
+        w wifi		https://gmp.oracle.com/captcha/index.php
+        W wiki
+        {
+                a aime	http://aseng-wiki.us.oracle.com/asengwiki/display/STEng/STEng+Web+Project
+                j jk aime	http://aseng-wiki.us.oracle.com/asengwiki/pages/viewpage.action?pageId=57314398
+                s sso setup	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/BIQA+-+BI+EE+Platform+-+How+To+-+SSO+Configuration
+        }
+        y um repo setup		http://kernel.us.oracle.com/uln/
+}
+z web conf
+{
+        f faiza		chrome:https://oracle.zoom.us/my/faiza
+        g greg		https://www.uberconference.com/monroefpetc
+        j jesus		chrome:https://oracle.zoom.us/j/6505065536
+        l loreli	chrome:https://oracle.zoom.us/my/loreli
+        n nelson	chrome:https://oracle.zoom.us/my/nelsons
+        r rohit		chrome:https://oracle.zoom.us/my/rohit
+        R rakesh	chrome:https://oracle.zoom.us/my/rakesh.n.kumar
+        s
+        {
+                c steve.collins	chrome:https://oracle.zoom.us/my/steve.collins
+                i simon		chrome:https://oracle.zoom.us/my/simonyu
+                s subu		chrome:https://oracle.zoom.us/my/isubu
+                u surabhi	chrome:https://oracle.zoom.us/my/surabhi
+        }
+        v viraj		chrome:https://oracle.zoom.us/my/virajpurang
+        z zoom login ____TO HOST_______	chrome:https://oracle.zoom.us/meeting
+}

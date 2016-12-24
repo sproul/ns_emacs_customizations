@@ -1,0 +1,23 @@
+(provide 'nfix)
+(defun nfix-apply(directive)
+  (cond
+   ((string-match "\\([0-9a-zA-Z_]+\\) = \\(.*\\)" directive)
+    (let(
+         (var   (nre-pat 1 directive))
+         (val   (nre-pat 2 directive))
+         )
+      (goto-char (point-min))
+      (n-s (concat var " = ") t)
+      (delete-region (point)
+                     (progn
+                       (end-of-line)
+                       (point)
+                       )
+                     )
+      (insert val)
+      )
+    )
+   (t (error "nfix-apply: did not understand %s" directive)
+      )
+   )
+  )

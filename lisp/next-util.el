@@ -1,0 +1,36 @@
+(provide 'next-util)
+(defun next-util-ck-data-cfg(table)
+  (let(
+       (psoCfg	 (concat "$ext/pso/$extdataset/V0/al" table ".cfg"))
+       (baseCfg	 (concat "$extInstall/largesoft/install/V0/al" table ".cfg"))
+       maybeCmAdd
+       )
+    (cond
+     ((n-file-exists-p psoCfg)
+      ;; done already
+      )
+     ((not (n-file-exists-p baseCfg))
+      (n-file-find psoCfg)
+      (insert "FileList=" table "_pso.txt," table ".txt\n")
+      (nfly-write-file baseCfg)
+      (setq maybeCmAdd t)
+      )
+     (t   ; baseCfg exists
+      (n-file-copy baseCfg psoCfg)
+      (n-file-find psoCfg)
+      (if (n-s "FileList=")
+	  (insert table "_pso.txt,")
+	(goto-char (point-max))
+	(insert "FileList=" table "_pso.txt," table ".txt\n")
+	)
+      (nfly-write-file baseCfg)
+      (setq maybeCmAdd t)
+      )
+     )
+    (if (and maybeCmAdd
+	     (y-or-n-p (concat "cm add " psoCfg "? "))
+	     )
+	(nsyb-cm "add")
+      )
+    )
+  )

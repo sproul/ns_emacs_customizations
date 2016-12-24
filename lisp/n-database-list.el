@@ -1,0 +1,32 @@
+(defun n-database-list-push(key val)
+  (let(
+       (size (n-database-list-get-size key))
+       )
+    (n-database-setelt key size val)
+    )
+  )
+(defun n-database-list-pop(key)
+  (let(
+       (size (n-database-list-get-size key))
+       )
+    (n-database-list-elt (1- size))
+    )
+  )
+
+(defun n-database-list-get-size(key)
+  (let(
+       (j 0)
+       )
+    (while (n-database-list-elt j)
+      (setq j (1+ j))
+      )
+    j
+    )
+  )
+(defun n-database-list-elt(key x)
+  (n-database-get (format "%s[%d]" key x))
+  )
+(defun n-database-list-setelt(key x val)
+  (n-database-set (format "%s[%d]" key x)
+		  val)
+  )

@@ -1,0 +1,45 @@
+:
+olddev=$1
+oldHOME=$2
+oldJAVA=$3
+
+if [ "$olddev" = "-" ]; then
+	olddev=""
+fi
+if [ "$oldHOME" = "-" ]; then
+	oldHOME=""
+fi
+if [ "$oldJAVA" = "-" ]; then
+	oldJAVA=""
+fi
+
+Adjust()
+{
+	cat $1 | 
+	(
+	if [ -n "$olddev" ]; then
+		sed -e "s#$olddev#$dev#"
+	else
+		cat
+	fi |
+	if [ -n "$oldHOME" ]; then
+		sed -e "s#$oldHOME#$HOME#"
+	else
+		cat
+	fi |
+	if [ -n "$oldJAVA" ]; then
+		sed -e "s#$oldJAVA#$JAVA#" 
+	else
+		cat
+	fi
+	) > $1.tmp
+	mv -f $1.tmp $1
+}
+
+cd $HOME/work/emacs/tags/
+Adjust main.flist
+Adjust main.classes
+Adjust main.tags
+
+exit
+sh -x $HOME/work/emacs/tags/mv_tags '//griffin/F Oracle/p4/depot'

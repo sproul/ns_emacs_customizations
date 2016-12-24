@@ -1,0 +1,18 @@
+(setq n-data-menu-plat (list
+                        (cons ?a "alphavms/")
+                        (cons ?x "axposf/")
+                        (cons ?g "generic/")
+                        (cons ?h "hp800/")
+                        (cons ?m "mvs/")
+                        (cons ?n "ncr/")
+                        (cons ?3 "nt386/")
+                        (cons ?o "os2/")
+                        (cons ?r "rs6000/")
+                        (cons ?s "sun4/")
+                        (cons ?_ "sun_svr4/")
+                        (cons ?u "unixware/")
+                        (cons ?v "vms/")
+                        (cons ?w "win3/")
+                        )
+      )
+

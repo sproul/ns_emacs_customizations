@@ -110,7 +110,7 @@
                  (list	"^[ \t]*u$"	'nsh-unsupported-so-exit)
                  (list	".*\\bds.s$"	'n-complete-replace "ds.s" "date '+%Y-%m-%e'@@")
                  (list	".*\\bds.st$"	'n-complete-replace "ds.st" "date '+%Y.%m.%e.%H.%M'@@")
-          (list	"^[ \t]*e$"	'n-complete-dft	"lse\n@@")
+                 (list	"^[ \t]*e$"	'n-complete-dft	"lse\n@@")
                  (list	"^[ \t]*ef$"	'nsh-cannot-find-file-or-dir)
                  (list	"^[ \t]*er$"	'nsh-error-complete)
                  (list	"^[ \t]*E$"	'n-complete-replace	"E"	"elif [ @@ ]; then\n@@")
@@ -120,7 +120,7 @@
                  (list	"^[ \t]*i$"	'n-complete-dft	"f [ @@ ]; then\n@@\nfi\n@@")
                  (list  "^[ \t]*I$"     'n-complete-replace     "I"	"if @@; then\n@@\nfi\n@@")
                  (list	"^[ \t]*l$"	'n-complete-replace	"l"	"elif [ @@ ]; then\n@@\n")
-             (list	"^exit$"	'nsh-call-self)
+                 (list	"^exit$"	'nsh-call-self)
                  (list	".*| w$"		'n-complete-replace	"| w"	"|\nwhile read fn; do\n@@\ndone\n")
                  (list	"^[ \t]*ssh$"		'n-complete-dft	" -o StrictHostKeyChecking=no -o NumberOfPasswordPrompts=0 @@")
                  (list	"^[ \t]*W$"		'n-complete-replace	"W"	"while read fn; do\n\ndone\n")
@@ -130,6 +130,13 @@
                  (list	"^[ \t]*w$"	'nsh-expand-to-while)
                  (list	"^[ \t]*fj$"	'n-complete-replace "fj" "for (( j = @@0; j < @@; j++ )); do\n@@\ndone\n")
                  (list	"^[ \t]*2$"	'n-complete-dft	">&1")
+                 (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) D$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) D" "if [ ! -d \"$\\1\" ]; then\necho \"$0: error: could not find directory \\\\\"\\1\\\\\"\" 1>&2\nexit 1\nfi\n@@\n")
+                 (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) F$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) F" "if [ ! -f \"$\\1\" ]; then\necho \"$0: error: could not find file \\\\\"\\1\\\\\"\" 1>&2\nexit 1\nfi\n@@\n")
+                 (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) n$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) n" "if [ -n \"$\\1\" ]; then\n@@\nfi\n@@\n")
+                 (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) F$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) F" "if [ ! -f \"$\\1\" ]; then\necho \"$0: error: could not find file \\\\\"\\1\\\\\"\" 1>&2\nexit 1\nfi\n@@\n")
+                 (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) X$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) X" "if [ ! -x \"$\\1\" ]; then\necho \"$0: error: could not executable file \\\\\"\\1\\\\\"\" 1>&2\nexit 1\nfi\n@@\n")
+                 (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) Z$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) Z" "if [ -z \"$\\1\" ]; then\necho \"$0: error: value expected for \\\\\"\\1\\\\\", but saw nothing\" 1>&2\nexit 1\nfi\n@@\n")
+                 (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) z$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) z" "if [ -z \"$\\1\" ]; then\n@@\nfi\n@@\n")
                  )
                 )
         )
@@ -143,7 +150,7 @@
   (n-loc-push)
   (let(
        (switch-expression (progn
-          (n-r "^[ \t]*case \\(.*\\) in" t)
+                            (n-r "^[ \t]*case \\(.*\\) in"t)
                             (nre-pat 1)
                             )
                           )
@@ -151,7 +158,7 @@
        what
        )
     (setq switch-expression (nstr-replace-regexp switch-expression "\"" "")
-          what              (nstr-replace-regexp switch-expression "[`'\"\\$]" "")
+          what     (nstr-replace-regexp switch-expression "[`'\"\\$]" "")
           )
     (cond
      ((string-match "^[0-9]$" what)
@@ -168,7 +175,7 @@
     (nsimple-newline-and-indent)
     (insert "exit 1")
     (indent-according-to-mode)
-
+    
     ;;(nsimple-newline-and-indent)
     ;;(insert ";;")
     )

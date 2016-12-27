@@ -252,7 +252,14 @@ f faiza
                 b Bug_24816336		https://orahub.oraclecorp.com/faiza.bounetta/promotion-config/tree/Bug_24816336
                 o orahub	https://orahub.oraclecorp.com/faiza.bounetta/promotion-config
         }
-        h haproxy		http://slcipau.us.oracle.com:4331/configuration/api/v1/monitoring/integrations/count
+        h hudson
+        {
+                p prod		http://hudsonci.oraclecorp.com/hudson/central/job/ConfigService_Build/
+                P prod test	http://hudsonci.oraclecorp.com/hudson/central/job/ConfigService_Tests/
+                s stage		http://hudsonci.oraclecorp.com/hudson/branching/job/ConfigService_Build/
+                S stage test	http://hudsonci.oraclecorp.com/hudson/branching/job/ConfigService_Tests/
+	}
+        H haproxy		http://slcipau.us.oracle.com:4331/configuration/api/v1/monitoring/integrations/count
         n pcn		http://slcipcn.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
         N pcn cluster	http://slcipcn.us.oracle.com/configuration/api/v1/monitoring/integrations/count
         p production		http://slcipau.us.oracle.com/configuration/api/v1/monitoring/integrations/count

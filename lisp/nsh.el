@@ -138,7 +138,7 @@
                  (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) Z$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) Z" "if [ -z \"$\\1\" ]; then\necho \"$0: error: value expected for \\\\\"\\1\\\\\", but saw nothing\" 1>&2\nexit 1\nfi\n@@\n")
                  (list	"^[ \t]*\\([a-zA-Z0-9_]*\\) z$"	'n-complete-replace "^[ \t]*\\([a-zA-Z0-9_]*\\) z" "if [ -z \"$\\1\" ]; then\n@@\nfi\n@@\n")
                  )
-                )
+)
         )
   (nsh-mode-setup-kbd-map)
   )

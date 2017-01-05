@@ -34,7 +34,6 @@
                           "$mrc/staging.process/$i/mavenfactory/pushlocal/"
                           "$mrc/ucminjection/$i/maveninjection/"
                           "$mrc/ucmprovider/$i/mavenfactory/filesystem/"
-                          "$mrc/ucmprovider/src/test/java/oracle/fmw/platform/mavenfactory/test/"
                           "/cygdrive/c/adt/adt-bundle-windows-x86_64-20140702/sdk/tools/"
                           (cons "$dp/ts/test_input/" ".log")
                           (cons "/cygdrive/c/ts_logs/" ".log")

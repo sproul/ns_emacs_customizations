@@ -19,7 +19,7 @@
         (cons ?\\ "/cygdrive/c/cygwin/")
         (cons ?0 "$TMP/")
         (cons ?a "$dp/bin/")
-        (cons ?A "/net/slcipaq.us.oracle.com/scratch/aa/")
+        (cons ?A "/net/slcipaq.u/scratch/aa/")
         (cons ?b "$dp/sensu/dist/client/bin/")
         (cons ?B "/etc/sensu/bin/")
         (cons ?c "$HOME/git/promotion-config/")
@@ -33,8 +33,8 @@
         (cons ?g "$dp/sproul.github.io/guide1209/")
         (cons ?G "$dp/house/rental/guide/src/")
         (cons ?h "$HOME/")
-        (cons ?H (if (file-exists-p "/net/slcipaq.us.oracle.com/scratch/nsproul/")
-                     "/net/slcipaq.us.oracle.com/scratch/nsproul/"
+        (cons ?H (if (file-exists-p "/net/slcipaq.u/scratch/nsproul/")
+                     "/net/slcipaq.u/scratch/nsproul/"
                    "$dp/house/deck/"
                    )
               )
@@ -57,7 +57,7 @@
           (cons ?m "$mrc/")
           )
          (t
-          (cons ?m "/net/slcipcm.us.oracle.com/scratch/aa/")
+          (cons ?m "/net/slcipcm.u/scratch/aa/")
           )
          )
         (cond
@@ -83,7 +83,7 @@
         ;;(cons ?T "$dp/ts/test_input/")
         (cons ?g "$dp/emacs/tags/")
         (cons ?t  "$TMP/")
-        (cons ?T "/net/slcipaq.us.oracle.com/scratch/pau_logs_selection/")
+        (cons ?T "/net/slcipaq.u/scratch/pau_logs_selection/")
         (cons ?U "$dp/adyn/httpdocs/teacher/usr/")
         (cons ?v "/var/ww/cgi-bin/")
         (cons ?V "$HOME/work/lm/")
@@ -95,4 +95,4 @@
         (cons ?y "$DISCOVERY/")
         )
        )
-   )
+ )

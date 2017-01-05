@@ -357,7 +357,7 @@
                    (point)
                    )
                  )
-  (insert "//rnonas405.us.oracle.com/vol3/unixhome/nsproul/")
+  (insert "/cygdrive/c/Users/nelsons/")
   (end-of-line)
   (nfly-switch-to-backslashes-and-kill)
   )

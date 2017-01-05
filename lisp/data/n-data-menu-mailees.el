@@ -180,7 +180,7 @@
 ;; awinders@hotmail.com andy
 ;; Steve Kishi [steven@vmware.com]; Ottati, Michael Ottati_Michael@emc.com; Wade Benson wbenson@pgp.com; Matthew Stump mstump@pgp.com
 ;; samir@alumni.utexas.net
-;; joseph.hui@oracle.com
+;; joseph.hui@oc
 ;; jameshang@gmail.com
 ;; droydr@gmail.com (510) 409-7646
 ;; amanda chou amandastea@gmail.com
@@ -196,35 +196,34 @@
 ;; Jonathan.blick@gmail.com.
 ;; davidmichaelkelly@gmail.com
 ;; matt@margush.com
-;; security_breach_ww@oracle.com
-;; gis_compliance_ww@oracle.com
+;; security_breach_ww@oc
+;; gis_compliance_ww@oc
 ;; david  dmeyer@gmail.com
 ;; boston celtics fan: jennifer jensun@gmail.com
 ;; carol_s_chow@yahoo.com
 ;; christophe.gouguenheim@gmail.com
 ;; obeymiffy@yahoo.com jon rogers
 ;; JeffL@hotmail.com
-;; BIEE_PM General: Matt.bedin@oracle.com
-;; BIEE_PM Answers / Dashboards: dave.granholm@oracle.com
-;; BIEE_PM Admintool: krishnan.viswanathan@oracle.com
+;; BIEE_PM General: Matt.bedin@oc
+;; BIEE_PM Answers / Dashboards: dave.granholm@oc
+;; BIEE_PM Admintool: krishnan.viswanathan@oc
 ;; jackharp@gmail.com
 ;; davidmichaelkelly@gmail.com
 ;; danieleross@glotrans.com danielle rossdeutscher buxbaum
 ;; jason.army@yahoo.com
-;; receipts_us@oracle.com or us-expenses@global-imaging.oraclecorp.com (send confirmation page with bar code as Page 1 of the file)
-;; webexp_us@oracle.com for inquiries
-;; melanie.morton@oracle.com ER
+;; receipts_us@oc or us-expenses@global-imaging.oraclecorp.com (send confirmation page with bar code as Page 1 of the file)
+;; webexp_us@oc for inquiries
+;; melanie.morton@oc ER
 ;; lsa5521@yahoo.com sergey linetskiy
 ;; stanchovy@gmail.com stanley lin (now @ the Experience Project)
 ;; http://www.linkedin.com/in/fcalindas frederic
 ;; jasonpavao@gmail.com
-;; helprac_ww@oracle.com
-;; lists: RNO-LM_WW@ORACLE.COM for the Reno LabManager 4 cluster (since LM3 will merge to this), rno-lm3 for LM3 in Reno, ADC-LM_WW@ORACLE.COM for the Austin LM cluster, ptree-legacy for the plumtree legacy folk -- rno-lm_ww_grp@oracle.com LEGACY-BID_WW@oracle.com (bid)
+;; helprac_ww@oc
+;; lists: RNO-LM_WW@ORACLE.COM for the Reno LabManager 4 cluster (since LM3 will merge to this), rno-lm3 for LM3 in Reno, ADC-LM_WW@ORACLE.COM for the Austin LM cluster, ptree-legacy for the plumtree legacy folk -- rno-lm_ww_grp@oc LEGACY-BID_WW@oc (bid)
 ;; hans.sussenburger@gmail.com
 ;; leifbrown@sbcglobal.net
 ;; timwood@livecut.com; cell # 415-412-4845 at salesforce
 ;; storage team: DEVOPS_STORAGE_WW
 ;; robertzsf@gmail.com rob zhang
 ;; cpelote@gmail.com corinne 
-;; pcreq_us@oracle.com to ask for OS license
 ;; tim ryan: tryan@akamai.com, adrian: amakda@akamai.com

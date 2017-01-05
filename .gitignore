@@ -42,3 +42,8 @@ ef
 ev
 .nlog.*
 midnight.*
+n-data-menu-browse.el
+n-data-menu-browse.menu
+lisp/data/n-data-menu-extensity-set.el:23:		 (cons ?t "athome_oracle")
+n-data-menu-mailees.el
+n-data-menu-browse.el

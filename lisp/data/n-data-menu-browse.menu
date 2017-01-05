@@ -39,8 +39,8 @@
 }
 a alm
 {
-        H getting started		https://confluence.oraclecorp.com/confluence/display/ALM/Getting+Started
-        h home for syseng		https://alm.oraclecorp.com/syseng/
+        H getting started		https://confluence.c/confluence/display/ALM/Getting+Started
+        h home for syseng		https://alm.c/syseng/
 }
 A adynware
 {
@@ -79,7 +79,7 @@ C chef
 {
         a anatomy of a run	https://wiki.opscode.com/display/ChefCN/Anatomy+of+a+Chef+Run
         c client setup	http://www.nineproductions.com/chef-workstation-quick-setup/
-        g genl bid info		http://bidwiki.us.oracle.com/display/cloudprovisioning/Chef+Workflow
+        g genl bid info		http://bidwiki.u/display/cloudprovisioning/Chef+Workflow
         m msi			https://www.opscode.com/chef/install.msi
         o opscode contrib process
         {
@@ -174,7 +174,7 @@ c computers
         S seagate diag			http://download.seagate.com/seatools/registration.nsf/d_file_return?openform
         u used PCs			http://www.microexchange.com
         v viosoftware xp		http://www.viosoftware.com/winxpprof.html
-        w wifi oracle pw subscription	https://apex.oraclecorp.com/pls/apex/f?p=clearguest
+        w wifi orcl pw subscription	https://apex.c/pls/apex/f?p=clearguest
 }
 d db
 {
@@ -183,14 +183,6 @@ d db
                 i internals preso	https://www.mongodb.com/presentations/storage-engine-internals
                 s sql-to-mongo		http://docs.mongodb.org/manual/reference/sql-comparison/
         }
-}
-D disco
-{
-        c client-jar JIRA entry		https://jira.oraclecorp.com/jira/browse/OSN-3681
-        j jira				https://jira.oraclecorp.com/jira/secure/Dashboard.jspa
-        J jenkins			https://osnci.us.oracle.com/view/Components/view/Discovery/
-        t test output			http://slce09vm175.us.oracle.com/~nsproul/t/
-        T official test output		https://osnci.us.oracle.com/view/Master/view/Discovery/job/discovery.1.test.master/lastCompletedBuild/testReport/
 }
 e electronics
 {
@@ -219,67 +211,67 @@ E eh
 }
 f faiza
 {
-        1 p1			http://slcipau.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
-        2 p1_backup		http://slcipcm.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
+        1 p1			http://slcipau.u:8080/configuration/api/v1/monitoring/integrations/count
+        2 p1_backup		http://slcipcm.u:8080/configuration/api/v1/monitoring/integrations/count
         a apidocs
         {
-                1 p1			http://slcipau.us.oracle.com/configuration/apidocs/
-                2 p1_backup		http://slcipcm.us.oracle.com/configuration/apidocs/
-                7 gzq			http://slco7gzq.us.oracle.com:8080/configuration/apidocs/
+                1 p1			http://slcipau.u/configuration/apidocs/
+                2 p1_backup		http://slcipcm.u/configuration/apidocs/
+                7 gzq			http://slco7gzq.u:8080/configuration/apidocs/
                 c cluster_apidocs
                 {
-                        a all			http://slcipca.us.oracle.com:8080/configuration/apidocs/|http://slcipaq.us.oracle.com:8080/configuration/apidocs/|http://slcipce:8080/configuration/apidocs/
-                        1 p1b			http://slcipca.us.oracle.com:8080/configuration/apidocs/
-                        2 p2b			http://slcipaq.us.oracle.com:8080/configuration/apidocs/
+                        a all			http://slcipca.u:8080/configuration/apidocs/|http://slcipaq.u:8080/configuration/apidocs/|http://slcipce:8080/configuration/apidocs/
+                        1 p1b			http://slcipca.u:8080/configuration/apidocs/
+                        2 p2b			http://slcipaq.u:8080/configuration/apidocs/
                         3 p3b			http://slcipce:8080/configuration/apidocs/
                 }
         }
         c new cluster 123
         {
-                a all			http://slcipca.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count|http://slcipaq.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count|http://slcipce.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
-                A all data		http://slcipca.us.oracle.com:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0|http://slcipaq.us.oracle.com:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0|http://slcipce.us.oracle.com:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
-                0 haproxy		http://slcipca.us.oracle.com/configuration/api/v1/monitoring/integrations/count
-                1 p1b			http://slcipca.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
-                2 p2b			http://slcipaq.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
-                3 p3b			http://slcipce.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
-                ! p1_data		http://slcipca.us.oracle.com/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
-                @ p2_data		http://slcipaq.us.oracle.com/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
-                $ p3_data		http://slcipce.us.oracle.com/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
+                a all			http://slcipca.u:8080/configuration/api/v1/monitoring/integrations/count|http://slcipaq.u:8080/configuration/api/v1/monitoring/integrations/count|http://slcipce.u:8080/configuration/api/v1/monitoring/integrations/count
+                A all data		http://slcipca.u:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0|http://slcipaq.u:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0|http://slcipce.u:8080/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
+                0 haproxy		http://slcipca.u/configuration/api/v1/monitoring/integrations/count
+                1 p1b			http://slcipca.u:8080/configuration/api/v1/monitoring/integrations/count
+                2 p2b			http://slcipaq.u:8080/configuration/api/v1/monitoring/integrations/count
+                3 p3b			http://slcipce.u:8080/configuration/api/v1/monitoring/integrations/count
+                ! p1_data		http://slcipca.u/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
+                @ p2_data		http://slcipaq.u/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
+                $ p3_data		http://slcipce.u/configuration/api/v1/integrations/L1/askernel:generic:12.2.1.1.0
         }
-        d data		http://slcipca.us.oracle.com:8080/configuration/api/v1/integrations/L2/idm:generic:12.2.1.1.0
+        d data		http://slcipca.u:8080/configuration/api/v1/integrations/L2/idm:generic:12.2.1.1.0
         g git
         {
-                b Bug_24816336		https://orahub.oraclecorp.com/faiza.bounetta/promotion-config/tree/Bug_24816336
-                o orahub	https://orahub.oraclecorp.com/faiza.bounetta/promotion-config
+                b Bug_24816336		https://orahub.c/faiza.bounetta/promotion-config/tree/Bug_24816336
+                o orahub	https://orahub.c/faiza.bounetta/promotion-config
         }
         h hudson
         {
-                p prod		http://hudsonci.oraclecorp.com/hudson/central/job/ConfigService_Build/
-                P prod test	http://hudsonci.oraclecorp.com/hudson/central/job/ConfigService_Tests/
-                s stage		http://hudsonci.oraclecorp.com/hudson/branching/job/ConfigService_Build/
-                S stage test	http://hudsonci.oraclecorp.com/hudson/branching/job/ConfigService_Tests/
+                p prod		http://hudsonci.c/hudson/central/job/ConfigService_Build/
+                P prod test	http://hudsonci.c/hudson/central/job/ConfigService_Tests/
+                s stage		http://hudsonci.c/hudson/branching/job/ConfigService_Build/
+                S stage test	http://hudsonci.c/hudson/branching/job/ConfigService_Tests/
 	}
-        H haproxy		http://slcipau.us.oracle.com:4331/configuration/api/v1/monitoring/integrations/count
-        n pcn		http://slcipcn.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
-        N pcn cluster	http://slcipcn.us.oracle.com/configuration/api/v1/monitoring/integrations/count
-        p production		http://slcipau.us.oracle.com/configuration/api/v1/monitoring/integrations/count
-        s stage gzq		http://slc07gzq.us.oracle.com:8080/configuration/api/v1/monitoring/integrations/count
-        S stage haproxy		http://slc07gzq.us.oracle.com:5000/configuration/api/v1/monitoring/integrations/count
+        H haproxy		http://slcipau.u:4331/configuration/api/v1/monitoring/integrations/count
+        n pcn		http://slcipcn.u:8080/configuration/api/v1/monitoring/integrations/count
+        N pcn cluster	http://slcipcn.u/configuration/api/v1/monitoring/integrations/count
+        p production		http://slcipau.u/configuration/api/v1/monitoring/integrations/count
+        s stage gzq		http://slc07gzq.u:8080/configuration/api/v1/monitoring/integrations/count
+        S stage haproxy		http://slc07gzq.u:5000/configuration/api/v1/monitoring/integrations/count
         v visualization
         {
-                p prod		http://syseng.oraclecorp.com/visualization/pipeline.html
-                s stage		http://slcipca.us.oracle.com:8080/visualization/pipeline.html
-                S stage old	http://slc07gzq.us.oracle.com:8080/visualization/pipeline.html
+                p prod		http://syseng.c/visualization/pipeline.html
+                s stage		http://slcipca.u:8080/visualization/pipeline.html
+                S stage old	http://slc07gzq.u:8080/visualization/pipeline.html
         }
         V venu
         {
-                c config_service_APIs	https://confluence.oraclecorp.com/confluence/display/~faiza.bounetta@oracle.com/Pipeline+management+using+Config+Service+APIs
-                o config_objects	https://confluence.oraclecorp.com/confluence/display/~faiza.bounetta@oracle.com/Consolidate+promotion+pipelines+across+integration+components+and+releases
-                t triggers		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Trigger+Level+1+Promotion+for+a+Product
-                s swagger		http://slcipau.us.oracle.com/configuration/apidocs/index.html
-                v visual		http://syseng.oraclecorp.com:8282/dashboard/index.html#/pipeline/main
+                c config_service_APIs	https://confluence.c/confluence/display/~faiza.bounetta@oc/Pipeline+management+using+Config+Service+APIs
+                o config_objects	https://confluence.c/confluence/display/~faiza.bounetta@oc/Consolidate+promotion+pipelines+across+integration+components+and+releases
+                t triggers		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Trigger+Level+1+Promotion+for+a+Product
+                s swagger		http://slcipau.u/configuration/apidocs/index.html
+                v visual		http://syseng.c:8282/dashboard/index.html#/pipeline/main
         }
-        w wiki for mongo cluster	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/HA+cluster+for+mongodb%2C+config+webapp
+        w wiki for mongo cluster	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/HA+cluster+for+mongodb%2C+config+webapp
 }
 H house
 {
@@ -331,34 +323,34 @@ h hadoop
 {
         3 thirdeye
         {
-                D sample1	http://thirdeye.us.oracle.com/#q=%20*%20&f=%20collectionid=%22dte.21300611%22%20&s=%20s.s.f%20:%20%22time%22%20%20s.s.o%20:%20%22desc%22%20s.u.l.c.v:%22test%22&t=1409788151294
-                d sample	http://thirdeye.us.oracle.com/#q=%20*%20&f=%20user.farm.job.id%20=%2012672155%20&s=%20s.s.f:%22time%22%20%20s.s.o:%22desc%22%20%20s.u.l.c.v:%22test%22&t=1409787756381
-                f faq		http://aseng-wiki.us.oracle.com/asengwiki/display/Java/TIE+FAQ#TIEFAQ-Services/REST
+                D sample1	http://thirdeye.u/#q=%20*%20&f=%20collectionid=%22dte.21300611%22%20&s=%20s.s.f%20:%20%22time%22%20%20s.s.o%20:%20%22desc%22%20s.u.l.c.v:%22test%22&t=1409788151294
+                d sample	http://thirdeye.u/#q=%20*%20&f=%20user.farm.job.id%20=%2012672155%20&s=%20s.s.f:%22time%22%20%20s.s.o:%22desc%22%20%20s.u.l.c.v:%22test%22&t=1409787756381
+                f faq		http://aseng-wiki.u/asengwiki/display/Java/TIE+FAQ#TIEFAQ-Services/REST
                 a access methods/reports
                 {
-                        a aha report	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/aha/summary.json?tql=user.dte.job.id=18326206
-                        A aha detailed	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/aha/detail.xml?tql=user.dte.job.id=18326206
-                        j json rtv	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/runs.json?user.dte.job.id=18326206
-                        l links for all actions	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/actions/summary.json?tql=user.dte.job.id=18326206
-                        s summary	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/runs/summary.json?tql=user.dte.job.id=18326206
-                        x xml rtv	http://thirdeye.us.oracle.com/thirdeye-services/v1.0/views/runs.xml?user.dte.job.id=18326206
+                        a aha report	http://thirdeye.u/thirdeye-services/v1.0/views/aha/summary.json?tql=user.dte.job.id=18326206
+                        A aha detailed	http://thirdeye.u/thirdeye-services/v1.0/views/aha/detail.xml?tql=user.dte.job.id=18326206
+                        j json rtv	http://thirdeye.u/thirdeye-services/v1.0/views/runs.json?user.dte.job.id=18326206
+                        l links for all actions	http://thirdeye.u/thirdeye-services/v1.0/views/actions/summary.json?tql=user.dte.job.id=18326206
+                        s summary	http://thirdeye.u/thirdeye-services/v1.0/views/runs/summary.json?tql=user.dte.job.id=18326206
+                        x xml rtv	http://thirdeye.u/thirdeye-services/v1.0/views/runs.xml?user.dte.job.id=18326206
                 }
         }
         # note that you should select generic.DEVELOPER_USER in OIM
-        a alm odcs info	https://confluence.oraclecorp.com/confluence/display/ALM/Getting+Started
-        b bash artifactory stuff on apache PROD 	http://slcipaq.us.oracle.com:82/x.html
-        B bash artifactory stuff on apache STAGE 	http://slcipcm.us.oracle.com:82/x.html
+        a alm odcs info	https://confluence.c/confluence/display/ALM/Getting+Started
+        b bash artifactory stuff on apache PROD 	http://slcipaq.u:82/x.html
+        B bash artifactory stuff on apache STAGE 	http://slcipcm.u:82/x.html
         c carson stuff
         {
-                b blog			http://carson.oraclecorp.com:3000/blog/index.html
-                d doc from gitbook	http://carson.oraclecorp.com:3000/orchbook/deploy/index.html
-                g git stuff		https://orahub.oraclecorp.com/james.x.clark/hudson_config_repository/tree/master
-                i carson		http://carson.oraclecorp.com:3000
-                o org to POC for hudson servers	https://confluence.oraclecorp.com/confluence/display/ALM/ODCS+On+boarding+status
+                b blog			http://carson.c:3000/blog/index.html
+                d doc from gitbook	http://carson.c:3000/orchbook/deploy/index.html
+                g git stuff		https://orahub.c/james.x.clark/hudson_config_repository/tree/master
+                i carson		http://carson.c:3000
+                o org to POC for hudson servers	https://confluence.c/confluence/display/ALM/ODCS+On+boarding+status
         }
         C clojure
         {
-                c carson code	https://orahub.oraclecorp.com/james.x.clark/carson
+                c carson code	https://orahub.c/james.x.clark/carson
                 n node control	https://github.com/tsmith/node-control
                 0 Getting started	https://github.com/killme2008/clojure-control/wiki/Getting-started
                 d Define clusters	https://github.com/killme2008/clojure-control/wiki/Define-clusters
@@ -376,13 +368,13 @@ h hadoop
         {
                 c carson
                 {
-                        c carson		http://carson.oraclecorp.com:3000/api/v2/orchs/31/instances
-                        H hadoop web UI	http://slc08gbi.us.oracle.com:50070/explorer.html#/data/carson/2014/08/28/00
-                        C carson finished	http://carson.oraclecorp.com:3000/api/v2/orchs/31/instances?inState=FINISHED
+                        c carson		http://carson.c:3000/api/v2/orchs/31/instances
+                        H hadoop web UI	http://slc08gbi.u:50070/explorer.html#/data/carson/2014/08/28/00
+                        C carson finished	http://carson.c:3000/api/v2/orchs/31/instances?inState=FINISHED
                 }
-                l lostache/elasticloud+nginx data from rwsrtf04, rwsrtf03	http://slciecp.us.oracle.com/index.html#/dashboard/file/logstash.json
+                l lostache/elasticloud+nginx data from rwsrtf04, rwsrtf03	http://slciecp.u/index.html#/dashboard/file/logstash.json
         }
-        e em EM		https://emcc.us.oracle.com/em/faces/core-uifwk-console-home?_afrLoop=9538995823101135&_afrWindowMode=0&_afrWindowId=xqs4dv2nx_1#!%40%40%3F_afrLoop%3D9538995823101135%26_afrWindowId%3Dxqs4dv2nx_1%26_afrWindowMode%3D0%26_adf.ctrl-state%3Dxqs4dv2nx_16
+        e em EM		https://emcc.u/em/faces/core-uifwk-console-home?_afrLoop=9538995823101135&_afrWindowMode=0&_afrWindowId=xqs4dv2nx_1#!%40%40%3F_afrLoop%3D9538995823101135%26_afrWindowId%3Dxqs4dv2nx_1%26_afrWindowMode%3D0%26_adf.ctrl-state%3Dxqs4dv2nx_16
         f hdfs
         {
                 n nfs export of hdfs	http://wiki.apache.org/hadoop/MountableHDFS
@@ -392,24 +384,24 @@ h hadoop
         {
                 d dashboards
                 {
-                        a artifactory	http://slcipca.us.oracle.com:5100/#/dashboard/db/artifactory-dashboard
-                        A arques	http://slcipca.us.oracle.com:5100/#/dashboard/db/arques-dashboard
-                        c carson	http://slcipca.us.oracle.com:5100/#/dashboard/db/fmwcarson-dashboard
-                        d dte		http://slcipca.us.oracle.com:5100/#/dashboard/db/dte-dashboard
-                        m hudson.masters	http://slcipca.us.oracle.com:5100/#/dashboard/db/hudsonmasters-dashboard
-                        s hudson.slaves	http://slcipca.us.oracle.com:5100/#/dashboard/db/hudsonslaves-dashboard
+                        a artifactory	http://slcipca.u:5100/#/dashboard/db/artifactory-dashboard
+                        A arques	http://slcipca.u:5100/#/dashboard/db/arques-dashboard
+                        c carson	http://slcipca.u:5100/#/dashboard/db/fmwcarson-dashboard
+                        d dte		http://slcipca.u:5100/#/dashboard/db/dte-dashboard
+                        m hudson.masters	http://slcipca.u:5100/#/dashboard/db/hudsonmasters-dashboard
+                        s hudson.slaves	http://slcipca.u:5100/#/dashboard/db/hudsonslaves-dashboard
                 }
                 D dashboard manipulation	http://anatolijd.blogspot.com/2014/07/scripting-grafana-dashboards.html
-                o old timey	http://slcipca.us.oracle.com:8080
+                o old timey	http://slcipca.u:8080
                 w grafana doc	https://github.com/grafana/grafana/wiki
         }
         h udson
         {
-                c central	http://hudsonci.oraclecorp.com/hudson/central/
-                j hudson-to-jenkins migration tool	http://sysengtools.us.oracle.com:8080/JobMigrationTool/
-                l liberte faq	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Liberte+FAQ#LiberteFAQ-Hudson/JenkinsCI/CD
-                s sla		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Continuous+Integration+PaaS+SLA+and+Roles+-+Responsibilities
-                S sla2		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Continuous+Integration+PaaS+FAQ
+                c central	http://hudsonci.c/hudson/central/
+                j hudson-to-jenkins migration tool	http://sysengtools.u:8080/JobMigrationTool/
+                l liberte faq	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Liberte+FAQ#LiberteFAQ-Hudson/JenkinsCI/CD
+                s sla		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Continuous+Integration+PaaS+SLA+and+Roles+-+Responsibilities
+                S sla2		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Continuous+Integration+PaaS+FAQ
         }
         H hadoop ecosystem stuff
         {
@@ -446,60 +438,59 @@ h hadoop
         J json formatter	http://jsonformatter.curiousconcept.com/
         j jira
         {
-                b bea/legacy		https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=32541&view=planning
-                c checklist sprint	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/FMW+System+Engineering+-+Sprint+Checklist
-                d doc of labels, etc	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/MW+System+Engineering+Jira+Scrum+Boards
+                b bea/legacy		https://jira.c/jira/secure/RapidBoard.jspa?rapidView=32541&view=planning
+                c checklist sprint	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/FMW+System+Engineering+-+Sprint+Checklist
+                d doc of labels, etc	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/MW+System+Engineering+Jira+Scrum+Boards
                 g rest guide		https://developer.atlassian.com/display/JIRADEV/JIRA+REST+APIs
                 i interesting issues
                 {
-                        s sso/carson	https://jira.oraclecorp.com/jira/browse/FMWBREL-6110
+                        s sso/carson	https://jira.c/jira/browse/FMWBREL-6110
                 }
-                l liberte		https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=375&view=planning&quickFilter=43201
-                m monitoring		https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=32540&view=planning
+                l liberte		https://jira.c/jira/secure/RapidBoard.jspa?rapidView=375&view=planning&quickFilter=43201
+                m monitoring		https://jira.c/jira/secure/RapidBoard.jspa?rapidView=32540&view=planning
                 r rest ref		https://docs.atlassian.com/jira/REST/latest/
-                s syseng monitoring	https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=32540&view=planning&selectedIssue=FMWBREL-4684
+                s syseng monitoring	https://jira.c/jira/secure/RapidBoard.jspa?rapidView=32540&view=planning&selectedIssue=FMWBREL-4684
                 S screenshot recent	file:///D:/downloads/jira.jpg
         }
         l logstash
         {
-                d dashboard			http://slciecp.us.oracle.com/#/dashboard/file/default.json
+                d dashboard			http://slciecp.u/#/dashboard/file/default.json
                 q query elasticsearch REST
                 {
                         d dsl query	http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-match-query.html
                         t tutorial	http://okfnlabs.org/blog/2013/07/01/elasticsearch-query-tutorial.html
                         r ref		http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/docs-index_.html
-                        #x ample		http://slciecp.us.oracle.com:9200/_search?pretty=true' -d '{    "query": {        "match_all": {}    }}'
+                        #x ample		http://slciecp.u:9200/_search?pretty=true' -d '{    "query": {        "match_all": {}    }}'
                 }
                 i integration to hdfs overview	http://www.devopsa.net/2014/04/three-way-to-use-logstash-with-hadoop.html
-                I install guide			http://aseng-wiki.us.oracle.com/asengwiki/display/~satyabhanu_dash/LogStash+Installation+Guide
-                w wiki bhanu			http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Log+Scanner+Using+Logstash
+                I install guide			http://aseng-wiki.u/asengwiki/display/~satyabhanu_dash/LogStash+Installation+Guide
+                w wiki bhanu			http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Log+Scanner+Using+Logstash
         }
         m maven
         {
-                c collection	https://pdit-document-repository.oraclecorp.com/display/AESG/WCC+Extracting+Folder+Contents+And+SubFolders
-                C collection2	https://docs.oracle.com/cd/E23943_01/doc.1111/e11011/c10_pcm.htm#CSSRG3623
-                d dig maven.oracle.com	http://digwebinterface.com/?hostnames=maven.oracle.com%0D%0Awww.oracle.com&type=&ns=resolver&useresolver=8.8.4.4&nameservers
-                f fld_ops	https://docs.oracle.com/cd/E23943_01/doc.1111/e11011/c08_frameworkfolders.htm#CSSRG3515
-                g git src	https://orahub.oraclecorp.com/fmw-platform-lifecycle/public-maven-repo/tree/master
-                H http folder direct stage	http://acmsmtv2074.us.oracle.com:16200/content/idcplg?IdcService=FLD_BROWSE&fFolderGUID=B7623F7404653C7F1B8561E8274B39DE
-                h http folder direct prod	http://acmsmtv1045.us.oracle.com:16200/content/
-                m maven direct http		https://maven.oracle.com/com/oracle/fmwshare/adf-workbook-composer/12.2.1-0-0/adf-workbook-composer-12.2.1-0-0.pom
-                o old release info		http://aseng-wiki.us.oracle.com/asengwiki/display/RM/FMW+12c+12.2.1+Shiphome+Announcements+to+QA
+                c collection	https://pdit-document-repository.c/display/AESG/WCC+Extracting+Folder+Contents+And+SubFolders
+                C collection2	https://docs.o/cd/E23943_01/doc.1111/e11011/c10_pcm.htm#CSSRG3623
+                d dig maven.o	http://digwebinterface.com/?hostnames=maven.o%0D%0Awww.o&type=&ns=resolver&useresolver=8.8.4.4&nameservers
+                f fld_ops	https://docs.o/cd/E23943_01/doc.1111/e11011/c08_frameworkfolders.htm#CSSRG3515
+                g git src	https://orahub.c/fmw-platform-lifecycle/public-maven-repo/tree/master
+                H http folder direct stage	http://acmsmtv2074.u:16200/content/idcplg?IdcService=FLD_BROWSE&fFolderGUID=B7623F7404653C7F1B8561E8274B39DE
+                h http folder direct prod	http://acmsmtv1045.u:16200/content/
+                m maven direct http		https://maven.o/com/oracle/fmwshare/adf-workbook-composer/12.2.1-0-0/adf-workbook-composer-12.2.1-0-0.pom
+                o old release info		http://aseng-wiki.u/asengwiki/display/RM/FMW+12c+12.2.1+Shiphome+Announcements+to+QA
                 O orahub
                 {
-                        u users guide		https://confluence.oraclecorp.com/confluence/display/ESEDoc/OraHub+User's+Guide
+                        u users guide		https://confluence.c/confluence/display/ESEDoc/OraHub+User's+Guide
                 }
-                r release info		http://aseng-wiki.us.oracle.com/asengwiki/display/RM/FMW+12.2.1.1.0+Shiphome+Announcements+to+QA
-                R other release info	https://sac.us.oracle.com/download/index.html
-                s support for oracle maven	https://pdit-document-repository.oraclecorp.com/display/AESG/maven.oracle.com+Support
-                S sudhir project w/ aparna	https://apex.oraclecorp.com/pls/htmldb/f?p=1270:10:14566052464069::NO:::
+                r release info		http://aseng-wiki.u/asengwiki/display/RM/FMW+12.2.1.1.0+Shiphome+Announcements+to+QA
+                R other release info	https://sac.u/download/index.html
+                s support for orcl maven	https://pdit-document-repository.c/display/AESG/maven.o+Support
+                S sudhir project w/ aparna	https://apex.c/pls/htmldb/f?p=1270:10:14566052464069::NO:::
         }
         o outage tracker
         {
-                d dte Leo	http://dte-dashboard.oraclecorp.com/mats-dashboard/
-                m mockup	https://confluence.oraclecorp.com/confluence/display/~joseph.chandy@oracle.com/FMW+DEVELOPMENT+INFRASTRUCTURE
-                r report	http://adc00jcu.us.oracle.com:5678/outage/
-                u upload	http://adc00jcu.us.oracle.com:5678/outage/upload
+                d dte Leo	http://dte-dashboard.c/mats-dashboard/
+                r report	http://adc00jcu.u:5678/outage/
+                u upload	http://adc00jcu.u:5678/outage/upload
         }
         p pig
         {
@@ -507,12 +498,12 @@ h hadoop
                 2 ref 2		https://pig.apache.org/docs/r0.7.0/piglatin_ref2.html
                 c cookbook	https://pig.apache.org/docs/r0.7.0/cookbook.html
         }
-        P pipeline oracle farm etc
+        P pipeline orcl farm etc
         {
-                g promotion graphic list of pipelines	http://slc07gzq.us.oracle.com:8080/visualization/pipeline.html
-                v promotion visualizer	http://slc07gzq.us.oracle.com:8080/visualization/graphs.html?name=soa-12-1-4-preflight&id=34&orchid=11021&product=AIAFP&count=3
+                g promotion graphic list of pipelines	http://slc07gzq.u:8080/visualization/pipeline.html
+                v promotion visualizer	http://slc07gzq.u:8080/visualization/graphs.html?name=soa-12-1-4-preflight&id=34&orchid=11021&product=AIAFP&count=3
         }
-        Q qm stuff	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/QM+activities
+        Q qm stuff	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/QM+activities
         r rest interfaces
         {
                 h hivewebinterface
@@ -527,36 +518,36 @@ h hadoop
         }
         R rabbit
         {
-                1 server-1	http://slcipbf.us.oracle.com:15672/#/
-                2 server-2	http://slcipbg.us.oracle.com:15672/#/
-                a all		http://slcipbf.us.oracle.com:15672/#/|http://slcipbg.us.oracle.com:15672/#/
+                1 server-1	http://slcipbf.u:15672/#/
+                2 server-2	http://slcipbg.u:15672/#/
+                a all		http://slcipbf.u:15672/#/|http://slcipbg.u:15672/#/
         }
         s sensu
         {
-                a api access	http://slc02qcv.us.oracle.com:4567/info
+                a api access	http://slc02qcv.u:4567/info
                 A add ck	http://sensuapp.org/docs/latest/addding_a_check
                 d guide doc			http://sensuapp.org/docs/0.12/guide
-                g grafana	http://slcipca.us.oracle.com:5100/#/dashboard/db/demo-dashboard
+                g grafana	http://slcipca.u:5100/#/dashboard/db/demo-dashboard
                 G java.dzone guide	http://java.dzone.com/articles/getting-started-sensu
                 n nagios plugin reuse	http://www.joemiller.me/2012/01/24/re-use-nagios-plugins-in-sensu-for-quick-profit/
                 p plugins		https://github.com/sensu/sensu-community-plugins
-                r rabbitmq admin	http://slc02qcv.us.oracle.com:15672
-                u uchiwa unfiltered	http://sysmon.us.oracle.com:3000/#/clients
-                U sysmon aggregated dashboard	http://sysmon.us.oracle.com
+                r rabbitmq admin	http://slc02qcv.u:15672
+                u uchiwa unfiltered	http://sysmon.u:3000/#/clients
+                U sysmon aggregated dashboard	http://sysmon.u
         }
         w wiki
         {
-                A artifactory		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Liberte+-+Artifactory+Licenses
-                a agenda		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/System+Infrastructure+Meeting+-+Agenda
-                c config service	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/HA+cluster+for+mongodb%2C+config+webapp
-                C config flexibility	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/config+service+custom+logic
-                h hadoop POC		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Hadoop+POC+-+Analytic+System
-                j jagan fave	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Home
-                m maven repo		https://confluence.oraclecorp.com/confluence/display/OPE/Oracle+Maven+Repository
-                p POCs	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Points+of+contact+for+monitored+hosts
-                P POCs steve collins	https://confluence.oraclecorp.com/confluence/display/ALM/ODCS+On+boarding+status
-                s sysmon stuff		http://aseng-wiki.us.oracle.com/asengwiki/pages/viewpage.action?pageId=5191416655
-                v viraj reading		http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Docker+Home
+                A artifactory		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Liberte+-+Artifactory+Licenses
+                a agenda		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/System+Infrastructure+Meeting+-+Agenda
+                c config service	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/HA+cluster+for+mongodb%2C+config+webapp
+                C config flexibility	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/config+service+custom+logic
+                h hadoop POC		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Hadoop+POC+-+Analytic+System
+                j jagan fave	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Home
+                m maven repo		https://confluence.c/confluence/display/OPE/Oracle+Maven+Repository
+                p POCs	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Points+of+contact+for+monitored+hosts
+                P POCs steve collins	https://confluence.c/confluence/display/ALM/ODCS+On+boarding+status
+                s sysmon stuff		http://aseng-wiki.u/asengwiki/pages/viewpage.action?pageId=5191416655
+                v viraj reading		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Docker+Home
         }
 }
 i installshield
@@ -568,12 +559,6 @@ i installshield
 I instant messenger
 {
         g google talk config		http://www.google.com/support/talk/bin/answer.py?answer=24073
-}
-j java
-{
-        o old			https://www.google.com/#q=%22The+Oracle+Java+Archive+offers+self-service+download+access+to+some+of+our+%22&safe=off
-        6 j6 downloads		http://www.oracle.com/technetwork/java/javasebusiness/downloads/java-archive-downloads-javase6-419409.html
-        r regexp		http://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
 }
 l load balancing
 {
@@ -686,17 +671,17 @@ m	markets
 }
 M mail
 {
-        a add oracle mailing list	https://oim.oraclecorp.com/identity/faces/home?_afrLoop=380921228582478&_afrWindowMode=0&_adf.ctrl-state=oy57gbsno_4
-        b beehive oracle init	ftp://obiftp/modules/unlicensed/global/obeo/obeo.w32.exe
+        a add orcl mailing list	https://oim.c/identity/faces/home?_afrLoop=380921228582478&_afrWindowMode=0&_adf.ctrl-state=oy57gbsno_4
+        b beehive orcl init	ftp://obiftp/modules/unlicensed/global/obeo/obeo.w32.exe
         h hold mail			https://holdmail.usps.com/holdmail/
         c comcast			http://mailcenter.comcast.net/
-        C configure beehive	https://stbeehive.oracle.com/bcentral/action?page=emailsettings
+        C configure beehive	https://stbeehive.o/bcentral/action?page=emailsettings
         g gmail				http://mail.google.com/
         G gmail keyboard shortcuts	http://www.comp.nus.edu.sg/~kanmy/gmail/gmailKeys.html
         l listserv commands			http://www.nlm.nih.gov/listserv/commands.html
-        o oracle mail			https://stbeehive.oracle.com/zimbra/?app=mail
-        O oracle mail rules		https://pdit-document-repository.oraclecorp.com/display/BCS/Email+Policy+and+Procedures
-        r oracle rules			https://stbeehive.oracle.com/bcentral/action?page=emailsettings
+        o orcl mail			https://stbeehive.o/zimbra/?app=mail
+        O orcl mail rules		https://pdit-document-repository.c/display/BCS/Email+Policy+and+Procedures
+        r orcl rules			https://stbeehive.o/bcentral/action?page=emailsettings
         S spam detection		http://www.paulgraham.com/spam.html
         s IMP				http://mail.savoirfaire.com/mail
         v vm				http://www.wonderworks.com/vm/
@@ -704,7 +689,7 @@ M mail
 }
 n nimbula
 {
-        a api ref			https://stbeehive.oracle.com/content/dav/st/Nimbula%20Public/Documents/Director%202.5%20documentation/Nimbula2.5_CLIReference_20131004.pdf
+        a api ref			https://stbeehive.o/content/dav/st/Nimbula%20Public/Documents/Director%202.5%20documentation/Nimbula2.5_CLIReference_20131004.pdf
         b BID
         {
         	e env stuff		http://bidwiki.devnet.plumtree.com/display/cloudprovisioning/Nimbula+CLI+Quick+Reference
@@ -797,11 +782,11 @@ p programming
                 }
                 o rcl
                 {
-                        c concat_all to merge rows in sql		http://forums.oracle.com/forums/thread.jspa?messageID=1186901&#1186901
+                        c concat_all to merge rows in sql		http://forums.o/forums/thread.jspa?messageID=1186901&#1186901
                         d date syntax		http://gwynne.cs.ualberta.ca/~oracle/817doc/server.817/a85397/sql_elem.htm
-                        j jdbc oracle		http://otn.oracle.com/tech/java/sqlj_jdbc/htdocs/jdbc_faq.htm
-                        o oracle error codes	http://www.ora-code.com/
-                        m			http://metalink.oracle.com
+                        j jdbc orcl		http://otn.o/tech/java/sqlj_jdbc/htdocs/jdbc_faq.htm
+                        o orcl error codes	http://www.ora-code.com/
+                        m			http://metalink.o
                 }
                 s sybase joins			http://manuals.sybase.com/onlinebooks/group-as/asg1250e/sqlug/@ebt-link;pt=11971?target=%25N%15_13070_START_RESTART_N%25
         }
@@ -1234,7 +1219,7 @@ T travel
         j				http://www.jetblue.com/
         l				http://www.lowestfare.com/
         p				http://www.priceline.com/
-        r rental w/ orcl discount	http://my.oracle.com/site/ref/discounts/employee-discounts/usb2b/autos/index.html
+        r rental w/ orcl discount	http://my.o/site/ref/discounts/employee-discounts/usb2b/autos/index.html
         t				https://travel.thankyou.com/flight/results?qid=NDlfMThfMjk4XzEwMzM%3d
         u ual				http://www.ual.com
         x BART				http://www.bart.gov/
@@ -1244,7 +1229,7 @@ T travel
 }
 v vm
 {
-        A	http://adc-lm.us.oracle.com/LabManager/
+        A	http://adc-lm.u/LabManager/
         a amazon
         {
                 c console	https://console.aws.amazon.com/console/home?#
@@ -1269,7 +1254,7 @@ v vm
                 S security	https://console.aws.amazon.com/ec2/v2/home?region=us-west-2#SecurityGroups:search=sg-776c1647
                 w windows ec2	http://docs.amazonwebservices.com/AWSEC2/latest/WindowsGuide/
         }
-        0	http://labmanager.us.oracle.com/LabManager/
+        0	http://labmanager.u/LabManager/
         2 p2v 
         {
                 V other p2v notes	http://conshell.net/wiki/index.php/Linux_P2V
@@ -1280,14 +1265,14 @@ v vm
                 a api			http://download.cloud.com/releases/3.0.3/api_3.0.3/TOC_Root_Admin.html
                 b beginners guide	http://buildacloud.org/blog/59-beginners-guide-to-interacting-with-the-cloudstack-api.html
                 d dev guide		http://docs.cloudstack.org/@api/deki/files/194/CloudPlatform3.0DeveloperGuide.pdf
-                o oracle bpo cloud	http://bpocloud.oracle.com:8080/client/
+                o orcl bpo cloud	http://bpocloud.o:8080/client/
         }
         C chocolatey inventory		http://chocolatey.org/packages
-        d devops		http://devops.oraclecorp.com/user/nelson.sproul/detail/reserve/
-        D du info			http://n.us.oracle.com/~nsproul/lm/vm_info/
+        d devops		http://devops.c/user/nelson.sproul/detail/reserve/
+        D du info			http://n.u/~nsproul/lm/vm_info/
         e esx server ops WONKAHA	http://wonkaha/~release/lmbin2/index.html
         E esx server ops	http://snickers.plumtree.com/~release/lmbin/index.html
-        f lm faq	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/LabManager+FAQ
+        f lm faq	http://aseng-wiki.u/asengwiki/display/ASQA/LabManager+FAQ
         F forum	http://communities.vmware.com/community/vmtn
         g goog
         {
@@ -1300,7 +1285,7 @@ v vm
         l	http://labmanager.devnet.plumtree.com/LabManager/
         n nimbula
         {
-                w viraj wiki of step1	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/Getting+Started+with+Nimbula
+                w viraj wiki of step1	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Getting+Started+with+Nimbula
         }
         o ovm
         {
@@ -1308,27 +1293,27 @@ v vm
                 {
                         m matthew bradburn prompt file INITIAL_CONFIG	/etc/sysconfig/ovmd
                         g ovmmg_admin_Welcome1	https://10.148.118.176:7002/ovm/console
-                        j ovmmj_admin_Plumtree1	https://sfo-ovmm.us.oracle.com:7002/ovm/console
-                        J jenkins tse		http://wcws.us.oracle.com:8080/view/Cloud%20UCM/
-                        w wiki			http://bidwiki.us.oracle.com/display/cloudprovisioning/OVM+Manager+%28OVMM%29+Server
+                        j ovmmj_admin_Plumtree1	https://sfo-ovmm.u:7002/ovm/console
+                        J jenkins tse		http://wcws.u:8080/view/Cloud%20UCM/
+                        w wiki			http://bidwiki.u/display/cloudprovisioning/OVM+Manager+%28OVMM%29+Server
                 }
                 o ovab
                 {
-                        G greg image file	http://slcnas458.us.oracle.com/shares/export/ovabqa/ovab_infra/templates_64/templates/baseImage/OVM/OEL/
-                        g greg general wiki	http://bidwiki.us.oracle.com/display/cloudprovisioning/OVAB+-+Virtual+Assembly+Builder+Prime
-                        d greg doc service	http://bidwiki.us.oracle.com/display/cloudprovisioning/OVA+Assembly+Creation+for+Doc+Service
-                        v virtualbox setup	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/OVAB-OVM+Demo+Environment+Using+VirtualBox
+                        G greg image file	http://slcnas458.u/shares/export/ovabqa/ovab_infra/templates_64/templates/baseImage/OVM/OEL/
+                        g greg general wiki	http://bidwiki.u/display/cloudprovisioning/OVAB+-+Virtual+Assembly+Builder+Prime
+                        d greg doc service	http://bidwiki.u/display/cloudprovisioning/OVA+Assembly+Creation+for+Doc+Service
+                        v virtualbox setup	http://aseng-wiki.u/asengwiki/display/ASQA/OVAB-OVM+Demo+Environment+Using+VirtualBox
                 }
         }
         O openshift
         {
                 c teacher console		https://openshift.redhat.com/app/console/application/535177b55004465dda000229-teacher
         }
-        p pxe server esxi init doc	http://appsdoc.us.oracle.com:8080/docs/docview/Users/agonikma/esxi_stateless.html
-        r	http://rno-lm.us.oracle.com/LabManager/
-        s	soap	http://rno-lm.us.oracle.com/LabManager/SOAP/LabManager.asmx
+        p pxe server esxi init doc	http://appsdoc.u:8080/docs/docview/Users/agonikma/esxi_stateless.html
+        r	http://rno-lm.u/LabManager/
+        s	soap	http://rno-lm.u/LabManager/SOAP/LabManager.asmx
         v vagrant image list	http://www.vagrantbox.es/
-        w wiki status	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/Configuration+Status+by+Team
+        w wiki status	http://aseng-wiki.u/asengwiki/display/ASQA/Configuration+Status+by+Team
 }
 V voice stuff
 {
@@ -1573,79 +1558,78 @@ o racle
 {
         a stuff
         {
-                b ADE branching	http://aimeweb-old.us.oracle.com/intg-doc/reference/tasks/createsparsebranch.html
-                d ADE ade	http://ade.oraclecorp.com/twiki/pub/ADE32/WebHome/ADE_UG_321.pdf
-                D ADE ade ref	http://ade.oraclecorp.com/twiki/bin/view/ADEFAQ/AdeCommandReference
-                p aps	https://aps.oraclecorp.com/aps/login.jsp
-                i aime	http://aimeweb.us.oracle.com/
+                b ADE branching	http://aimeweb-old.u/intg-doc/reference/tasks/createsparsebranch.html
+                d ADE ade	http://ade.c/twiki/pub/ADE32/WebHome/ADE_UG_321.pdf
+                D ADE ade ref	http://ade.c/twiki/bin/view/ADEFAQ/AdeCommandReference
+                p aps	https://aps.c/aps/login.jsp
+                i aime	http://aimeweb.u/
                 p desktop application installer	//rnasgard/iso/applicationinstaller.exe
         }
-        A Applications Network	http://appsnet.oracle.com
+        A Applications Network	http://appsnet.o
         b bug
         {
-                d bugdb	https://bug.oraclecorp.com
+                d bugdb	https://bug.c
                 p uat2 preview	http://redsap58.bea.com:7501/smeighan/boa/clfy/boa_bugdb.html?PROJECT=BEA_BID&DEFECTID=1028
                 t bugdb transition doc	http://one.bea.com/portal/server.pt/gateway/PTARGS_0_217379_4353_3170_9247_43/http;/prodgadget12.plumtree.com;80/collab/do/document/overview?projID=2662
         }
-        B oraclebi BI
+        B orclbi BI
         {
-                a admin guide	http://download.oracle.com/docs/cd/B40078_02/doc/bi.1013/b31770.pdf
-                c Infrastructure Installation and Configuration Guide	http://download.oracle.com/docs/cd/E10415_01/doc/bi.1013/b31765.pdf
-                E forum external	http://forums.oracle.com/forums/forum.jspa?forumID=105
-                f forum internal	http://myforums.oracle.com/jive3/forum.jspa?forumID=1390
+                a admin guide	http://download.o/docs/cd/B40078_02/doc/bi.1013/b31770.pdf
+                c Infrastructure Installation and Configuration Guide	http://download.o/docs/cd/E10415_01/doc/bi.1013/b31765.pdf
+                E forum external	http://forums.o/forums/forum.jspa?forumID=105
+                f forum internal	http://myforums.o/jive3/forum.jspa?forumID=1390
                 F
                 {
-                        e xec	http://forums.oracle.com/forums/thread.jspa?threadID=883074&stqc=true
-                        f ilter trouble	http://forums.oracle.com/forums/messageview.jspa?messageID=3386665&stqc=true
+                        e xec	http://forums.o/forums/thread.jspa?threadID=883074&stqc=true
+                        f ilter trouble	http://forums.o/forums/messageview.jspa?messageID=3386665&stqc=true
                 }
                 j jeremy_linux	http://winbi:9704/analytics/saw.dll?Dashboard&_scid=0ds6iCK-XmM
                 s soap	http://winbi:9704/analytics/saw.dll?WSDL
-                w wiki from craciun qa	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/Merging+aseng-analytics
+                w wiki from craciun qa	http://aseng-wiki.u/asengwiki/display/ASQA/Merging+aseng-analytics
         }
         c chandy
         {
-                j jc	http://aseng-wiki.us.oracle.com/asengwiki/display/ASBldAndIntg/INTG+projects
+                j jc	http://aseng-wiki.u/asengwiki/display/ASBldAndIntg/INTG+projects
         }
         C c
         {
-                e cell phone	https://global-ebusiness.oraclecorp.com/OA_HTML/OA.jsp?browseCategoryId=313196&page=/oracle/apps/icx/icatalog/shopping/webui/SearchStorePG&_ti=305591501&retainAM=Y&addBreadCrumb=S&oapc=9&oas=C2cxh5h3j4m88GGcDNauWQ..
-                o collab - email/calendar/todo	http://CollabSuite.oracle.com
+                e cell phone	https://global-ebusiness.c/OA_HTML/OA.jsp?browseCategoryId=313196&page=/oracle/apps/icx/icatalog/shopping/webui/SearchStorePG&_ti=305591501&retainAM=Y&addBreadCrumb=S&oapc=9&oas=C2cxh5h3j4m88GGcDNauWQ..
+                o collab - email/calendar/todo	http://CollabSuite.o
         }
-        d docker_in_oracle
+        d docker_in_orcl
         {
-                r registries	http://aseng-wiki.us.oracle.com/asengwiki/display/~robert_patrick/Working+with+a+Docker+Registry
+                r registries	http://aseng-wiki.u/asengwiki/display/~robert_patrick/Working+with+a+Docker+Registry
         }
-        D DNS dns requests	http://iprequest.oraclecorp.com/
-        e r - expense reports ERs	https://global-ebusiness.oraclecorp.com/OA_HTML/RF.jsp?function_id=1175184&resp_id=22918&resp_appl_id=200&security_group_id=0&lang_code=US&params=jkXswcRQaeNlMV4gkvG6JdYr1kywGPUedkh-iIaZKIw&oas=xR7blKwgLN43lga-X0CWjw..
-        f farm host request	https://stitweb.us.oracle.com/stit-hrs/authHRS.do
-        F my public URL	http://files.oraclecorp.com/app/FileBrowsePage?event=ChangeDir&FBP=AllPublic/Users/Users-N/nelson.sproul-Public/
-        g global service desk	http://my.oracle.com/portal/page/myo/Global_IT/Global%20IT%20Home/Global_Desktop_Support_Home_Page
-        h holiday oracle	http://hrweb.us.oracle.com/benefits/holiday.htm
+        D DNS dns requests	http://iprequest.c/
+        e r - expense reports ERs	https://global-ebusiness.c/OA_HTML/RF.jsp?function_id=1175184&resp_id=22918&resp_appl_id=200&security_group_id=0&lang_code=US&params=jkXswcRQaeNlMV4gkvG6JdYr1kywGPUedkh-iIaZKIw&oas=xR7blKwgLN43lga-X0CWjw..
+        f farm host request	https://stitweb.u/stit-hrs/authHRS.do
+        F my public URL	http://files.c/app/FileBrowsePage?event=ChangeDir&FBP=AllPublic/Users/Users-N/nelson.sproul-Public/
+        g global service desk	http://my.o/portal/page/myo/Global_IT/Global%20IT%20Home/Global_Desktop_Support_Home_Page
         H hr fsa msa benefits	http://www.oraclebenefits.com
-        i internal apps	http://Global-eBusiness.oraclecorp.com
-        I IT_help	http://Global-Service.oraclecorp.com
-        #l Learning Network	http://www.oracle.com/education/oln
+        i internal apps	http://Global-eBusiness.c
+        I IT_help	http://Global-Service.c
+        #l Learning Network	http://www.o/education/oln
         l liberte group
         {
-                p product backlog		https://jira.oraclecorp.com/jira/browse/FMWBREL-77?filter=10806
-                s sprints and scrum board	https://jira.oraclecorp.com/jira/secure/RapidBoard.jspa?rapidView=375&view=planning&selectedIssue=FMWBREL-1738
+                p product backlog		https://jira.c/jira/browse/FMWBREL-77?filter=10806
+                s sprints and scrum board	https://jira.c/jira/secure/RapidBoard.jspa?rapidView=375&view=planning&selectedIssue=FMWBREL-1738
         }
         L label group webapps
         {
                 A all	z:/data/labels_all.htm
-                a rajeev frequently used platform integration page	http://intg.us.oracle.com
-                b fmw porting application	http://intg.us.oracle.com:7001/stpasint/main.jsp
-                c rajeev frequently used platform integration page	hthttp://aseng-wiki.us.oracle.com/asengwiki/display/ASPorting/Porting+Builds
-                d rajeev frequently used platform integration page	hthttp://dsunran05.us.oracle.com/twiki/bin/view/StpasintWW/WebHome
-                B BI	http://rnolm4dev005.us.oracle.com:7777/analytics/saw.dll?Dashboard&_scid=Iv-bvCtT0tw&PortalPath=/shared/Users/_portal/Nelson%20Sproul&Page=page%201&PageIdentifier=08lpoj8bh57vfaok&BookmarkState=fqkjk7bq1ks86grbh01s8mbtp6
-                d Tag Subu	http://dadvip0124.us.oracle.com/tagdb/main.jspx
-                i ifarm team	http://stacy07.us.oracle.com/apps/m/farm.html
-                l labels Bhanu           http://labels.us.oracle.com/asint/index.uix
-                p Porting Rajeev        http://intg.us.oracle.com:7001/stpasint/main.jsp
-                # equiv to http://dadvip0124.us.oracle.com/fmw/faces/Mats.jsp?_afrLoop=109414240480515&_afrWindowMode=0&_adf.ctrl-state=1ciytb2ooc_19:
-                P preflight                 http://stahr05.us.oracle.com:8080/fmw/
+                a rajeev frequently used platform integration page	http://intg.u
+                b fmw porting application	http://intg.u:7001/stpasint/main.jsp
+                c rajeev frequently used platform integration page	hthttp://aseng-wiki.u/asengwiki/display/ASPorting/Porting+Builds
+                d rajeev frequently used platform integration page	hthttp://dsunran05.u/twiki/bin/view/StpasintWW/WebHome
+                B BI	http://rnolm4dev005.u:7777/analytics/saw.dll?Dashboard&_scid=Iv-bvCtT0tw&PortalPath=/shared/Users/_portal/Nelson%20Sproul&Page=page%201&PageIdentifier=08lpoj8bh57vfaok&BookmarkState=fqkjk7bq1ks86grbh01s8mbtp6
+                d Tag Subu	http://dadvip0124.u/tagdb/main.jspx
+                i ifarm team	http://stacy07.u/apps/m/farm.html
+                l labels Bhanu           http://labels.u/asint/index.uix
+                p Porting Rajeev        http://intg.u:7001/stpasint/main.jsp
+                # equiv to http://dadvip0124.u/fmw/faces/Mats.jsp?_afrLoop=109414240480515&_afrWindowMode=0&_adf.ctrl-state=1ciytb2ooc_19:
+                P preflight                 http://stahr05.u:8080/fmw/
         }
-        m monitor ui	http://adc00jcu.us.oracle.com:5678/monitor_ui
+        m monitor ui	http://adc00jcu.u:5678/monitor_ui
         M medical
         {
                 f flex			https://www.oraclebenefits.com/ess/home/login.aspx
@@ -1653,10 +1637,10 @@ o racle
                 l lab corp		https://patsched.labcorp.com/appointment-scheduling/redirect.do?locationid=18840
         }
         n n-home		http://snickers.plumtree.com/~nelsons/
-        o software	http://stcontent.oracle.com/content/dav/oracle/Libraries/SystemsEngineering/SystemsEngineering-Public/WebContent/HTML/PublicSoftware.htm
+        o software	http://stcontent.o/content/dav/oracle/Libraries/SystemsEngineering/SystemsEngineering-Public/WebContent/HTML/PublicSoftware.htm
         p plumtree
         {
-                b builds		http://wonkaha.us.oracle.com/bmc/gp/
+                b builds		http://wonkaha.u/bmc/gp/
                 B benefits
                 {
                         c benefits	https://www.benefitsconnect.net/bea
@@ -1719,86 +1703,86 @@ o racle
                 r roster	file:///c:/Users/nelsons/Dropbox/data/roster.png
                 t thanx food freq flyer	https://app.thanx.com/rewards/35961/details?back=Reward&ref_path=/rewards/35961/details
         }
-        # q quicklinks	http://Quicklinks.us.oracle.com 
-        q QA stage bi	http://stbed37.us.oracle.com:9704/analytics/saw.dll?Dashboard
-        Q QA oracle bi	https://aseng-analytics.us.oracle.com/analytics/saw.dll?Dashboard
+        # q quicklinks	http://Quicklinks.u 
+        q QA stage bi	http://stbed37.u:9704/analytics/saw.dll?Dashboard
+        Q QA orcl bi	https://aseng-analytics.u/analytics/saw.dll?Dashboard
         r repos
         {
-                1 oracle linux	http://kernel.us.oracle.com/uln/
-                2 repo oracle		http://public-yum.oracle.com/
-                3 repo oracle		http://linux.us.oracle.com/uln/
+                1 orcl linux	http://kernel.u/uln/
+                2 repo orcl		http://public-yum.o/
+                3 repo orcl		http://linux.u/uln/
         }
-        # repo ol6 latest		http://kernel.us.oracle.com/uln/uln-internal-setup-2.0.2-0.el6.noarch.rpm
-        # repo ol6_latest         http://uln-internal.oracle.com/uln/OracleLinux/OL6/latest/$basearch/
-        # repo ol6_addons         http://uln-internal.oracle.com/uln/OracleLinux/OL6/addons/$basearch/
-        # repo ol6_oracle         http://uln-internal.oracle.com/uln/OracleLinux/OL6/oracle/$basearch/
-        # repo ol6_ksplice                http://uln-internal.oracle.com/uln/OracleLinux/OL6/ksplice/$basearch/
-        # repo ol6_Dtrace_latest          http://uln-internal.oracle.com/uln/OracleLinux/OL6/Dtrace/latest/$basearch/
-        # repo ol6_Dtrace_BETA            http://uln-internal.oracle.com/uln/BETA/OracleLinux/OL6/Dtrace/$basearch/
-        # repo ol6_mysql-ha-utils         http://uln-internal.oracle.com/uln/OracleLinux/OL6/mysql-ha-utils/$basearch/
-        # repo ol6_MySQL          http://uln-internal.oracle.com/uln/OracleLinux/OL6/MySQL/$basearch/
-        # repo ol6_UEK_latest             http://uln-internal.oracle.com/uln/OracleLinux/OL6/UEK/latest/$basearch/
-        # repo ol6_UEK_base               http://uln-internal.oracle.com/uln/OracleLinux/OL6/UEK/base/$basearch/
-        # repo ol6_ga_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/0/base/$basearch/
-        # repo ol6_ga_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/0/patch/$basearch/
-        # repo ol6_u1_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/1/base/$basearch/
-        # repo ol6_u1_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/1/patch/$basearch/
-        # repo ol6_u2_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/2/base/$basearch/
-        # repo ol6_u2_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/2/patch/$basearch/
-        # repo ol6_u3_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/3/base/$basearch/
-        # repo ol6_u3_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/3/patch/$basearch/
-        # repo ol6_u4_base                http://uln-internal.oracle.com/uln/OracleLinux/OL6/4/base/$basearch/
-        # repo ol6_u4_patch               http://uln-internal.oracle.com/uln/OracleLinux/OL6/4/patch/$basearch/
+        # repo ol6 latest		http://kernel.u/uln/uln-internal-setup-2.0.2-0.el6.noarch.rpm
+        # repo ol6_latest         http://uln-internal.o/uln/OracleLinux/OL6/latest/$basearch/
+        # repo ol6_addons         http://uln-internal.o/uln/OracleLinux/OL6/addons/$basearch/
+        # repo ol6_orcl         http://uln-internal.o/uln/OracleLinux/OL6/oracle/$basearch/
+        # repo ol6_ksplice                http://uln-internal.o/uln/OracleLinux/OL6/ksplice/$basearch/
+        # repo ol6_Dtrace_latest          http://uln-internal.o/uln/OracleLinux/OL6/Dtrace/latest/$basearch/
+        # repo ol6_Dtrace_BETA            http://uln-internal.o/uln/BETA/OracleLinux/OL6/Dtrace/$basearch/
+        # repo ol6_mysql-ha-utils         http://uln-internal.o/uln/OracleLinux/OL6/mysql-ha-utils/$basearch/
+        # repo ol6_MySQL          http://uln-internal.o/uln/OracleLinux/OL6/MySQL/$basearch/
+        # repo ol6_UEK_latest             http://uln-internal.o/uln/OracleLinux/OL6/UEK/latest/$basearch/
+        # repo ol6_UEK_base               http://uln-internal.o/uln/OracleLinux/OL6/UEK/base/$basearch/
+        # repo ol6_ga_base                http://uln-internal.o/uln/OracleLinux/OL6/0/base/$basearch/
+        # repo ol6_ga_patch               http://uln-internal.o/uln/OracleLinux/OL6/0/patch/$basearch/
+        # repo ol6_u1_base                http://uln-internal.o/uln/OracleLinux/OL6/1/base/$basearch/
+        # repo ol6_u1_patch               http://uln-internal.o/uln/OracleLinux/OL6/1/patch/$basearch/
+        # repo ol6_u2_base                http://uln-internal.o/uln/OracleLinux/OL6/2/base/$basearch/
+        # repo ol6_u2_patch               http://uln-internal.o/uln/OracleLinux/OL6/2/patch/$basearch/
+        # repo ol6_u3_base                http://uln-internal.o/uln/OracleLinux/OL6/3/base/$basearch/
+        # repo ol6_u3_patch               http://uln-internal.o/uln/OracleLinux/OL6/3/patch/$basearch/
+        # repo ol6_u4_base                http://uln-internal.o/uln/OracleLinux/OL6/4/base/$basearch/
+        # repo ol6_u4_patch               http://uln-internal.o/uln/OracleLinux/OL6/4/patch/$basearch/
         s s
         {
-                a admin	http://iasdocs.us.oracle.com/iasdl/90200doc_otn/manage.902/a96115/toc.htm
-                b bg	http://iasdocs.us.oracle.com/iasdl/90400doc/manage.904/b10660/toc.htm
-                c configuring oracle apache	http://iasdocs.us.oracle.com/iasdl/90200doc_otn/manage.902/a96115/toc.htm
-                f faq	http://itsource.oraclecorp.com/owc_wiki/page/show.jz?page=SSOPartnerApplicationRequest
-                #r sr for server	http://my.oracle.com/myhelp/secure/index.html?srtype=createsr&cat=Server&area=Access+Request&prevUrl=&a_id=249&session=e3PnCBkm
-                R sr_for_server		https://myhelp.oracle.com/app/search/kw/devops/okcsSearchSession/ZlVZdzlDeGdCd2xfeFZPal8xWlR1dUx6ZnhnUm55UHNzMzA2bHRsZH5icUE1bnRFbDJtOGIxbzJScjJYOEtKb3k0Um1xaE9veVpfakd_TTlxTXdlMklqeEcwR0FqYlkzN1ZPeFBDZmRYSzJmdllpcmZPcVhpVG9qWVphRGpaYUN2c1BGbkNEdXhrSH40IQ!!/page/1/priorTransactionID/587546724/transactionID/587546724
-                r sr		https://myhelp.oracle.com/app/home
-                S signup	http://itweb.oraclecorp.com/itweb/aboutit/web/ihosting/custinfo/pat/pareq.jsp
+                a admin	http://iasdocs.u/iasdl/90200doc_otn/manage.902/a96115/toc.htm
+                b bg	http://iasdocs.u/iasdl/90400doc/manage.904/b10660/toc.htm
+                c configuring orcl apache	http://iasdocs.u/iasdl/90200doc_otn/manage.902/a96115/toc.htm
+                f faq	http://itsource.c/owc_wiki/page/show.jz?page=SSOPartnerApplicationRequest
+                #r sr for server	http://my.o/myhelp/secure/index.html?srtype=createsr&cat=Server&area=Access+Request&prevUrl=&a_id=249&session=e3PnCBkm
+                R sr_for_server		https://myhelp.o/app/search/kw/devops/okcsSearchSession/ZlVZdzlDeGdCd2xfeFZPal8xWlR1dUx6ZnhnUm55UHNzMzA2bHRsZH5icUE1bnRFbDJtOGIxbzJScjJYOEtKb3k0Um1xaE9veVpfakd_TTlxTXdlMklqeEcwR0FqYlkzN1ZPeFBDZmRYSzJmdllpcmZPcVhpVG9qWVphRGpaYUN2c1BGbkNEdXhrSH40IQ!!/page/1/priorTransactionID/587546724/transactionID/587546724
+                r sr		https://myhelp.o/app/home
+                S signup	http://itweb.c/itweb/aboutit/web/ihosting/custinfo/pat/pareq.jsp
                 s 
                 {
-                        t test ssl certificate request		http://ptntas12.us.oracle.com/certsrv/certcarc.asp
-                        w weblogic setup		http://aseng-wiki.us.oracle.com/asengwiki/pages/viewpage.action?pageId=14751
+                        t test ssl certificate request		http://ptntas12.u/certsrv/certcarc.asp
+                        w weblogic setup		http://aseng-wiki.u/asengwiki/pages/viewpage.action?pageId=14751
                 }
         }
-        S search labels	http://stasb18.us.oracle.com/rbishnoi/labels.cgi?series=AIMEWEB_MAIN
-        t Technology Network	http://otn.oracle.com 
-        T raining	http://ouweb.oraclecorp.com/bea
-        u niversal installer	http://st-doc.us.oracle.com/11/111/em.111/b31207/toc.htm
-        U users generic	https://pdit-document-repository.oraclecorp.com/display/DISG/PDIT+Linux,Unix+Generic+Accounts+FAQ
+        S search labels	http://stasb18.u/rbishnoi/labels.cgi?series=AIMEWEB_MAIN
+        t Technology Network	http://otn.o 
+        T raining	http://ouweb.c/bea
+        u niversal installer	http://st-doc.u/11/111/em.111/b31207/toc.htm
+        U users generic	https://pdit-document-repository.c/display/DISG/PDIT+Linux,Unix+Generic+Accounts+FAQ
         x BART AC	http://www.gsbstrategies.com/transit/oracle/index.php
-        v vmw wiki	https://stbeehive.oracle.com/teamcollab/wiki/PDIT+VMWare+Deployment+Information:adc-vc
+        v vmw wiki	https://stbeehive.o/teamcollab/wiki/PDIT+VMWare+Deployment+Information:adc-vc
         # vpn		https://myaccess.oraclevpn.com/
-        V vpn pw change	https://oim.oraclecorp.com/identity/faces/home?_afrLoop=1181899819402022&_afrWindowMode=0&_adf.ctrl-state=cb8i6hkox_4
-        w wifi		https://gmp.oracle.com/captcha/index.php
+        V vpn pw change	https://oim.c/identity/faces/home?_afrLoop=1181899819402022&_afrWindowMode=0&_adf.ctrl-state=cb8i6hkox_4
+        w wifi		https://gmp.o/captcha/index.php
         W wiki
         {
-                a aime	http://aseng-wiki.us.oracle.com/asengwiki/display/STEng/STEng+Web+Project
-                j jk aime	http://aseng-wiki.us.oracle.com/asengwiki/pages/viewpage.action?pageId=57314398
-                s sso setup	http://aseng-wiki.us.oracle.com/asengwiki/display/ASQA/BIQA+-+BI+EE+Platform+-+How+To+-+SSO+Configuration
+                a aime	http://aseng-wiki.u/asengwiki/display/STEng/STEng+Web+Project
+                j jk aime	http://aseng-wiki.u/asengwiki/pages/viewpage.action?pageId=57314398
+                s sso setup	http://aseng-wiki.u/asengwiki/display/ASQA/BIQA+-+BI+EE+Platform+-+How+To+-+SSO+Configuration
         }
-        y um repo setup		http://kernel.us.oracle.com/uln/
+        y um repo setup		http://kernel.u/uln/
 }
 z web conf
 {
-        f faiza		chrome:https://oracle.zoom.us/my/faiza
+        f faiza		chrome:https://z/my/faiza
         g greg		https://www.uberconference.com/monroefpetc
-        j jesus		chrome:https://oracle.zoom.us/j/6505065536
-        l loreli	chrome:https://oracle.zoom.us/my/loreli
-        n nelson	chrome:https://oracle.zoom.us/my/nelsons
-        r rohit		chrome:https://oracle.zoom.us/my/rohit
-        R rakesh	chrome:https://oracle.zoom.us/my/rakesh.n.kumar
+        j jesus		chrome:https://z/j/6505065536
+        l loreli	chrome:https://z/my/loreli
+        n nelson	chrome:https://z/my/nelsons
+        r rohit		chrome:https://z/my/rohit
+        R rakesh	chrome:https://z/my/rakesh.n.kumar
         s
         {
-                c steve.collins	chrome:https://oracle.zoom.us/my/steve.collins
-                i simon		chrome:https://oracle.zoom.us/my/simonyu
-                s subu		chrome:https://oracle.zoom.us/my/isubu
-                u surabhi	chrome:https://oracle.zoom.us/my/surabhi
+                c steve.collins	chrome:https://z/my/steve.collins
+                i simon		chrome:https://z/my/simonyu
+                s subu		chrome:https://z/my/isubu
+                u surabhi	chrome:https://z/my/surabhi
         }
-        v viraj		chrome:https://oracle.zoom.us/my/virajpurang
-        z zoom login ____TO HOST_______	chrome:https://oracle.zoom.us/meeting
+        v viraj		chrome:https://z/my/virajpurang
+        z zoom login ____TO HOST_______	chrome:https://z/meeting
 }

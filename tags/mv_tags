@@ -42,4 +42,4 @@ Adjust main.classes
 Adjust main.tags
 
 exit
-sh -x $HOME/work/emacs/tags/mv_tags '//griffin/F Oracle/p4/depot'
+sh -x $HOME/work/emacs/tags/mv_tags '//griffin/F/p4/depot'

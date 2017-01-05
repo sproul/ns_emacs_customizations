@@ -12,7 +12,6 @@
       (cons ?; (list "first_file_that_exists"
             "c:/app/Administrator/product/11.1.0/client_1/network/admin/tnsnames.ora"
             "c:/app/Administrator/product/11.1.0/client_1/network/admin/tnsnames.ora"
-            "$dp/emacs/lisp/data/n-data-menu-host.menu"
             )
       )
 (cons ?K "$dp/bin/AutoHotkey/tmp.ahk")
@@ -296,6 +295,7 @@
        )
       )
 
+
 (setq n-data-menu-nbuf-shortcuts_sensu
       (append
        n-data-menu-nbuf-shortcuts-common
@@ -306,7 +306,6 @@
         (cons ?d "$dp/bin/sensu.diff.alert_when_different")
         (cons ?i "$dp/sensu/client_install.sh")
         (cons ?g "$TMP/sensu_global.log")
-        (cons ?G "/net/wonkaha.us.oracle.com/scratch/nsproul/sensu_logs/global.log")
         (cons ?I "$dp/bin/sensu.inc")
         (cons ?l "/tmp/notification_router.out")
         (cons ?L "/tmp/sensu/cron.daily.notification_router.out")
@@ -766,7 +765,7 @@ n-data-menu-nbuf-shortcuts-common
         (cons ?b "$dp/rest_test_generator/weblog_2_tests/src/rest_test_generator.sh")
         (cons ?f "$dp/rest_test_generator/weblog_2_tests/src/json_flattener.rb")
         (cons ?i "$dp/rest_test_generator/weblog_2_tests/test/log")
-        (cons ?I "/net/slcipaq.us.oracle.com/scratch/pau_logs_selection/")
+        (cons ?I "/net/slcipaq.u/scratch/pau_logs_selection/")
         (cons ?L "$CATALINA_HOME/logs/catalina.out")
         (cons ?m "$dp/rest_test_generator/midnight")
         (cons ?t "$dp/rest_test_generator/local_test.sh")

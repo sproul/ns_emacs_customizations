@@ -380,12 +380,6 @@
 
     (setq fn (nstr-replace-regexp fn (concat drop "/adyn/cgi-bin/")  "http://localhost:2082/cgi-bin/"))
     (setq fn (nstr-replace-regexp fn (concat drop "/adyn/httpdocs/") "http://localhost:2082/"))
-    (setq fn (nstr-replace-regexp fn "/home/\\([^/]*\\)/public_html/" "http://wonkaha.us.oracle.com/~\\1/"))
-    (setq fn (nstr-replace-regexp fn
-                                  (concat (getenv "HOME") "/public_html")
-                                  "http://wonkaha.us.oracle.com/~nsproul"
-                                  )
-          )
     )
   (setq fn (concat browser-directive fn))
   (setq fn (nstr-replace-regexp fn "/cygdrive/\\(.\\)/" "file:///\\1:/"))

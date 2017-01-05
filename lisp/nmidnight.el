@@ -618,17 +618,8 @@ insert this command at the file's beginning)"
        s
        )
     (cond
-     ((string= d "bruno")
-      (setq s (list "bestfoods" "bruno" "oracle" "brunodb" "system" "manager" "ms" "ie" "d:/ORANT/BIN"))
-      )
-     ((string= d "zz_to_bruno")
-      (setq s (list "bestfoods" "bruno" "oracle" "brunodb" "system" "manager" "ms" "client" "d:/ORANT/BIN"))
-      )
      ((string= d "zerozone_ms")
       (setq s (list "bestfoods" "zerozone" "mssql" "db" "sa" "" "sun" "client" "c:/MSSQL/BINN"))
-      )
-     ((string= d "zerozone_oracle")
-      (setq s (list "bestfoods" "zerozone" "oracle" "zerozone" "system" "manager" "ms" "client" "d:/ORANT/BIN"))
       )
      (t
       (error "nmidnight-ext-set-db: ")

@@ -55,13 +55,14 @@
   (save-match-data
     (setq fn (nstr-replace-regexp fn "\\\\" "/"))
     (setq fn (nstr-replace-regexp fn ".*//cygdrive" "/cygdrive"))
-    
+
 
 
     (setq fn (nstr-replace-regexp fn ".*~/" "$HOME/"))
+    (setq fn (nstr-replace-regexp fn "\\.u/" ".us.oracle.com/"))
     (setq fn (nstr-replace-regexp fn ".*~/" (concat n-host-home "/")))
     ;;(setq fn (nstr-replace-regexp fn ".*~$" "$HOME"))
-    
+
 
 
 
@@ -86,7 +87,7 @@
                ;;name cleanup that happens in that routine.
                (n-host-name-xlate fn
                                   "unix"
-                                  (if n-host-defaultDrive
+(if n-host-defaultDrive
                                       n-host-defaultDrive
                                     (nfn-drive default-directory)
                                     )

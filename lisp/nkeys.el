@@ -784,7 +784,7 @@
   (nkeys-define-key shell-mode-map "\C-c\C-d" 'nshell 'nshell-exit)
   (nkeys-define-key shell-mode-map "\C-ch" 'nshell 'nshell-history)
   (nkeys-define-key shell-mode-map "\C-c\C-c" 'nshell 'nshell-ctrl-c)
-  (nkeys-define-key shell-mode-map "\C-c\C-m" 'nsql 'nsql-grab-and-select)
+  ;;(nkeys-define-key shell-mode-map "\C-c\C-m" 'nsql 'nsql-grab-and-select)            ; leads to bogus SQLOUT dir being created
   (nkeys-define-key shell-mode-map "\C-c\C-s" 'nshell 'nshell-bu)
   (nkeys-define-key shell-mode-map "\C-cm" 'nsyb 'nsyb-shell-cmd)
   ;;(nkeys-define-key shell-mode-map "\C-cc" 'n-host 'n-host-edit-secondary-init-file)

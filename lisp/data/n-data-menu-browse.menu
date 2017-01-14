@@ -539,8 +539,12 @@ h hadoop
         {
                 A artifactory		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Liberte+-+Artifactory+Licenses
                 a agenda		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/System+Infrastructure+Meeting+-+Agenda
-                c config service	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/HA+cluster+for+mongodb%2C+config+webapp
-                C config flexibility	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/config+service+custom+logic
+                c config
+                {
+                        c cluster for mongo	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/HA+cluster+for+mongodb%2C+config+webapp
+                	C config flexibility	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/config+service+custom+logic
+                        u update code procedure	http://aseng-wiki.us.oracle.com/asengwiki/display/DevProcessStandards/config+service+procedure+to+update+code?flashId=776441363
+                }
                 h hadoop POC		http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Hadoop+POC+-+Analytic+System
                 j jagan fave	http://aseng-wiki.u/asengwiki/display/DevProcessStandards/Home
                 m maven repo		https://confluence.c/confluence/display/OPE/Oracle+Maven+Repository
